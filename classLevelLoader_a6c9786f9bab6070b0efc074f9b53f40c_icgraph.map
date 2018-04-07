@@ -1,0 +1,5 @@
+<map id="LevelLoader::CreateLevel" name="LevelLoader::CreateLevel">
+<area shape="rect" id="node2" href="$classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e" title="Loads the level at the given path. " alt="" coords="227,5,391,31"/>
+<area shape="rect" id="node3" href="$classGameManager.html#a746f81c64fd771362b78f20c370145a2" title="Loads the given level path. " alt="" coords="439,5,618,31"/>
+<area shape="rect" id="node4" href="$classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124" title="Updates the world and any other gameobjects controlled by the GameManager, and calls to load levels i..." alt="" coords="666,5,827,31"/>
+</map>

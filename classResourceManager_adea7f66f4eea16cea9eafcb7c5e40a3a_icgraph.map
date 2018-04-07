@@ -1,0 +1,7 @@
+<map id="ResourceManager::LoadImage" name="ResourceManager::LoadImage">
+<area shape="rect" id="node2" href="$classAnimationRenderComponent.html#a584d0cafa6557d60ecb1aef519ec28e4" title="Switches the current animation state. " alt="" coords="258,5,452,44"/>
+<area shape="rect" id="node4" href="$classImageRenderComponent.html#a3c1ff7ebb4e62d5c27704a3cc95f1c49" title="Constructs an ImageRenderComponent. " alt="" coords="266,68,444,107"/>
+<area shape="rect" id="node5" href="$classTileRenderComponent.html#a1ea432cfe4aa5bfdbb3d8525b56ad35c" title="Makes a mega texture to render out of all of the tiles. " alt="" coords="278,131,433,169"/>
+<area shape="rect" id="node3" href="$classAnimationRenderComponent.html#abce95dacd23b9ffa8b35d07424194d2a" title="Constructs a new AnimationRenderComponent. " alt="" coords="500,5,700,44"/>
+<area shape="rect" id="node6" href="$classTileRenderComponent.html#ab1b729d166ca34af6da6e21c4404e152" title="Updates this component. " alt="" coords="523,131,678,169"/>
+</map>

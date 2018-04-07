@@ -1,0 +1,7 @@
+<map id="GameManager::LoadLevel" name="GameManager::LoadLevel">
+<area shape="rect" id="node2" href="$classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e" title="Loads the level at the given path. " alt="" coords="233,43,396,68"/>
+<area shape="rect" id="node3" href="$classLevelLoader.html#a6c9786f9bab6070b0efc074f9b53f40c" title="Creates a level using the given path and tile list. " alt="" coords="444,43,618,68"/>
+<area shape="rect" id="node4" href="$classGameObject.html#a01fa32bcfb0dd60074681c3ae02950d5" title="GameObject::Create" alt="" coords="666,43,810,68"/>
+<area shape="rect" id="node5" href="$classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a" title="Constructs a GameObject. " alt="" coords="858,5,1036,31"/>
+<area shape="rect" id="node6" href="$classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="863,79,1031,104"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="Component" name="Component">
+<area shape="rect" id="node2" href="$classButton.html" title="A basic button component class. " alt="" coords="5,233,159,320"/>
+<area shape="rect" id="node3" href="$classCameraComponent.html" title="A class representing a camera within our game. " alt="" coords="183,220,341,333"/>
+<area shape="rect" id="node4" href="$classLambdaComponent.html" title="A class for adding a function to the given component&#39;s update loop. " alt="" coords="365,233,524,320"/>
+<area shape="rect" id="node5" href="$classmy__script_1_1MyScript.html" title="{my_script.MyScript\n||+ __init__()\l+ UpdateComponent()\l}" alt="" coords="548,233,702,320"/>
+<area shape="rect" id="node6" href="$classPhysicsComponent.html" title="A component that generates physics for a GameObject. " alt="" coords="725,153,882,400"/>
+<area shape="rect" id="node7" href="$classRenderComponent.html" title="A RenderComponent class. " alt="" coords="906,200,1061,353"/>
+<area shape="rect" id="node13" href="$classScriptComponent.html" title="{ScriptComponent\n||+ UpdateComponent()\l+ Load()\l}" alt="" coords="1084,233,1238,320"/>
+<area shape="rect" id="node14" href="$classTileEditor.html" title="Our Tile Editor class. " alt="" coords="1261,220,1415,333"/>
+<area shape="rect" id="node15" href="$classTileMap.html" title="A tilemap component for our game. " alt="" coords="1438,193,1638,360"/>
+<area shape="rect" id="node8" href="$classAnimationRenderComponent.html" title="An AnimationRenderComponent class. " alt="" coords="440,468,653,608"/>
+<area shape="rect" id="node9" href="$classImageRenderComponent.html" title="An ImageRenderComponent class. " alt="" coords="677,501,869,575"/>
+<area shape="rect" id="node10" href="$classRectRenderComponent.html" title="A component class for rendering rects as solid colors. " alt="" coords="893,495,1074,581"/>
+<area shape="rect" id="node11" href="$classTextRenderComponent.html" title="A TextRenderComponent class. " alt="" coords="1098,475,1277,601"/>
+<area shape="rect" id="node12" href="$classTileRenderComponent.html" title="A class for fendering a map of tiles. " alt="" coords="1301,448,1476,628"/>
+</map>
