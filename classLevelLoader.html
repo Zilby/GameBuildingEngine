@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: LevelLoader Class Reference</title>
+<title>Platformer: LevelLoader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -78,8 +78,6 @@ $(function() {
 Collaboration diagram for LevelLoader:</div>
 <div class="dyncontent">
 <div class="center"><img src="classLevelLoader__coll__graph.jpg" border="0" usemap="#LevelLoader_coll__map" alt="Collaboration graph"/></div>
-<map name="LevelLoader_coll__map" id="LevelLoader_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -87,67 +85,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a89e2ae9b96563e1c2ab94b02e416ad6e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e">LoadLevel</a> (std::string path)</td></tr>
 <tr class="memdesc:a89e2ae9b96563e1c2ab94b02e416ad6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the level at the given path.  <a href="#a89e2ae9b96563e1c2ab94b02e416ad6e">More...</a><br /></td></tr>
 <tr class="separator:a89e2ae9b96563e1c2ab94b02e416ad6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c9786f9bab6070b0efc074f9b53f40c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLevelLoader.html#a6c9786f9bab6070b0efc074f9b53f40c">CreateLevel</a> (std::string path)</td></tr>
-<tr class="memdesc:a6c9786f9bab6070b0efc074f9b53f40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a level using the given path and tile list.  <a href="#a6c9786f9bab6070b0efc074f9b53f40c">More...</a><br /></td></tr>
-<tr class="separator:a6c9786f9bab6070b0efc074f9b53f40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class loads and creates the levels for our game. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6c9786f9bab6070b0efc074f9b53f40c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c9786f9bab6070b0efc074f9b53f40c">&#9670;&nbsp;</a></span>CreateLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LevelLoader::CreateLevel </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a level using the given path and tile list. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">path</td><td>The path of the level to be created </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_cgraph.jpg" border="0" usemap="#classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_cgraph" alt=""/></div>
-<map name="classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_cgraph" id="classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_cgraph">
-<area shape="rect" id="node2" href="classGameObject.html#a01fa32bcfb0dd60074681c3ae02950d5" title="GameObject::Create" alt="" coords="227,43,371,68"/>
-<area shape="rect" id="node3" href="classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a" title="Constructs a GameObject. " alt="" coords="419,5,597,31"/>
-<area shape="rect" id="node4" href="classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="425,79,592,104"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_icgraph.jpg" border="0" usemap="#classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_icgraph" alt=""/></div>
-<map name="classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_icgraph" id="classLevelLoader_a6c9786f9bab6070b0efc074f9b53f40c_icgraph">
-<area shape="rect" id="node2" href="classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e" title="Loads the level at the given path. " alt="" coords="227,5,391,31"/>
-<area shape="rect" id="node3" href="classGameManager.html#a746f81c64fd771362b78f20c370145a2" title="Loads the given level path. " alt="" coords="439,5,618,31"/>
-<area shape="rect" id="node4" href="classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124" title="Updates the world and any other gameobjects controlled by the GameManager, and calls to load levels i..." alt="" coords="666,5,827,31"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a89e2ae9b96563e1c2ab94b02e416ad6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89e2ae9b96563e1c2ab94b02e416ad6e">&#9670;&nbsp;</a></span>LoadLevel()</h2>
 
@@ -184,10 +125,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classLevelLoader_a89e2ae9b96563e1c2ab94b02e416ad6e_cgraph.jpg" border="0" usemap="#classLevelLoader_a89e2ae9b96563e1c2ab94b02e416ad6e_cgraph" alt=""/></div>
 <map name="classLevelLoader_a89e2ae9b96563e1c2ab94b02e416ad6e_cgraph" id="classLevelLoader_a89e2ae9b96563e1c2ab94b02e416ad6e_cgraph">
-<area shape="rect" id="node2" href="classLevelLoader.html#a6c9786f9bab6070b0efc074f9b53f40c" title="Creates a level using the given path and tile list. " alt="" coords="217,43,391,68"/>
-<area shape="rect" id="node3" href="classGameObject.html#a01fa32bcfb0dd60074681c3ae02950d5" title="GameObject::Create" alt="" coords="439,43,583,68"/>
-<area shape="rect" id="node4" href="classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a" title="Constructs a GameObject. " alt="" coords="631,5,809,31"/>
-<area shape="rect" id="node5" href="classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="636,79,804,104"/>
+<area shape="rect" id="node2" href="classGameObject.html#a989eaeb7cef5504f7d52783e71bf1cf9" title="Creates a GameObject. " alt="" coords="217,43,361,68"/>
+<area shape="rect" id="node3" href="classGameObject.html#aa9e30b58916cbc96ebdb4b7e4ced23d1" title="Constructs a GameObject. " alt="" coords="409,5,587,31"/>
+<area shape="rect" id="node4" href="classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="414,79,581,104"/>
 </map>
 </div>
 <div class="dynheader">
@@ -209,7 +149,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -1,0 +1,4 @@
+<map id="Pong.Score" name="Pong.Score">
+<area shape="rect" id="node3" href="$classPong_1_1ScoreL.html" title="{Pong.ScoreL\n|+ score\l|+ Update()\l}" alt="" coords="5,288,104,361"/>
+<area shape="rect" id="node4" href="$classPong_1_1ScoreR.html" title="{Pong.ScoreR\n|+ score\l|+ Update()\l}" alt="" coords="128,288,229,361"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="GameObject::Create" name="GameObject::Create">
+<area shape="rect" id="node2" href="$classGameObject.html#a166ee1ca8fedfabe3576f885bec3ad7d" title="Creates a non&#45;UI, non&#45;permanent GameObject. " alt="" coords="197,5,395,31"/>
+<area shape="rect" id="node3" href="$classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e" title="Loads the level at the given path. " alt="" coords="214,55,378,80"/>
+<area shape="rect" id="node4" href="$classGameManager.html#a746f81c64fd771362b78f20c370145a2" title="Loads the given level path. " alt="" coords="443,55,622,80"/>
+<area shape="rect" id="node5" href="$classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124" title="Updates the world and any other gameobjects controlled by the GameManager, and calls to load levels i..." alt="" coords="670,55,831,80"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: LambdaComponent Class Reference</title>
+<title>Platformer: LambdaComponent Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -80,7 +80,7 @@ Inheritance diagram for LambdaComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classLambdaComponent__inherit__graph.jpg" border="0" usemap="#LambdaComponent_inherit__map" alt="Inheritance graph"/></div>
 <map name="LambdaComponent_inherit__map" id="LambdaComponent_inherit__map">
-<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="5,5,181,105"/>
+<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="5,5,181,119"/>
 </map>
 </div>
 <div class="dynheader">
@@ -88,8 +88,8 @@ Collaboration diagram for LambdaComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classLambdaComponent__coll__graph.jpg" border="0" usemap="#LambdaComponent_coll__map" alt="Collaboration graph"/></div>
 <map name="LambdaComponent_coll__map" id="LambdaComponent_coll__map">
-<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="195,609,371,709"/>
-<area shape="rect" id="node4" href="classGameObject.html" title="A GameObject class. " alt="" coords="216,207,350,413"/>
+<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="195,649,371,763"/>
+<area shape="rect" id="node4" href="classGameObject.html" title="A GameObject class. " alt="" coords="215,207,351,453"/>
 <area shape="rect" id="node7" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. " alt="" coords="379,5,486,132"/>
 </map>
 </div>
@@ -99,14 +99,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61b2edf1ccc9db90ac30f052d8033d33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLambdaComponent.html#a61b2edf1ccc9db90ac30f052d8033d33">LambdaComponent</a> (std::function&lt; void(<a class="el" href="classGameObject.html">GameObject</a> &amp;)&gt; <a class="el" href="classLambdaComponent.html#a550e1e3298717713dbdf237a96ce0902">fun</a>)</td></tr>
 <tr class="memdesc:a61b2edf1ccc9db90ac30f052d8033d33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construts a new lambda component.  <a href="#a61b2edf1ccc9db90ac30f052d8033d33">More...</a><br /></td></tr>
 <tr class="separator:a61b2edf1ccc9db90ac30f052d8033d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5be3885aeebcf0d9d05f9dda60603229"><td class="memItemLeft" align="right" valign="top"><a id="a5be3885aeebcf0d9d05f9dda60603229"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLambdaComponent.html#a5be3885aeebcf0d9d05f9dda60603229">UpdateComponent</a> ()</td></tr>
-<tr class="memdesc:a5be3885aeebcf0d9d05f9dda60603229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
-<tr class="separator:a5be3885aeebcf0d9d05f9dda60603229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7246f2aafabc4eb86a3deb3829623a30"><td class="memItemLeft" align="right" valign="top"><a id="a7246f2aafabc4eb86a3deb3829623a30"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLambdaComponent.html#a7246f2aafabc4eb86a3deb3829623a30">Update</a> ()</td></tr>
+<tr class="memdesc:a7246f2aafabc4eb86a3deb3829623a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
+<tr class="separator:a7246f2aafabc4eb86a3deb3829623a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">SetParentGameObject</a> (std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; g)</td></tr>
 <tr class="memdesc:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the given <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> as this component's parent.  <a href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">More...</a><br /></td></tr>
 <tr class="separator:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a id="ad3141017e589ef48d436bc743e15d122"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ad3141017e589ef48d436bc743e15d122">Init</a> ()</td></tr>
+<tr class="memdesc:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes this component. <br /></td></tr>
+<tr class="separator:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">GetGameObject</a> ()</td></tr>
 <tr class="memdesc:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a shared ptr reference to this component's <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>.  <a href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">More...</a><br /></td></tr>
 <tr class="separator:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,7 +166,7 @@ std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

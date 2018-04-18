@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: Component Class Reference</title>
+<title>Platformer: Component Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -80,20 +80,16 @@ Inheritance diagram for Component:</div>
 <div class="dyncontent">
 <div class="center"><img src="classComponent__inherit__graph.jpg" border="0" usemap="#Component_inherit__map" alt="Inheritance graph"/></div>
 <map name="Component_inherit__map" id="Component_inherit__map">
-<area shape="rect" id="node2" href="classButton.html" title="A basic button component class. " alt="" coords="5,233,159,320"/>
-<area shape="rect" id="node3" href="classCameraComponent.html" title="A class representing a camera within our game. " alt="" coords="183,220,341,333"/>
-<area shape="rect" id="node4" href="classLambdaComponent.html" title="A class for adding a function to the given component&#39;s update loop. " alt="" coords="365,233,524,320"/>
-<area shape="rect" id="node5" href="classmy__script_1_1MyScript.html" title="{my_script.MyScript\n||+ __init__()\l+ UpdateComponent()\l}" alt="" coords="548,233,702,320"/>
-<area shape="rect" id="node6" href="classPhysicsComponent.html" title="A component that generates physics for a GameObject. " alt="" coords="725,153,882,400"/>
-<area shape="rect" id="node7" href="classRenderComponent.html" title="A RenderComponent class. " alt="" coords="906,200,1061,353"/>
-<area shape="rect" id="node13" href="classScriptComponent.html" title="{ScriptComponent\n||+ UpdateComponent()\l+ Load()\l}" alt="" coords="1084,233,1238,320"/>
-<area shape="rect" id="node14" href="classTileEditor.html" title="Our Tile Editor class. " alt="" coords="1261,220,1415,333"/>
-<area shape="rect" id="node15" href="classTileMap.html" title="A tilemap component for our game. " alt="" coords="1438,193,1638,360"/>
-<area shape="rect" id="node8" href="classAnimationRenderComponent.html" title="An AnimationRenderComponent class. " alt="" coords="440,468,653,608"/>
-<area shape="rect" id="node9" href="classImageRenderComponent.html" title="An ImageRenderComponent class. " alt="" coords="677,501,869,575"/>
-<area shape="rect" id="node10" href="classRectRenderComponent.html" title="A component class for rendering rects as solid colors. " alt="" coords="893,495,1074,581"/>
-<area shape="rect" id="node11" href="classTextRenderComponent.html" title="A TextRenderComponent class. " alt="" coords="1098,475,1277,601"/>
-<area shape="rect" id="node12" href="classTileRenderComponent.html" title="A class for fendering a map of tiles. " alt="" coords="1301,448,1476,628"/>
+<area shape="rect" id="node2" href="classButton.html" title="A basic button component class. " alt="" coords="5,240,90,327"/>
+<area shape="rect" id="node3" href="classCameraComponent.html" title="A class representing a camera within our game. " alt="" coords="114,200,272,367"/>
+<area shape="rect" id="node4" href="classLambdaComponent.html" title="A class for adding a function to the given component&#39;s update loop. " alt="" coords="296,240,455,327"/>
+<area shape="rect" id="node5" href="classPhysicsComponent.html" title="A component that generates physics for a GameObject. " alt="" coords="480,167,658,400"/>
+<area shape="rect" id="node6" href="classRenderComponent.html" title="A RenderComponent class. " alt="" coords="682,220,837,347"/>
+<area shape="rect" id="node11" href="classScriptComponent.html" title="A class for attaching python scripts as components. " alt="" coords="861,220,1005,347"/>
+<area shape="rect" id="node7" href="classAnimationRenderComponent.html" title="An AnimationRenderComponent class. " alt="" coords="321,448,534,588"/>
+<area shape="rect" id="node8" href="classImageRenderComponent.html" title="An ImageRenderComponent class. " alt="" coords="559,481,750,555"/>
+<area shape="rect" id="node9" href="classRectRenderComponent.html" title="A component class for rendering rects as solid colors. " alt="" coords="774,475,956,561"/>
+<area shape="rect" id="node10" href="classTextRenderComponent.html" title="A TextRenderComponent class. " alt="" coords="980,455,1158,581"/>
 </map>
 </div>
 <div class="dynheader">
@@ -101,7 +97,7 @@ Collaboration diagram for Component:</div>
 <div class="dyncontent">
 <div class="center"><img src="classComponent__coll__graph.jpg" border="0" usemap="#Component_coll__map" alt="Collaboration graph"/></div>
 <map name="Component_coll__map" id="Component_coll__map">
-<area shape="rect" id="node3" href="classGameObject.html" title="A GameObject class. " alt="" coords="216,207,350,413"/>
+<area shape="rect" id="node3" href="classGameObject.html" title="A GameObject class. " alt="" coords="215,207,351,453"/>
 <area shape="rect" id="node6" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. " alt="" coords="379,5,486,132"/>
 </map>
 </div>
@@ -111,10 +107,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a85b32c36ce293737aff2953ec45826ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">SetParentGameObject</a> (std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; g)</td></tr>
 <tr class="memdesc:a85b32c36ce293737aff2953ec45826ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the given <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> as this component's parent.  <a href="#a85b32c36ce293737aff2953ec45826ab">More...</a><br /></td></tr>
 <tr class="separator:a85b32c36ce293737aff2953ec45826ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cd48ebece3bd9eb88bcd9ca8170a37b"><td class="memItemLeft" align="right" valign="top"><a id="a4cd48ebece3bd9eb88bcd9ca8170a37b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a4cd48ebece3bd9eb88bcd9ca8170a37b">UpdateComponent</a> ()=0</td></tr>
-<tr class="memdesc:a4cd48ebece3bd9eb88bcd9ca8170a37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
-<tr class="separator:a4cd48ebece3bd9eb88bcd9ca8170a37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3141017e589ef48d436bc743e15d122"><td class="memItemLeft" align="right" valign="top"><a id="ad3141017e589ef48d436bc743e15d122"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ad3141017e589ef48d436bc743e15d122">Init</a> ()</td></tr>
+<tr class="memdesc:ad3141017e589ef48d436bc743e15d122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes this component. <br /></td></tr>
+<tr class="separator:ad3141017e589ef48d436bc743e15d122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda56474d6ccfbdab47cb5e0cd595c2b"><td class="memItemLeft" align="right" valign="top"><a id="abda56474d6ccfbdab47cb5e0cd595c2b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abda56474d6ccfbdab47cb5e0cd595c2b">Update</a> ()=0</td></tr>
+<tr class="memdesc:abda56474d6ccfbdab47cb5e0cd595c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
+<tr class="separator:abda56474d6ccfbdab47cb5e0cd595c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affa7e45459d9ac50b0db8b5c4e3e9af8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">GetGameObject</a> ()</td></tr>
 <tr class="memdesc:affa7e45459d9ac50b0db8b5c4e3e9af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a shared ptr reference to this component's <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>.  <a href="#affa7e45459d9ac50b0db8b5c4e3e9af8">More...</a><br /></td></tr>
 <tr class="separator:affa7e45459d9ac50b0db8b5c4e3e9af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,7 +182,7 @@ std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

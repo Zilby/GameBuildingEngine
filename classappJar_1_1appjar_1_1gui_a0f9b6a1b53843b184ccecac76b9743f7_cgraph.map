@@ -1,0 +1,7 @@
+<map id="appJar.appjar.gui.addPlot" name="appJar.appjar.gui.addPlot">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a67833f7410dc54937017ccbcbfe5a229" title="appJar.appjar.gui.\l_addPlotFig" alt="" coords="263,5,390,44"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a62be363cd3d95ed49dfd924d2f4bf0a6" title="appJar.appjar.gui.\l_loadMatplotlib" alt="" coords="263,68,390,107"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="225,131,428,156"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="263,180,390,219"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#ad126502cbd1091b80c26a777d24ae897" title="appJar.appjar.gui.refreshPlot" alt="" coords="231,243,422,268"/>
+</map>

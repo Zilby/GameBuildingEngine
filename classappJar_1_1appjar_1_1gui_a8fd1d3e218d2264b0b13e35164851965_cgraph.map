@@ -1,0 +1,29 @@
+<map id="appJar.appjar.gui.spinBox" name="appJar.appjar.gui.spinBox">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#ac442c49a7d74fdf2776ff0682a4e2eab" title="appJar.appjar.gui.setSpin\lBoxPos" alt="" coords="717,270,888,309"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#aa11bae5d2ab6b02ad9636c4625ec3eb6" title="appJar.appjar.gui.getSpinBox" alt="" coords="474,226,669,252"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a999c0438c1ed065d0524ccf95f4c7902" title="FUNCTIONS for labels. " alt="" coords="263,146,390,185"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#ab95d304ed967fa8356db4b3b08cf4a57" title="appJar.appjar.gui.addLabel\lSpinBoxRange" alt="" coords="236,377,417,416"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#af50066ab09bf6dafb8b70aab79a89eb6" title="appJar.appjar.gui.addLabel\lSpinBox" alt="" coords="481,554,662,593"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="960,454,1115,493"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="936,670,1139,696"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#ad3c700a2d157afdbcf298158937c6c08" title="appJar.appjar.gui.\l_buildSpinBox" alt="" coords="739,608,866,646"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="739,670,866,709"/>
+<area shape="rect" id="node20" href="$classappJar_1_1appjar_1_1gui.html#a5d8cc9b2e7586c2b037635724e82a279" title="appJar.appjar.gui.addSpin\lBoxRange" alt="" coords="239,770,414,809"/>
+<area shape="rect" id="node22" href="$classappJar_1_1appjar_1_1gui.html#a889769b5058a21e02324755282c4139a" title="appJar.appjar.gui.addSpinBox" alt="" coords="227,833,426,858"/>
+<area shape="rect" id="node23" href="$classappJar_1_1appjar_1_1gui.html#aef93656712c9a55d02e1bbf0070661d5" title="appJar.appjar.gui.setSpinBox" alt="" coords="230,882,424,908"/>
+<area shape="rect" id="node24" href="$classappJar_1_1appjar_1_1gui.html#a4b085a2aa4bc18ab12ad3955655dbaf1" title="appJar.appjar.gui.\l_configWidget" alt="" coords="263,932,390,970"/>
+<area shape="rect" id="node25" href="$classappJar_1_1appjar_1_1gui.html#ac741f8c8a79305a9d5a3023a25eaaa1f" title="functions to deal with tabbing and right clicking " alt="" coords="259,994,394,1033"/>
+<area shape="rect" id="node27" href="$classappJar_1_1appjar_1_1gui.html#ad54ef8ed0b8c728ea24921ac07d4fa33" title="appJar.appjar.gui.\l_focusLastWindow" alt="" coords="260,1057,393,1096"/>
+<area shape="rect" id="node28" href="$classappJar_1_1appjar_1_1gui.html#a57fea970fb409d6c4fee92b09f87a3c4" title="appJar.appjar.gui.\l_validateSpinBox" alt="" coords="263,1120,390,1158"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#aee630ab861cb87394f32f98f0014c0a1" title="appJar.appjar.gui.setSticky" alt="" coords="481,78,661,104"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#ad21054bbdae01063b8900324201bddf3" title="appJar.appjar.gui.setStretch" alt="" coords="478,128,665,153"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#a49093a255cd426ba8ff0e153ac31f1ae" title="appJar.appjar.gui.setExpand" alt="" coords="476,177,666,202"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#af8c9cb30934da1915bae93a079dd039c" title="appJar.appjar.gui.\l_getSpinBoxValsAsList" alt="" coords="492,377,650,416"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#adaf1f36387f820f07c8856033b60b0d0" title="appJar.appjar.gui.\l_setSpinBoxVal" alt="" coords="508,440,635,478"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#aff035351194caf6a26cbef1f2b3034ce" title="appJar.appjar.gui.warn" alt="" coords="494,328,649,353"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#abdec33e907a573abb8affbce5bc996ec" title="LabelBox Functions. " alt="" coords="739,545,866,584"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#a20e95480fed5045d47d85f9c8eb0912a" title="appJar.appjar.gui.\l_packLabelBox" alt="" coords="739,482,866,521"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="974,545,1101,584"/>
+<area shape="rect" id="node21" href="$classappJar_1_1appjar_1_1gui.html#ae606a2755960229a43ce0dac04346695" title="appJar.appjar.gui.\l_addSpinBox" alt="" coords="508,804,635,842"/>
+<area shape="rect" id="node26" href="$classappJar_1_1appjar_1_1gui.html#a60a97eca395160418b3993895f3c560b" title="appJar.appjar.gui.\l_rightClick" alt="" coords="508,994,635,1033"/>
+</map>

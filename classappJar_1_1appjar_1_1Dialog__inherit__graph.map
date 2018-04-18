@@ -1,0 +1,5 @@
+<map id="appJar.appjar.Dialog" name="appJar.appjar.Dialog">
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1SimpleEntryDialog.html" title="{appJar.appjar.SimpleEntry\lDialog\n|+ error\l+ question\l+ defaultVar\l+ e1\l+ l1\l|+ __init__()\l+ clearError()\l+ setError()\l+ body()\l}" alt="" coords="98,355,275,535"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1NumDialog.html" title="{appJar.appjar.NumDialog\n|+ result\l|+ __init__()\l+ validate()\l}" alt="" coords="5,583,176,669"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1TextDialog.html" title="{appJar.appjar.TextDialog\n|+ result\l|+ __init__()\l+ validate()\l}" alt="" coords="201,583,368,669"/>
+</map>

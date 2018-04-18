@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: InputManager Class Reference</title>
+<title>Platformer: InputManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +82,7 @@ Collaboration diagram for InputManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputManager__coll__graph.jpg" border="0" usemap="#InputManager_coll__map" alt="Collaboration graph"/></div>
 <map name="InputManager_coll__map" id="InputManager_coll__map">
+<area shape="rect" id="node2" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. " alt="" coords="5,5,112,132"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -109,18 +110,15 @@ Static Public Member Functions</h2></td></tr>
 static <a class="el" href="classInputManager.html">InputManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146">instance</a> ()</td></tr>
 <tr class="memdesc:a06944dbb84f714fdb1c6d53ca18b6146"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton instance of the <a class="el" href="classInputManager.html" title="This class manages the inputs of our game as a singleton. ">InputManager</a>. <br /></td></tr>
 <tr class="separator:a06944dbb84f714fdb1c6d53ca18b6146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf5ee007b4ac6e8246450ec7ee21221a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#abf5ee007b4ac6e8246450ec7ee21221a">GetActionPressed</a> (const unsigned int action)</td></tr>
-<tr class="memdesc:abf5ee007b4ac6e8246450ec7ee21221a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not the given action was just pressed.  <a href="#abf5ee007b4ac6e8246450ec7ee21221a">More...</a><br /></td></tr>
-<tr class="separator:abf5ee007b4ac6e8246450ec7ee21221a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc98b06bb569e7aed46769cfd17f0605"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#acc98b06bb569e7aed46769cfd17f0605">GetActionHeld</a> (const unsigned int action)</td></tr>
-<tr class="memdesc:acc98b06bb569e7aed46769cfd17f0605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not the given action is held.  <a href="#acc98b06bb569e7aed46769cfd17f0605">More...</a><br /></td></tr>
-<tr class="separator:acc98b06bb569e7aed46769cfd17f0605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe298f12b0786523bb975a4ed8a07897"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#afe298f12b0786523bb975a4ed8a07897">GetMousePressed</a> ()</td></tr>
-<tr class="memdesc:afe298f12b0786523bb975a4ed8a07897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether the mouse was clicked this frame.  <a href="#afe298f12b0786523bb975a4ed8a07897">More...</a><br /></td></tr>
-<tr class="separator:afe298f12b0786523bb975a4ed8a07897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af772af2199395b15d3d8865f8884c419"><td class="memItemLeft" align="right" valign="top">static SDL_MouseButtonEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#af772af2199395b15d3d8865f8884c419">GetMousePress</a> ()</td></tr>
-<tr class="memdesc:af772af2199395b15d3d8865f8884c419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the mouse click from this frame, if any.  <a href="#af772af2199395b15d3d8865f8884c419">More...</a><br /></td></tr>
-<tr class="separator:af772af2199395b15d3d8865f8884c419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e9f486c95ef0de40c2fb004b1e122c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a76e9f486c95ef0de40c2fb004b1e122c">GetActionPressed</a> (Input action)</td></tr>
+<tr class="memdesc:a76e9f486c95ef0de40c2fb004b1e122c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not the given input was just pressed.  <a href="#a76e9f486c95ef0de40c2fb004b1e122c">More...</a><br /></td></tr>
+<tr class="separator:a76e9f486c95ef0de40c2fb004b1e122c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7e22109a982d1406181f2e00560ea2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a2d7e22109a982d1406181f2e00560ea2">GetActionHeld</a> (Input action)</td></tr>
+<tr class="memdesc:a2d7e22109a982d1406181f2e00560ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets whether or not the given input is held.  <a href="#a2d7e22109a982d1406181f2e00560ea2">More...</a><br /></td></tr>
+<tr class="separator:a2d7e22109a982d1406181f2e00560ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e907ba0263a4424f2f504303753b85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classVector2.html">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#ae7e907ba0263a4424f2f504303753b85">GetMousePos</a> ()</td></tr>
+<tr class="memdesc:ae7e907ba0263a4424f2f504303753b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the position of the most recent mouse event.  <a href="#ae7e907ba0263a4424f2f504303753b85">More...</a><br /></td></tr>
+<tr class="separator:ae7e907ba0263a4424f2f504303753b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -132,31 +130,43 @@ Private Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#af518290877dd183606709d5852db5491">~InputManager</a> ()</td></tr>
 <tr class="memdesc:af518290877dd183606709d5852db5491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs an <a class="el" href="classInputManager.html" title="This class manages the inputs of our game as a singleton. ">InputManager</a>. <br /></td></tr>
 <tr class="separator:af518290877dd183606709d5852db5491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716883860eb6ad5331acdaf3eb3c80b5"><td class="memItemLeft" align="right" valign="top"><a id="a716883860eb6ad5331acdaf3eb3c80b5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a716883860eb6ad5331acdaf3eb3c80b5">ClearPresses</a> ()</td></tr>
+<tr class="memdesc:a716883860eb6ad5331acdaf3eb3c80b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the inputPressed map to falses each frame. <br /></td></tr>
+<tr class="separator:a716883860eb6ad5331acdaf3eb3c80b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019a3a26a0a49a2b720ee1c9fa4b5f5e"><td class="memItemLeft" align="right" valign="top"><a id="a019a3a26a0a49a2b720ee1c9fa4b5f5e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a019a3a26a0a49a2b720ee1c9fa4b5f5e">UpEvent</a> (Input input)</td></tr>
+<tr class="memdesc:a019a3a26a0a49a2b720ee1c9fa4b5f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when an up event is registered for an input. <br /></td></tr>
+<tr class="separator:a019a3a26a0a49a2b720ee1c9fa4b5f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7cd53aa43c7bb83ee4f94c2b1f731c"><td class="memItemLeft" align="right" valign="top"><a id="a7f7cd53aa43c7bb83ee4f94c2b1f731c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a7f7cd53aa43c7bb83ee4f94c2b1f731c">DownEvent</a> (Input input)</td></tr>
+<tr class="memdesc:a7f7cd53aa43c7bb83ee4f94c2b1f731c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a down event is registered for an input. <br /></td></tr>
+<tr class="separator:a7f7cd53aa43c7bb83ee4f94c2b1f731c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a30dc1e8af9fd64737f88066a90ffbe7a"><td class="memItemLeft" align="right" valign="top"><a id="a30dc1e8af9fd64737f88066a90ffbe7a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a30dc1e8af9fd64737f88066a90ffbe7a">inputHeld</a> [1024]</td></tr>
-<tr class="memdesc:a30dc1e8af9fd64737f88066a90ffbe7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of inputs that are currently held down. <br /></td></tr>
-<tr class="separator:a30dc1e8af9fd64737f88066a90ffbe7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af043f7bc2dcc1d08fb102b24714763b0"><td class="memItemLeft" align="right" valign="top"><a id="af043f7bc2dcc1d08fb102b24714763b0"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#af043f7bc2dcc1d08fb102b24714763b0">inputPressed</a> [1024]</td></tr>
-<tr class="memdesc:af043f7bc2dcc1d08fb102b24714763b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of inputs that were just pressed. <br /></td></tr>
-<tr class="separator:af043f7bc2dcc1d08fb102b24714763b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac58a08909ad0229b68caf7ba15f1ed66"><td class="memItemLeft" align="right" valign="top"><a id="ac58a08909ad0229b68caf7ba15f1ed66"></a>
+std::map&lt; Input, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#ac58a08909ad0229b68caf7ba15f1ed66">inputHeld</a></td></tr>
+<tr class="memdesc:ac58a08909ad0229b68caf7ba15f1ed66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of inputs that are currently held down. <br /></td></tr>
+<tr class="separator:ac58a08909ad0229b68caf7ba15f1ed66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3900b8974c428e4f41f9ab5cfcad0c2a"><td class="memItemLeft" align="right" valign="top"><a id="a3900b8974c428e4f41f9ab5cfcad0c2a"></a>
+std::map&lt; Input, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a3900b8974c428e4f41f9ab5cfcad0c2a">inputPressed</a></td></tr>
+<tr class="memdesc:a3900b8974c428e4f41f9ab5cfcad0c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of inputs that were just pressed. <br /></td></tr>
+<tr class="separator:a3900b8974c428e4f41f9ab5cfcad0c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1208a884b412c2a2d2df0eceba8586f5"><td class="memItemLeft" align="right" valign="top"><a id="a1208a884b412c2a2d2df0eceba8586f5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#a1208a884b412c2a2d2df0eceba8586f5">quitFlag</a></td></tr>
 <tr class="memdesc:a1208a884b412c2a2d2df0eceba8586f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the game should quit. <br /></td></tr>
 <tr class="separator:a1208a884b412c2a2d2df0eceba8586f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3f5f201f5197542bae13465a6ec652"><td class="memItemLeft" align="right" valign="top"><a id="ace3f5f201f5197542bae13465a6ec652"></a>
-SDL_MouseButtonEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#ace3f5f201f5197542bae13465a6ec652">lastClick</a></td></tr>
-<tr class="memdesc:ace3f5f201f5197542bae13465a6ec652"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last click event. <br /></td></tr>
-<tr class="separator:ace3f5f201f5197542bae13465a6ec652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ed2b8189da4d30babbfa25b1916fe2"><td class="memItemLeft" align="right" valign="top"><a id="aa7ed2b8189da4d30babbfa25b1916fe2"></a>
+<a class="el" href="classVector2.html">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputManager.html#aa7ed2b8189da4d30babbfa25b1916fe2">mousePos</a></td></tr>
+<tr class="memdesc:aa7ed2b8189da4d30babbfa25b1916fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Location of the last mouse event. <br /></td></tr>
+<tr class="separator:aa7ed2b8189da4d30babbfa25b1916fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages the inputs of our game as a singleton. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="acc98b06bb569e7aed46769cfd17f0605"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc98b06bb569e7aed46769cfd17f0605">&#9670;&nbsp;</a></span>GetActionHeld()</h2>
+<a id="a2d7e22109a982d1406181f2e00560ea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7e22109a982d1406181f2e00560ea2">&#9670;&nbsp;</a></span>GetActionHeld()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,7 +177,7 @@ SDL_MouseButtonEvent&#160;</td><td class="memItemRight" valign="bottom"><a class
         <tr>
           <td class="memname">bool InputManager::GetActionHeld </td>
           <td>(</td>
-          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramtype">Input&#160;</td>
           <td class="paramname"><em>action</em></td><td>)</td>
           <td></td>
         </tr>
@@ -179,27 +189,27 @@ SDL_MouseButtonEvent&#160;</td><td class="memItemRight" valign="bottom"><a class
 </table>
 </div><div class="memdoc">
 
-<p>Gets whether or not the given action is held. </p>
-<dl class="section return"><dt>Returns</dt><dd>Whether or not the given action is held </dd></dl>
+<p>Gets whether or not the given input is held. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the given input is held </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">action</td><td>The action to be checked </td></tr>
+    <tr><td class="paramname">action</td><td>The input to be checked </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classInputManager_acc98b06bb569e7aed46769cfd17f0605_cgraph.jpg" border="0" usemap="#classInputManager_acc98b06bb569e7aed46769cfd17f0605_cgraph" alt=""/></div>
-<map name="classInputManager_acc98b06bb569e7aed46769cfd17f0605_cgraph" id="classInputManager_acc98b06bb569e7aed46769cfd17f0605_cgraph">
+<div class="center"><img src="classInputManager_a2d7e22109a982d1406181f2e00560ea2_cgraph.jpg" border="0" usemap="#classInputManager_a2d7e22109a982d1406181f2e00560ea2_cgraph" alt=""/></div>
+<map name="classInputManager_a2d7e22109a982d1406181f2e00560ea2_cgraph" id="classInputManager_a2d7e22109a982d1406181f2e00560ea2_cgraph">
 <area shape="rect" id="node2" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146" title="The singleton instance of the InputManager. " alt="" coords="250,5,411,31"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="abf5ee007b4ac6e8246450ec7ee21221a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf5ee007b4ac6e8246450ec7ee21221a">&#9670;&nbsp;</a></span>GetActionPressed()</h2>
+<a id="a76e9f486c95ef0de40c2fb004b1e122c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76e9f486c95ef0de40c2fb004b1e122c">&#9670;&nbsp;</a></span>GetActionPressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +220,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">bool InputManager::GetActionPressed </td>
           <td>(</td>
-          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramtype">Input&#160;</td>
           <td class="paramname"><em>action</em></td><td>)</td>
           <td></td>
         </tr>
@@ -222,27 +232,27 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Gets whether or not the given action was just pressed. </p>
-<dl class="section return"><dt>Returns</dt><dd>Whether or not the given action was just pressed </dd></dl>
+<p>Gets whether or not the given input was just pressed. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether or not the given input was just pressed </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">action</td><td>The action to be checked </td></tr>
+    <tr><td class="paramname">action</td><td>The input to be checked </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classInputManager_abf5ee007b4ac6e8246450ec7ee21221a_cgraph.jpg" border="0" usemap="#classInputManager_abf5ee007b4ac6e8246450ec7ee21221a_cgraph" alt=""/></div>
-<map name="classInputManager_abf5ee007b4ac6e8246450ec7ee21221a_cgraph" id="classInputManager_abf5ee007b4ac6e8246450ec7ee21221a_cgraph">
+<div class="center"><img src="classInputManager_a76e9f486c95ef0de40c2fb004b1e122c_cgraph.jpg" border="0" usemap="#classInputManager_a76e9f486c95ef0de40c2fb004b1e122c_cgraph" alt=""/></div>
+<map name="classInputManager_a76e9f486c95ef0de40c2fb004b1e122c_cgraph" id="classInputManager_a76e9f486c95ef0de40c2fb004b1e122c_cgraph">
 <area shape="rect" id="node2" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146" title="The singleton instance of the InputManager. " alt="" coords="272,5,432,31"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="af772af2199395b15d3d8865f8884c419"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af772af2199395b15d3d8865f8884c419">&#9670;&nbsp;</a></span>GetMousePress()</h2>
+<a id="ae7e907ba0263a4424f2f504303753b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7e907ba0263a4424f2f504303753b85">&#9670;&nbsp;</a></span>GetMousePos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +261,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SDL_MouseButtonEvent InputManager::GetMousePress </td>
+          <td class="memname"><a class="el" href="classVector2.html">Vector2</a> InputManager::GetMousePos </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -264,58 +274,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the mouse click from this frame, if any. </p>
-<dl class="section return"><dt>Returns</dt><dd>the mouse click from this frame. </dd></dl>
+<p>Gets the position of the most recent mouse event. </p>
+<dl class="section return"><dt>Returns</dt><dd>the position of the most recent mouse event. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classInputManager_af772af2199395b15d3d8865f8884c419_cgraph.jpg" border="0" usemap="#classInputManager_af772af2199395b15d3d8865f8884c419_cgraph" alt=""/></div>
-<map name="classInputManager_af772af2199395b15d3d8865f8884c419_cgraph" id="classInputManager_af772af2199395b15d3d8865f8884c419_cgraph">
-<area shape="rect" id="node2" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146" title="The singleton instance of the InputManager. " alt="" coords="260,5,421,31"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classInputManager_af772af2199395b15d3d8865f8884c419_icgraph.jpg" border="0" usemap="#classInputManager_af772af2199395b15d3d8865f8884c419_icgraph" alt=""/></div>
-<map name="classInputManager_af772af2199395b15d3d8865f8884c419_icgraph" id="classInputManager_af772af2199395b15d3d8865f8884c419_icgraph">
-<area shape="rect" id="node2" href="classButton.html#a7ac4fb8aa22e729dac1eda82cfe4a499" title="Updates this component. " alt="" coords="260,5,439,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="afe298f12b0786523bb975a4ed8a07897"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe298f12b0786523bb975a4ed8a07897">&#9670;&nbsp;</a></span>GetMousePressed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool InputManager::GetMousePressed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets whether the mouse was clicked this frame. </p>
-<dl class="section return"><dt>Returns</dt><dd>Whether the mouse was clicked this frame </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classInputManager_afe298f12b0786523bb975a4ed8a07897_cgraph.jpg" border="0" usemap="#classInputManager_afe298f12b0786523bb975a4ed8a07897_cgraph" alt=""/></div>
-<map name="classInputManager_afe298f12b0786523bb975a4ed8a07897_cgraph" id="classInputManager_afe298f12b0786523bb975a4ed8a07897_cgraph">
-<area shape="rect" id="node2" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146" title="The singleton instance of the InputManager. " alt="" coords="275,5,435,31"/>
+<div class="center"><img src="classInputManager_ae7e907ba0263a4424f2f504303753b85_cgraph.jpg" border="0" usemap="#classInputManager_ae7e907ba0263a4424f2f504303753b85_cgraph" alt=""/></div>
+<map name="classInputManager_ae7e907ba0263a4424f2f504303753b85_cgraph" id="classInputManager_ae7e907ba0263a4424f2f504303753b85_cgraph">
+<area shape="rect" id="node2" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146" title="The singleton instance of the InputManager. " alt="" coords="249,5,410,31"/>
 </map>
 </div>
 
@@ -348,7 +314,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

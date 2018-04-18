@@ -1,0 +1,51 @@
+<map id="appJar.appjar.gui.image" name="appJar.appjar.gui.image">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#afbe6b2ac56c64115700071994e79ea8e" title="appJar.appjar.gui.setImageData" alt="" coords="218,5,428,31"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#ac533057658fc8cbbe3388790039e959c" title="appJar.appjar.gui.setImage" alt="" coords="233,55,414,80"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a2e3fd483d3e888f989a32aa1e13ef012" title="appJar.appjar.gui.getImage" alt="" coords="232,104,414,129"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a999c0438c1ed065d0524ccf95f4c7902" title="FUNCTIONS for labels. " alt="" coords="765,1025,891,1064"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a868a4bd16364dbcbbaa9f628b779a309" title="appJar.appjar.gui.addIcon" alt="" coords="236,213,410,239"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#aa9ed6a702620a557fecb5efce2077772" title="appJar.appjar.gui.addImage" alt="" coords="482,201,668,227"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#a28577aafb71da0a2fa3bd9d4300f29ec" title="appJar.appjar.gui.\l_getImage" alt="" coords="765,195,891,233"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#a9287254016254c1790dbefa2d9b73647" title="appJar.appjar.gui.addImageData" alt="" coords="216,644,430,669"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#abfca285f2c311134a757e19a504ef710" title="appJar.appjar.gui.\l_getImageData" alt="" coords="511,251,638,289"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="511,313,638,352"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="1008,1145,1164,1184"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#a9230879b0743ef7300dee1b4249b24dc" title="appJar.appjar.gui.after" alt="" coords="1608,676,1761,701"/>
+<area shape="rect" id="node20" href="$classappJar_1_1appjar_1_1gui.html#a6ecec2c709364c7799d383c5fd14872c" title="appJar.appjar.gui.\l_animateImage" alt="" coords="511,980,638,1019"/>
+<area shape="rect" id="node37" href="$classappJar_1_1appjar_1_1gui.html#a4b085a2aa4bc18ab12ad3955655dbaf1" title="appJar.appjar.gui.\l_configWidget" alt="" coords="765,1088,891,1127"/>
+<area shape="rect" id="node38" href="$classappJar_1_1appjar_1_1gui.html#a0e2362bcdcf758fe5534623b19676c32" title="appJar.appjar.gui.setAnimation\lSpeed" alt="" coords="221,1247,425,1285"/>
+<area shape="rect" id="node39" href="$classappJar_1_1appjar_1_1gui.html#ade76e6b7ece0d8753a548e16903bf230" title="appJar.appjar.gui.setImage\lMouseOver" alt="" coords="233,1309,414,1348"/>
+<area shape="rect" id="node40" href="$classappJar_1_1appjar_1_1gui.html#a2d2f8242268a86c7948dcddf07653456" title="appJar.appjar.gui.setImageMap" alt="" coords="220,1372,427,1397"/>
+<area shape="rect" id="node41" href="$classappJar_1_1appjar_1_1gui.html#ae33d22b104382a0da8130224941d6c32" title="appJar.appjar.gui.\l_preloadAnimatedImage" alt="" coords="240,1421,407,1460"/>
+<area shape="rect" id="node42" href="$classappJar_1_1appjar_1_1gui.html#aff035351194caf6a26cbef1f2b3034ce" title="appJar.appjar.gui.warn" alt="" coords="246,1484,401,1509"/>
+<area shape="rect" id="node43" href="$classappJar_1_1appjar_1_1gui.html#af24080277073767e7b6185c57d8a69ec" title="appJar.appjar.gui.getImagePath" alt="" coords="218,1533,428,1559"/>
+<area shape="rect" id="node44" href="$classappJar_1_1appjar_1_1gui.html#a32bb186a891c4673b50aed1a1c4bae67" title="appJar.appjar.gui.\l_importPngimagetk" alt="" coords="255,1583,391,1621"/>
+<area shape="rect" id="node45" href="$classappJar_1_1appjar_1_1gui.html#a1788ff73998ed3aedbbcb387e49b1403" title="appJar.appjar.gui.hasImage\lChanged" alt="" coords="231,1645,416,1684"/>
+<area shape="rect" id="node46" href="$classappJar_1_1appjar_1_1gui.html#a75a7c569717d046faa75bd44c5336562" title="appJar.appjar.gui.convert\lJpgToBmp" alt="" coords="238,1708,408,1747"/>
+<area shape="rect" id="node47" href="$classappJar_1_1appjar_1_1gui.html#ac1480855b2ffd99b6f640315e6b4e60f" title="appJar.appjar.gui.\l_checkIsAnimated" alt="" coords="258,1771,388,1809"/>
+<area shape="rect" id="node48" href="$classappJar_1_1appjar_1_1gui.html#a59b7f70f6eb6364745ef66a532b36ca2" title="appJar.appjar.gui.\l_configAnimatedImage" alt="" coords="244,1833,402,1872"/>
+<area shape="rect" id="node49" href="$classappJar_1_1appjar_1_1gui.html#a6fbe14b36ba1928fbad1829add7c2f6e" title="appJar.appjar.gui.\l_populateImage" alt="" coords="260,1896,387,1935"/>
+<area shape="rect" id="node50" href="$classappJar_1_1appjar_1_1gui.html#a11afbd135decbee878ef2a30a3e72406" title="appJar.appjar.gui.\l_imageMap" alt="" coords="260,1959,387,1997"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#aee630ab861cb87394f32f98f0014c0a1" title="appJar.appjar.gui.setSticky" alt="" coords="996,1081,1176,1107"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#ad21054bbdae01063b8900324201bddf3" title="appJar.appjar.gui.setStretch" alt="" coords="993,983,1180,1008"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a49093a255cd426ba8ff0e153ac31f1ae" title="appJar.appjar.gui.setExpand" alt="" coords="991,1032,1181,1057"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a6a7c8f4cea08444aef2413e840fc01ea" title="appJar.appjar.gui.\l_addImageObj" alt="" coords="765,319,891,357"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="985,523,1188,548"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="1023,595,1149,633"/>
+<area shape="rect" id="node21" href="$classappJar_1_1appjar_1_1gui.html#a934a3a377763db542adbfbbb4115d02d" title="appJar.appjar.gui.shrink\lImage" alt="" coords="494,529,656,568"/>
+<area shape="rect" id="node22" href="$classappJar_1_1appjar_1_1gui.html#a9969a1826e2cdb830f5eb51402d4b8bf" title="appJar.appjar.gui.growImage" alt="" coords="478,592,671,617"/>
+<area shape="rect" id="node23" href="$classappJar_1_1appjar_1_1gui.html#a0c318d98958c6d7b70d1d876f721223b" title="appJar.appjar.gui.\l_loadNanojpeg" alt="" coords="511,641,638,680"/>
+<area shape="rect" id="node24" href="$classappJar_1_1appjar_1_1gui.html#ac3ae324f07fafdec475e6fd1c3bcca1d" title="FUNCTION for GoogleMaps. " alt="" coords="498,840,651,865"/>
+<area shape="rect" id="node25" href="$classappJar_1_1appjar_1_1gui.html#a9565c5a3c30fa06699a88a8a39675659" title="appJar.appjar.gui.getLabel" alt="" coords="739,976,917,1001"/>
+<area shape="rect" id="node26" href="$classappJar_1_1appjar_1_1gui.html#ac1d1912a9569a4c38ca930faa210f9e8" title="appJar.appjar.gui.addGoogleMap" alt="" coords="719,739,937,764"/>
+<area shape="rect" id="node32" href="$classappJar_1_1appjar_1_1gui.html#aee58a6ed785f083409f8a2e9eea119a2" title="appJar.appjar.gui.setGoogle\lMapLocation" alt="" coords="734,613,922,652"/>
+<area shape="rect" id="node33" href="$classappJar_1_1appjar_1_1gui.html#adfb6d7d3b0a970988384b5e8e66b29fa" title="appJar.appjar.gui.setGoogle\lMapZoom" alt="" coords="734,676,922,715"/>
+<area shape="rect" id="node34" href="$classappJar_1_1appjar_1_1gui.html#a9c1afd951e04b294841e4c21a947279a" title="appJar.appjar.gui.setGoogle\lMapSize" alt="" coords="734,788,922,827"/>
+<area shape="rect" id="node35" href="$classappJar_1_1appjar_1_1gui.html#a0730352709bd77c677cde8430922e49f" title="appJar.appjar.gui.setGoogle\lMapTerrain" alt="" coords="734,851,922,889"/>
+<area shape="rect" id="node36" href="$classappJar_1_1appjar_1_1gui.html#a946a4f7394a6e2ea29a7d8750ff94000" title="appJar.appjar.gui.setGoogle\lMapProxy" alt="" coords="734,913,922,952"/>
+<area shape="rect" id="node27" href="$classappJar_1_1appjar_1_1gui.html#a264f8043d7ce12970367ddf2bd714e8e" title="appJar.appjar.gui.\l_loadURL" alt="" coords="1023,669,1149,708"/>
+<area shape="rect" id="node30" href="$classappJar_1_1appjar_1_1gui.html#afc7b4675ee109677d276f46ffa4e2285" title="appJar.appjar.gui.\l_loadTooltip" alt="" coords="1023,732,1149,771"/>
+<area shape="rect" id="node31" href="$classappJar_1_1appjar_1_1gui.html#af62b45b4fe6d0fd2751c03e20aa322eb" title="appJar.appjar.gui.search\lGoogleMap" alt="" coords="1003,795,1170,833"/>
+<area shape="rect" id="node28" href="$classappJar_1_1appjar_1_1gui.html#af95262502a7524ac45197157ecd1263a" title="appJar.appjar.gui.\l_loadThreading" alt="" coords="1236,669,1362,708"/>
+<area shape="rect" id="node29" href="$classappJar_1_1appjar_1_1gui.html#a3dbe7e53af3c0489853ae7f663355629" title="appJar.appjar.gui.\l_processEventQueue" alt="" coords="1410,669,1560,708"/>
+</map>

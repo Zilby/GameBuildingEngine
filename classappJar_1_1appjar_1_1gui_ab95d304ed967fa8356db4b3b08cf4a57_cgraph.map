@@ -1,0 +1,15 @@
+<map id="appJar.appjar.gui.addLabelSpinBoxRange" name="appJar.appjar.gui.addLabelSpinBoxRange">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#af50066ab09bf6dafb8b70aab79a89eb6" title="appJar.appjar.gui.addLabel\lSpinBox" alt="" coords="241,219,423,257"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#ac442c49a7d74fdf2776ff0682a4e2eab" title="appJar.appjar.gui.setSpin\lBoxPos" alt="" coords="478,312,649,351"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#aa11bae5d2ab6b02ad9636c4625ec3eb6" title="appJar.appjar.gui.getSpinBox" alt="" coords="235,367,430,392"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#af8c9cb30934da1915bae93a079dd039c" title="appJar.appjar.gui.\l_getSpinBoxValsAsList" alt="" coords="253,416,411,455"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#adaf1f36387f820f07c8856033b60b0d0" title="appJar.appjar.gui.\l_setSpinBoxVal" alt="" coords="269,479,396,517"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#aff035351194caf6a26cbef1f2b3034ce" title="appJar.appjar.gui.warn" alt="" coords="254,541,410,567"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#abdec33e907a573abb8affbce5bc996ec" title="LabelBox Functions. " alt="" coords="500,61,626,100"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#ad3c700a2d157afdbcf298158937c6c08" title="appJar.appjar.gui.\l_buildSpinBox" alt="" coords="500,124,626,163"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a20e95480fed5045d47d85f9c8eb0912a" title="appJar.appjar.gui.\l_packLabelBox" alt="" coords="500,187,626,225"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="500,249,626,288"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="720,5,876,44"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="697,68,900,93"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="735,117,861,156"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: Class Members</title>
+<title>Platformer: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -72,20 +72,23 @@ $(function() {
 : <a class="el" href="classComponent.html#a401f14253dfd0ab90d64aeeb5260d77d">Component</a>
 </li>
 <li>GameObject()
-: <a class="el" href="classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a">GameObject</a>
+: <a class="el" href="classGameObject.html#aa9e30b58916cbc96ebdb4b7e4ced23d1">GameObject</a>
 </li>
 <li>GameWorld()
 : <a class="el" href="classGameWorld.html#a681994123c12833d43c957d6cfb33765">GameWorld</a>
 </li>
 <li>GetActionHeld()
-: <a class="el" href="classInputManager.html#acc98b06bb569e7aed46769cfd17f0605">InputManager</a>
+: <a class="el" href="classInputManager.html#a2d7e22109a982d1406181f2e00560ea2">InputManager</a>
 </li>
 <li>GetActionPressed()
-: <a class="el" href="classInputManager.html#abf5ee007b4ac6e8246450ec7ee21221a">InputManager</a>
+: <a class="el" href="classInputManager.html#a76e9f486c95ef0de40c2fb004b1e122c">InputManager</a>
 </li>
 <li>GetActiveObjects()
-: <a class="el" href="classGameManager.html#a233955a99f7ac726896b33ef323ee8eb">GameManager</a>
+: <a class="el" href="classGameManager.html#ae67aa77230e9d08f737a5d31a2bfd28f">GameManager</a>
 , <a class="el" href="classGameWorld.html#ab17a7c9d16d6df9f7e7de3b74a50103b">GameWorld</a>
+</li>
+<li>GetCamera()
+: <a class="el" href="classRenderManager.html#a35c47c7132179304838335deef41f7b3">RenderManager</a>
 </li>
 <li>GetChunk()
 : <a class="el" href="classSDLSoundWrapper.html#af21b33389f53dc95cab6370efef48c44">SDLSoundWrapper</a>
@@ -98,15 +101,16 @@ $(function() {
 </li>
 <li>GetGameObject()
 : <a class="el" href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">Component</a>
+, <a class="el" href="classPyScriptWrapper.html#a2eb532ecb05f66cdc598ad52388876c1">PyScriptWrapper</a>
 </li>
 <li>getHeight()
-: <a class="el" href="classRenderManager.html#a039248251e5a61fb17c819260a90c4a8">RenderManager</a>
+: <a class="el" href="classRenderManager.html#a7d60622a244cb5094e6fb3d1ffe88598">RenderManager</a>
 </li>
-<li>GetMousePress()
-: <a class="el" href="classInputManager.html#af772af2199395b15d3d8865f8884c419">InputManager</a>
+<li>GetLinearVelocity()
+: <a class="el" href="classPhysicsComponent.html#adb456c875d1c24d5c5d3ddf3d5753771">PhysicsComponent</a>
 </li>
-<li>GetMousePressed()
-: <a class="el" href="classInputManager.html#afe298f12b0786523bb975a4ed8a07897">InputManager</a>
+<li>GetMousePos()
+: <a class="el" href="classInputManager.html#ae7e907ba0263a4424f2f504303753b85">InputManager</a>
 </li>
 <li>GetRectForFrame()
 : <a class="el" href="structAnimation.html#af57d23ed6f307664f28ffdb602192149">Animation</a>
@@ -117,26 +121,14 @@ $(function() {
 <li>GetTex()
 : <a class="el" href="classSDLTextureWrapper.html#a32969a836d58df35d0dc2e0c8a61c3af">SDLTextureWrapper</a>
 </li>
-<li>GetTileAtPoint()
-: <a class="el" href="classTileMap.html#a0df05561100011c9b0c921238c496f2c">TileMap</a>
-</li>
-<li>GetTileIndexFromPoint()
-: <a class="el" href="classTileMap.html#a3dc487f79c4e1966751523226fb93e32">TileMap</a>
-</li>
-<li>GetTiles()
-: <a class="el" href="classLevel.html#adf2cc6b70031356e9d062d00f5bcc55f">Level</a>
-</li>
-<li>GetTMap()
-: <a class="el" href="classPhysicsComponent.html#abd549e4827b8d0bfce3314f0274cade5">PhysicsComponent</a>
-</li>
 <li>GetTypeID()
 : <a class="el" href="classGameObject.html#a78d8382cf011e1f720354711b4b643ed">GameObject</a>
 </li>
 <li>getWidth()
-: <a class="el" href="classRenderManager.html#aba8f82ab4c6f3d4d9371f2d38b666819">RenderManager</a>
+: <a class="el" href="classRenderManager.html#a7920bf9dcbdc159e20b44253ec26b2e6">RenderManager</a>
 </li>
-<li>GetWorldSpaceFromIndex()
-: <a class="el" href="classTileMap.html#a4759ce89e7f421fc04ad7b4c2485a8a6">TileMap</a>
+<li>GetWorld()
+: <a class="el" href="classPhysicsManager.html#a3e4cc763b2a6840ae46d33c167976f18">PhysicsManager</a>
 </li>
 <li>gRenderer
 : <a class="el" href="classRenderManager.html#a1cb2a3e8bafeb3c7c757c95144a5e06f">RenderManager</a>
@@ -148,7 +140,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

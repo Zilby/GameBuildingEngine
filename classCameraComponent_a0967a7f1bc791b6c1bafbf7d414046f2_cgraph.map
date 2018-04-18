@@ -1,0 +1,5 @@
+<map id="CameraComponent::CameraComponent" name="CameraComponent::CameraComponent">
+<area shape="rect" id="node2" href="$classRenderManager.html#a7920bf9dcbdc159e20b44253ec26b2e6" title="Gets the screen width. " alt="" coords="317,5,495,31"/>
+<area shape="rect" id="node4" href="$classRenderManager.html#a7d60622a244cb5094e6fb3d1ffe88598" title="Gets the screen height. " alt="" coords="315,55,497,80"/>
+<area shape="rect" id="node3" href="$classRenderManager.html#ae461c908c30dca62528798b92a985a4a" title="The singleton instance of the RenderManager. " alt="" coords="545,31,720,56"/>
+</map>

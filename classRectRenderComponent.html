@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: RectRenderComponent Class Reference</title>
+<title>Platformer: RectRenderComponent Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -80,8 +80,8 @@ Inheritance diagram for RectRenderComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classRectRenderComponent__inherit__graph.jpg" border="0" usemap="#RectRenderComponent_inherit__map" alt="Inheritance graph"/></div>
 <map name="RectRenderComponent_inherit__map" id="RectRenderComponent_inherit__map">
-<area shape="rect" id="node2" href="classRenderComponent.html" title="A RenderComponent class. " alt="" coords="19,153,173,307"/>
-<area shape="rect" id="node3" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="8,5,184,105"/>
+<area shape="rect" id="node2" href="classRenderComponent.html" title="A RenderComponent class. " alt="" coords="19,167,173,293"/>
+<area shape="rect" id="node3" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="8,5,184,119"/>
 </map>
 </div>
 <div class="dynheader">
@@ -89,9 +89,9 @@ Collaboration diagram for RectRenderComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classRectRenderComponent__coll__graph.jpg" border="0" usemap="#RectRenderComponent_coll__map" alt="Collaboration graph"/></div>
 <map name="RectRenderComponent_coll__map" id="RectRenderComponent_coll__map">
-<area shape="rect" id="node2" href="classRenderComponent.html" title="A RenderComponent class. " alt="" coords="206,759,360,912"/>
-<area shape="rect" id="node3" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="195,609,371,709"/>
-<area shape="rect" id="node5" href="classGameObject.html" title="A GameObject class. " alt="" coords="216,207,350,413"/>
+<area shape="rect" id="node2" href="classRenderComponent.html" title="A RenderComponent class. " alt="" coords="206,812,360,939"/>
+<area shape="rect" id="node3" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="195,649,371,763"/>
+<area shape="rect" id="node5" href="classGameObject.html" title="A GameObject class. " alt="" coords="215,207,351,453"/>
 <area shape="rect" id="node8" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. " alt="" coords="379,5,486,132"/>
 </map>
 </div>
@@ -101,25 +101,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56c9969142cb55cb04e135c51a86dd47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectRenderComponent.html#a56c9969142cb55cb04e135c51a86dd47">RectRenderComponent</a> (SDL_Color <a class="el" href="classRectRenderComponent.html#a756459a02d6b7ef6b3c2d82fbd943792">color</a>)</td></tr>
 <tr class="memdesc:a56c9969142cb55cb04e135c51a86dd47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classRectRenderComponent.html" title="A component class for rendering rects as solid colors. ">RectRenderComponent</a> of the given color.  <a href="#a56c9969142cb55cb04e135c51a86dd47">More...</a><br /></td></tr>
 <tr class="separator:a56c9969142cb55cb04e135c51a86dd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc"><td class="memItemLeft" align="right" valign="top"><a id="a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectRenderComponent.html#a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc">Render</a> (std::shared_ptr&lt; <a class="el" href="classCameraComponent.html">CameraComponent</a> &gt; camera) override</td></tr>
-<tr class="memdesc:a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders this component based on the given camera. <br /></td></tr>
-<tr class="separator:a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08af9bf3c1b9bbcb94b27cbbf8a7d603"><td class="memItemLeft" align="right" valign="top"><a id="a08af9bf3c1b9bbcb94b27cbbf8a7d603"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectRenderComponent.html#a08af9bf3c1b9bbcb94b27cbbf8a7d603">Render</a> () override</td></tr>
+<tr class="memdesc:a08af9bf3c1b9bbcb94b27cbbf8a7d603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders this component based on the given camera. <br /></td></tr>
+<tr class="separator:a08af9bf3c1b9bbcb94b27cbbf8a7d603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classRenderComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classRenderComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classRenderComponent.html">RenderComponent</a></td></tr>
-<tr class="memitem:a8525b7024265f9c8a63d1a95e88739df inherit pub_methods_classRenderComponent"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#a8525b7024265f9c8a63d1a95e88739df">RenderComponent</a> (bool <a class="el" href="classRenderComponent.html#acc23938f83c55c11568da54582abfd66">isUI</a>=false)</td></tr>
-<tr class="memdesc:a8525b7024265f9c8a63d1a95e88739df inherit pub_methods_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classRenderComponent.html" title="A RenderComponent class. ">RenderComponent</a>.  <a href="classRenderComponent.html#a8525b7024265f9c8a63d1a95e88739df">More...</a><br /></td></tr>
-<tr class="separator:a8525b7024265f9c8a63d1a95e88739df inherit pub_methods_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee446b60ed69903c10d43516c489cd19 inherit pub_methods_classRenderComponent"><td class="memItemLeft" align="right" valign="top"><a id="aee446b60ed69903c10d43516c489cd19"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#aee446b60ed69903c10d43516c489cd19">UpdateComponent</a> () override</td></tr>
-<tr class="memdesc:aee446b60ed69903c10d43516c489cd19 inherit pub_methods_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
-<tr class="separator:aee446b60ed69903c10d43516c489cd19 inherit pub_methods_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf317f9ef7a7802a6fd1ba1a4a791ac8 inherit pub_methods_classRenderComponent"><td class="memItemLeft" align="right" valign="top">SDL_Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#adf317f9ef7a7802a6fd1ba1a4a791ac8">ScreenRegion</a> (std::shared_ptr&lt; <a class="el" href="classCameraComponent.html">CameraComponent</a> &gt; camera)</td></tr>
-<tr class="memdesc:adf317f9ef7a7802a6fd1ba1a4a791ac8 inherit pub_methods_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the screen region to render this component based on the camera.  <a href="classRenderComponent.html#adf317f9ef7a7802a6fd1ba1a4a791ac8">More...</a><br /></td></tr>
-<tr class="separator:adf317f9ef7a7802a6fd1ba1a4a791ac8 inherit pub_methods_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfbe186278dc7528788aea84f976b6c inherit pub_methods_classRenderComponent"><td class="memItemLeft" align="right" valign="top"><a id="a1bfbe186278dc7528788aea84f976b6c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#a1bfbe186278dc7528788aea84f976b6c">RenderComponent</a> ()</td></tr>
+<tr class="memdesc:a1bfbe186278dc7528788aea84f976b6c inherit pub_methods_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classRenderComponent.html" title="A RenderComponent class. ">RenderComponent</a>. <br /></td></tr>
+<tr class="separator:a1bfbe186278dc7528788aea84f976b6c inherit pub_methods_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5570975c09d43d4c21a92c17c34355 inherit pub_methods_classRenderComponent"><td class="memItemLeft" align="right" valign="top"><a id="a7f5570975c09d43d4c21a92c17c34355"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#a7f5570975c09d43d4c21a92c17c34355">Update</a> () override</td></tr>
+<tr class="memdesc:a7f5570975c09d43d4c21a92c17c34355 inherit pub_methods_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
+<tr class="separator:a7f5570975c09d43d4c21a92c17c34355 inherit pub_methods_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">SetParentGameObject</a> (std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; g)</td></tr>
 <tr class="memdesc:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the given <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> as this component's parent.  <a href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">More...</a><br /></td></tr>
 <tr class="separator:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a id="ad3141017e589ef48d436bc743e15d122"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ad3141017e589ef48d436bc743e15d122">Init</a> ()</td></tr>
+<tr class="memdesc:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes this component. <br /></td></tr>
+<tr class="separator:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">GetGameObject</a> ()</td></tr>
 <tr class="memdesc:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a shared ptr reference to this component's <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>.  <a href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">More...</a><br /></td></tr>
 <tr class="separator:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,10 +149,6 @@ std::shared_ptr&lt; <a class="el" href="classSDLTextureWrapper.html">SDLTextureW
 std::shared_ptr&lt; SDL_Rect &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#ad4a4675db19b4c1e47164f0b1b35e8bf">renderSrc</a></td></tr>
 <tr class="memdesc:ad4a4675db19b4c1e47164f0b1b35e8bf inherit pro_attribs_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rect to be used, null if the whole texture is used. <br /></td></tr>
 <tr class="separator:ad4a4675db19b4c1e47164f0b1b35e8bf inherit pro_attribs_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc23938f83c55c11568da54582abfd66 inherit pro_attribs_classRenderComponent"><td class="memItemLeft" align="right" valign="top"><a id="acc23938f83c55c11568da54582abfd66"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRenderComponent.html#acc23938f83c55c11568da54582abfd66">isUI</a></td></tr>
-<tr class="memdesc:acc23938f83c55c11568da54582abfd66 inherit pro_attribs_classRenderComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this component is UI. <br /></td></tr>
-<tr class="separator:acc23938f83c55c11568da54582abfd66 inherit pro_attribs_classRenderComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classComponent')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a401f14253dfd0ab90d64aeeb5260d77d inherit pro_attribs_classComponent"><td class="memItemLeft" align="right" valign="top"><a id="a401f14253dfd0ab90d64aeeb5260d77d"></a>
 std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a401f14253dfd0ab90d64aeeb5260d77d">gameObject</a></td></tr>
@@ -193,7 +191,7 @@ std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

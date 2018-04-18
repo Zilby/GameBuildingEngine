@@ -1,0 +1,11 @@
+<map id="appJar.appjar.gui._buildOptionBox" name="appJar.appjar.gui._buildOptionBox">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a5063287f9cd7e91c727f11c5f2c48190" title="appJar.appjar.gui.\l_configOptionBoxList" alt="" coords="206,5,353,44"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#ad3a6dff62e29e3ea06f8167cbf2187e4" title="appJar.appjar.gui.\l_buildTickOptionBox" alt="" coords="208,68,351,107"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="201,131,357,169"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#aa8a46ed2015153a326d7ae90e30ba68c" title="appJar.appjar.gui.\l_grabFocus" alt="" coords="216,193,342,232"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#ac741f8c8a79305a9d5a3023a25eaaa1f" title="functions to deal with tabbing and right clicking " alt="" coords="211,256,347,295"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#ad54ef8ed0b8c728ea24921ac07d4fa33" title="appJar.appjar.gui.\l_focusLastWindow" alt="" coords="213,319,346,357"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a221ededd7336f49ce5077817c2dfb530" title="appJar.appjar.gui.\l_addRightClickMenu" alt="" coords="207,381,351,420"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#abb3a44d7265aaa8e6691636a4501cd3f" title="appJar.appjar.gui.\l_disableOptionBoxSeparators" alt="" coords="180,444,378,483"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#a60a97eca395160418b3993895f3c560b" title="appJar.appjar.gui.\l_rightClick" alt="" coords="426,256,553,295"/>
+</map>

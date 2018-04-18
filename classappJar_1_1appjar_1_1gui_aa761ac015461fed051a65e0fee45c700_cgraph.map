@@ -1,0 +1,7 @@
+<map id="appJar.appjar.gui.addButtons" name="appJar.appjar.gui.addButtons">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a68719d152a4db0bdaf2d5b2760b4dbf9" title="appJar.appjar.gui.\l_checkFunc" alt="" coords="286,5,412,44"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="247,68,450,93"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="286,117,412,156"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a870c32da220f47230ffa97d8d6f51e53" title="appJar.appjar.gui.\l_buildButton" alt="" coords="286,180,412,219"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="286,243,412,281"/>
+</map>

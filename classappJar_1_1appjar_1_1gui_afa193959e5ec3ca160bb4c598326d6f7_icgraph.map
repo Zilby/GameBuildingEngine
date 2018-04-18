@@ -1,0 +1,10 @@
+<map id="appJar.appjar.gui.addTable" name="appJar.appjar.gui.addTable">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#af23bb2edd71e8ce7d846de9ec737a292" title="appJar.appjar.gui.table" alt="" coords="498,5,653,31"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a4ef5a84b213ecc6c239b16695c5fc10b" title="appJar.appjar.gui.addDbTable" alt="" coords="234,55,432,80"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#aa81c392bcbbc709a7bb332cfcdd335b3" title="appJar.appjar.gui.addGrid" alt="" coords="719,80,893,105"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a4065d361dfc7907f7f5a6aa60f6b8f86" title="appJar.appjar.gui.addDbGrid" alt="" coords="480,55,671,80"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#ab966b4f582ecb74577c7950f9cefc095" title="appJar.appjar.gui.setTable\lHeaders" alt="" coords="941,73,1117,112"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#adca8825683565fa542eba39c08cd4ed4" title="Simple Tables. " alt="" coords="1189,41,1316,80"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a89f4f9ba0bebd3dff33fe17c878a1016" title="appJar.appjar.gui.addGrid\lColumn" alt="" coords="1165,104,1339,143"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#abc5cf782a172132ff6c9dd96e1a729c7" title="appJar.appjar.gui.addDbOptionBox" alt="" coords="1387,48,1615,73"/>
+</map>

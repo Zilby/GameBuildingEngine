@@ -1,0 +1,14 @@
+<map id="appJar.appjar.gui.addTickOptionBox" name="appJar.appjar.gui.addTickOptionBox">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a9b5ffc3c8bc6444d0ffaeca727a97803" title="appJar.appjar.gui.\l_buildOptionBox" alt="" coords="264,225,391,264"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="226,288,429,313"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="264,337,391,376"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a5063287f9cd7e91c727f11c5f2c48190" title="appJar.appjar.gui.\l_configOptionBoxList" alt="" coords="503,5,650,44"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#ad3a6dff62e29e3ea06f8167cbf2187e4" title="appJar.appjar.gui.\l_buildTickOptionBox" alt="" coords="505,68,648,107"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="499,131,654,169"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#aa8a46ed2015153a326d7ae90e30ba68c" title="appJar.appjar.gui.\l_grabFocus" alt="" coords="513,193,640,232"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#ac741f8c8a79305a9d5a3023a25eaaa1f" title="functions to deal with tabbing and right clicking " alt="" coords="509,256,644,295"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#ad54ef8ed0b8c728ea24921ac07d4fa33" title="appJar.appjar.gui.\l_focusLastWindow" alt="" coords="510,319,643,357"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#a221ededd7336f49ce5077817c2dfb530" title="appJar.appjar.gui.\l_addRightClickMenu" alt="" coords="504,381,649,420"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#abb3a44d7265aaa8e6691636a4501cd3f" title="appJar.appjar.gui.\l_disableOptionBoxSeparators" alt="" coords="477,444,676,483"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a60a97eca395160418b3993895f3c560b" title="appJar.appjar.gui.\l_rightClick" alt="" coords="724,256,850,295"/>
+</map>

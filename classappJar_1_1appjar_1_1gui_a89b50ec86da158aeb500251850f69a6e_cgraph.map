@@ -1,0 +1,10 @@
+<map id="appJar.appjar.gui.setStopFunction" name="appJar.appjar.gui.setStopFunction">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a61baef8d6bdd54ea87e6f7814373b366" title="appJar.appjar.gui.\l_getTopLevel" alt="" coords="467,5,593,44"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="225,63,381,101"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a0fe3ec287e313059e4a8a3609ace2549" title="appJar.appjar.gui.stop" alt="" coords="227,125,379,151"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a63b94087ec92ff5411b6c509b52ac497" title="appJar.appjar.gui.saveSettings" alt="" coords="429,69,632,95"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a8cc5c5e137fd85468e353e6d0a0df8e8" title="appJar.appjar.gui.after\l_cancel" alt="" coords="453,119,607,157"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a6f4f8d49136595e4a9fd06b4d02a81c3" title="appJar.appjar.gui.stopSound" alt="" coords="435,181,625,207"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a155acb8f4c224bbc80b006950ebe9414" title="appJar.appjar.gui.\l_loadConfigParser" alt="" coords="691,35,823,73"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#a420a26f7fb5a31ff6acec2fc8cd59d8a" title="appJar.appjar.gui.error" alt="" coords="680,97,834,123"/>
+</map>

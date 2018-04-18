@@ -1,0 +1,8 @@
+<map id="PyScriptWrapper" name="PyScriptWrapper">
+<area shape="rect" id="node3" href="$classScriptComponent.html" title="A class for attaching python scripts as components. " alt="" coords="306,851,451,951"/>
+<area shape="rect" id="node4" href="$classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="216,663,392,776"/>
+<area shape="rect" id="node6" href="$classGameObject.html" title="A GameObject class. " alt="" coords="215,207,351,453"/>
+<area shape="rect" id="node9" href="$classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. " alt="" coords="379,5,486,132"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="424,683,504,756"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="405,515,531,601"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="appJar.appjar.gui.setOptionBox" name="appJar.appjar.gui.setOptionBox">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#adca8825683565fa542eba39c08cd4ed4" title="Simple Tables. " alt="" coords="551,128,678,167"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#aff0fac429879f9abc72c765b5dae4bff" title="appJar.appjar.gui.optionBox" alt="" coords="276,55,462,80"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a35a6c11eabfe7a82aa3421e9d05101e7" title="appJar.appjar.gui.change\lOptionBox" alt="" coords="284,189,454,228"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#ab650b99a1318ff28f3f99075e8ae7d2d" title="appJar.appjar.gui.addDate\lPicker" alt="" coords="526,253,703,292"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#a3166151fe8ee19a87d4357b668240e85" title="appJar.appjar.gui.delete\lOptionBox" alt="" coords="287,304,450,343"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#ad87af97237ffee4f5c9da73332ccebf7" title="appJar.appjar.gui.rename\lOptionBoxItem" alt="" coords="283,367,455,405"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#a4490805da871973466848643ddda3981" title="appJar.appjar.gui.clearOptionBox" alt="" coords="260,429,478,455"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#abc5cf782a172132ff6c9dd96e1a729c7" title="appJar.appjar.gui.addDbOptionBox" alt="" coords="751,111,979,136"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#ac1693d9c39830000dd9f2c6af6ece809" title="FUNCTION for optionMenus. " alt="" coords="531,5,698,31"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#aaaf5cab9d4891f1dda8c5ba57d1d5b9a" title="appJar.appjar.gui.option" alt="" coords="533,55,696,80"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#ad0cdfb92865e9869a23e0714e2bb4d26" title="FUNCTIONS for ACCESSABILITY. " alt="" coords="802,48,928,87"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#af3ddeb69f5ddd672db23bdb16e9d0447" title="appJar.appjar.gui.change\lLanguage" alt="" coords="529,191,699,229"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#af61b28bdcd10133db4d5dfe3a9c1df1d" title="appJar.appjar.gui.setLanguage" alt="" coords="763,211,967,236"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#ae84a35321dc3c60471a7c45607c8b745" title="appJar.appjar.gui.go" alt="" coords="794,161,936,187"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a8c4e30bdb2f351298d38550b3fc19f6b" title="appJar.appjar.gui.\l__exit__" alt="" coords="1040,155,1167,193"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#a3f01e4245b11078f15a8fc3b3c3444cf" title="appJar.appjar.gui.datePicker" alt="" coords="770,260,960,285"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#a30bd6c22dc855307469c8720d073318f" title="DatePicker Widget &#45; using Form Container. " alt="" coords="1027,260,1180,285"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#a57d2230f0b23b65810392fa8d76c3886" title="appJar.appjar.gui.clearAll\lOptionBoxes" alt="" coords="529,423,699,461"/>
+</map>

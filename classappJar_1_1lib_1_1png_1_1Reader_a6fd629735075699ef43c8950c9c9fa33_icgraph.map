@@ -1,0 +1,16 @@
+<map id="appJar.lib.png.Reader.deinterlace" name="appJar.lib.png.Reader.deinterlace">
+<area shape="rect" id="node2" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a6849cc473cc567f9865fe0c8b63a5354" title="appJar.lib.png.Reader.read" alt="" coords="273,162,455,187"/>
+<area shape="rect" id="node3" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a1bfcf5e595f70621b597a0f5d5c32371" title="appJar.lib.png.Reader.chunk" alt="" coords="784,162,975,187"/>
+<area shape="rect" id="node7" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a19ff21ef948a22e562e506171a602be1" title="appJar.lib.png.Reader.as\lDirect" alt="" coords="1530,228,1699,267"/>
+<area shape="rect" id="node13" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a2f199e54e76e5af48b90ae1876fd6304" title="appJar.lib.png.Reader.validate\l_signature" alt="" coords="519,224,720,263"/>
+<area shape="rect" id="node14" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a287c2c8bead02ad688f0bd20d6e2ae6f" title="appJar.lib.png.Reader.chunklentype" alt="" coords="503,99,736,124"/>
+<area shape="rect" id="node15" href="$classappJar_1_1lib_1_1png_1_1Reader.html#aa9711ac77b12d490d204edf4df5b741c" title="appJar.lib.png.Reader.read_flat" alt="" coords="516,339,723,364"/>
+<area shape="rect" id="node4" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a823845d3114f42f92826787659b0a665" title="appJar.lib.png.Reader.chunks" alt="" coords="1025,124,1222,150"/>
+<area shape="rect" id="node5" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a2bce16514a23e3588c4546e228369712" title="appJar.lib.png.Reader.process\l_chunk" alt="" coords="1023,174,1224,212"/>
+<area shape="rect" id="node6" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a0159cc9fc8e58f0933e6e7f91af4ea48" title="appJar.lib.png.Reader.preamble" alt="" coords="1272,180,1482,206"/>
+<area shape="rect" id="node8" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a01f2ffd9877b2e5ec3853df622e35b8d" title="appJar.lib.png.Reader.as\lFloat" alt="" coords="1766,172,1935,211"/>
+<area shape="rect" id="node9" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a16f7f4620c17b6a6356d96f22d38aeb3" title="appJar.lib.png.Reader.asRGB" alt="" coords="1752,235,1949,260"/>
+<area shape="rect" id="node11" href="$classappJar_1_1lib_1_1png_1_1Reader.html#aeb9d23c6b33d0b9e23f5b659acada52d" title="appJar.lib.png.Reader.asRGBA" alt="" coords="1747,286,1954,311"/>
+<area shape="rect" id="node10" href="$classappJar_1_1lib_1_1png_1_1Reader.html#ae8f1aa65901306f394012c08a2d1c4b9" title="appJar.lib.png.Reader.asRGB8" alt="" coords="2002,232,2207,258"/>
+<area shape="rect" id="node12" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a4c829239e9c91e99514572af3ac8dbba" title="appJar.lib.png.Reader.as\lRGBA8" alt="" coords="2020,282,2189,320"/>
+</map>

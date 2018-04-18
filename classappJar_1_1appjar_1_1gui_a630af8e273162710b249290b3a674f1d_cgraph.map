@@ -1,0 +1,9 @@
+<map id="appJar.appjar.gui.setSize" name="appJar.appjar.gui.setSize">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a61baef8d6bdd54ea87e6f7814373b366" title="appJar.appjar.gui.\l_getTopLevel" alt="" coords="734,22,861,61"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#aa4d85ffbe29761c1187918c93b7cb3dc" title="appJar.appjar.gui.setFullscreen" alt="" coords="224,78,430,104"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#aa5afb7d671c6f2743b345bed8ea9c814" title="appJar.appjar.gui.exitFullscreen" alt="" coords="478,129,686,154"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#aff035351194caf6a26cbef1f2b3034ce" title="appJar.appjar.gui.warn" alt="" coords="249,180,404,205"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a2dbae7a2fe8676b15f29010250327192" title="appJar.appjar.gui.setMinSize" alt="" coords="231,229,423,254"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#ad7dabca76b63958a0de337915ef5fd21" title="FUNCTION for managing commands. " alt="" coords="478,80,686,105"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#ae97c2bc956270144ece1ee9db1c0c950" title="appJar.appjar.gui.\l_doTitleBar" alt="" coords="734,122,861,161"/>
+</map>

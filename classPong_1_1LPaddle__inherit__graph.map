@@ -1,0 +1,3 @@
+<map id="Pong.LPaddle" name="Pong.LPaddle">
+<area shape="rect" id="node2" href="$classPong_1_1Paddle.html" title="{Pong.Paddle\n|+ phys\l+ paddleSpeed\l|+ Init()\l+ Update()\l+ Move()\l+ CanMoveUp()\l+ CanMoveDown()\l}" alt="" coords="5,127,138,267"/>
+</map>

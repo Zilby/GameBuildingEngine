@@ -1,0 +1,5 @@
+<map id="appJar.appjar.gui._loadInternalDnd" name="appJar.appjar.gui._loadInternalDnd">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#aa3c27d9961604aa61a9c6e8a495f3856" title="appJar.appjar.gui.\l_registerInternalDragSource" alt="" coords="180,5,369,44"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a1d702b1eea04ee1a2770c3dca5c05282" title="appJar.appjar.gui.\l_registerInternalDropTarget" alt="" coords="183,68,366,107"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a198170bbea8b9ce5b26c47be40a54bc7" title="appJar.appjar.gui.addWidget" alt="" coords="417,44,607,69"/>
+</map>

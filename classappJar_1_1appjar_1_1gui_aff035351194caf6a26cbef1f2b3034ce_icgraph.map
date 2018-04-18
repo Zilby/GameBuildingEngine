@@ -1,0 +1,51 @@
+<map id="appJar.appjar.gui.warn" name="appJar.appjar.gui.warn">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a493450155efd02d1cab27637b5a257a5" title="appJar.appjar.gui.\l_checkMode" alt="" coords="244,232,371,270"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a995d461aec547d4a26ca4a1010762fa1" title="Tabbed Frames. " alt="" coords="749,282,894,321"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a89dc9890d176842479b73da1c06b5f00" title="FUNCTION to manage containers. " alt="" coords="1030,213,1156,252"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a198170bbea8b9ce5b26c47be40a54bc7" title="appJar.appjar.gui.addWidget" alt="" coords="1496,141,1687,166"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a137acf10b02f90360f19f471a19f8bd8" title="appJar.appjar.gui.addLabel\lFileEntry" alt="" coords="731,157,913,196"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#a13fa79aaf6e4810dba157fc8dbd6deab" title="appJar.appjar.gui.\l_startExternalDrag" alt="" coords="1027,56,1159,94"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a8382369795bddfff2ff9b44c65d21869" title="appJar.appjar.gui.\l_receiveExternalDrop" alt="" coords="233,396,382,434"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#af3ddeb69f5ddd672db23bdb16e9d0447" title="appJar.appjar.gui.change\lLanguage" alt="" coords="474,729,645,768"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#ae84a35321dc3c60471a7c45607c8b745" title="appJar.appjar.gui.go" alt="" coords="751,514,893,540"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#a630af8e273162710b249290b3a674f1d" title="FUNCTIONS for configuring GUI settings. " alt="" coords="222,346,393,372"/>
+<area shape="rect" id="node21" href="$classappJar_1_1appjar_1_1gui.html#ae8496587b8a1d31eb74e30698d9d7d0c" title="appJar.appjar.gui.setLocation" alt="" coords="210,458,405,484"/>
+<area shape="rect" id="node22" href="$classappJar_1_1appjar_1_1gui.html#a586fceb99703deb2fd04c7064bd164eb" title="appJar.appjar.gui.setGui\lPadding" alt="" coords="225,622,390,661"/>
+<area shape="rect" id="node23" href="$classappJar_1_1appjar_1_1gui.html#a3ffcae9166cf067f2114dd0b0c200501" title="Notebooks. " alt="" coords="217,685,398,710"/>
+<area shape="rect" id="node24" href="$classappJar_1_1appjar_1_1gui.html#af0b0f07eb7f5d2bf10da646789a401fc" title=" PAGED WINDOWS #######. " alt="" coords="212,560,403,598"/>
+<area shape="rect" id="node26" href="$classappJar_1_1appjar_1_1gui.html#a527441a48f32b4911645e12da2beba10" title="FrameSet. " alt="" coords="217,786,398,812"/>
+<area shape="rect" id="node27" href="$classappJar_1_1appjar_1_1gui.html#a930dcd1524d6eee2ea61fa7bb3b33f58" title="END containers. " alt="" coords="221,860,394,898"/>
+<area shape="rect" id="node30" href="$classappJar_1_1appjar_1_1gui.html#a27318b5830a7cc47b030c0c084cd1f02" title="warn when bad functions called... " alt="" coords="244,922,371,961"/>
+<area shape="rect" id="node31" href="$classappJar_1_1appjar_1_1gui.html#a64c406501c92c538a1c8dd670ddea423" title="appJar.appjar.gui.addLabel\lScale" alt="" coords="217,985,398,1024"/>
+<area shape="rect" id="node32" href="$classappJar_1_1appjar_1_1gui.html#a35a6c11eabfe7a82aa3421e9d05101e7" title="appJar.appjar.gui.change\lOptionBox" alt="" coords="222,1048,393,1086"/>
+<area shape="rect" id="node35" href="$classappJar_1_1appjar_1_1gui.html#a836f9d634f835c9712e552518558b9bb" title="appJar.appjar.gui.setOptionBox" alt="" coords="456,1054,663,1080"/>
+<area shape="rect" id="node41" href="$classappJar_1_1appjar_1_1gui.html#ab650b99a1318ff28f3f99075e8ae7d2d" title="appJar.appjar.gui.addDate\lPicker" alt="" coords="733,1198,910,1237"/>
+<area shape="rect" id="node43" href="$classappJar_1_1appjar_1_1gui.html#ab95d304ed967fa8356db4b3b08cf4a57" title="appJar.appjar.gui.addLabel\lSpinBoxRange" alt="" coords="217,1213,398,1252"/>
+<area shape="rect" id="node45" href="$classappJar_1_1appjar_1_1gui.html#a9e1341861d7baf6a2354486379f07d02" title="FUNCTION to add images. " alt="" coords="226,1276,389,1301"/>
+<area shape="rect" id="node46" href="$classappJar_1_1appjar_1_1gui.html#a09177cb80658ae52200c89c40b92274b" title="appJar.appjar.gui.logTextArea" alt="" coords="209,1325,406,1350"/>
+<area shape="rect" id="node48" href="$classappJar_1_1appjar_1_1gui.html#ab8b004aa00b06e96811ad18be58aad60" title="appJar.appjar.gui.textArea\lChanged" alt="" coords="219,1374,395,1413"/>
+<area shape="rect" id="node49" href="$classappJar_1_1appjar_1_1gui.html#afce2156ac7f3eccd8e99abc4c2047155" title="appJar.appjar.gui.addTree" alt="" coords="219,1437,395,1462"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a3805f4b6dffa1abd75e0a23b72efdeee" title="CONSTRUCTOR &#45; creates the GUI. " alt="" coords="496,232,623,270"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a31f25d25353b4b84fc53df476184d46f" title="appJar.appjar.gui.MOUSE\l_POS_IN_WIDGET" alt="" coords="734,220,910,258"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#af38d41246c63d30aa30a61430dbb20f0" title=" FUNCTION to hide/show/remove widgets. " alt="" coords="1277,213,1426,252"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#abc3728a3bfab670baea5d04a915524ae" title="FUNCTIONS FOR UNIVERSAL DND. " alt="" coords="1255,90,1448,129"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#ae1952de624790a5d542e5eb4e9258f9d" title="appJar.appjar.gui.\l_registerExternalDropTarget" alt="" coords="465,397,653,436"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#a9163814806acc536556fcc45c595928e" title="appJar.appjar.gui.\l_buttonMaker" alt="" coords="759,397,885,436"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#af61b28bdcd10133db4d5dfe3a9c1df1d" title="appJar.appjar.gui.setLanguage" alt="" coords="720,736,924,761"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#a8c4e30bdb2f351298d38550b3fc19f6b" title="appJar.appjar.gui.\l__exit__" alt="" coords="1030,512,1156,550"/>
+<area shape="rect" id="node20" href="$classappJar_1_1appjar_1_1gui.html#a0b7323a9ab9205fb126347ebbb4b4e9d" title="appJar.appjar.gui.loadSettings" alt="" coords="459,460,659,485"/>
+<area shape="rect" id="node25" href="$classappJar_1_1appjar_1_1gui.html#a71ec7f385917f9181e5f9331fd1e91d0" title="Paged Windows. " alt="" coords="454,566,665,592"/>
+<area shape="rect" id="node28" href="$classappJar_1_1appjar_1_1gui.html#adb182cbc05225338ca2b335a41ce7ec6" title="SubWindows. " alt="" coords="462,849,657,874"/>
+<area shape="rect" id="node29" href="$classappJar_1_1appjar_1_1gui.html#ad0cdfb92865e9869a23e0714e2bb4d26" title="FUNCTIONS for ACCESSABILITY. " alt="" coords="759,825,885,864"/>
+<area shape="rect" id="node33" href="$classappJar_1_1appjar_1_1gui.html#adca8825683565fa542eba39c08cd4ed4" title="Simple Tables. " alt="" coords="759,912,885,950"/>
+<area shape="rect" id="node34" href="$classappJar_1_1appjar_1_1gui.html#abc5cf782a172132ff6c9dd96e1a729c7" title="appJar.appjar.gui.addDbOptionBox" alt="" coords="979,918,1207,944"/>
+<area shape="rect" id="node36" href="$classappJar_1_1appjar_1_1gui.html#aff0fac429879f9abc72c765b5dae4bff" title="appJar.appjar.gui.optionBox" alt="" coords="729,1086,915,1112"/>
+<area shape="rect" id="node38" href="$classappJar_1_1appjar_1_1gui.html#a3166151fe8ee19a87d4357b668240e85" title="appJar.appjar.gui.delete\lOptionBox" alt="" coords="740,1136,903,1174"/>
+<area shape="rect" id="node39" href="$classappJar_1_1appjar_1_1gui.html#ad87af97237ffee4f5c9da73332ccebf7" title="appJar.appjar.gui.rename\lOptionBoxItem" alt="" coords="736,974,908,1013"/>
+<area shape="rect" id="node40" href="$classappJar_1_1appjar_1_1gui.html#a4490805da871973466848643ddda3981" title="appJar.appjar.gui.clearOptionBox" alt="" coords="713,1037,931,1062"/>
+<area shape="rect" id="node37" href="$classappJar_1_1appjar_1_1gui.html#ac1693d9c39830000dd9f2c6af6ece809" title="FUNCTION for optionMenus. " alt="" coords="1010,1086,1176,1112"/>
+<area shape="rect" id="node42" href="$classappJar_1_1appjar_1_1gui.html#a3f01e4245b11078f15a8fc3b3c3444cf" title="appJar.appjar.gui.datePicker" alt="" coords="998,1205,1188,1230"/>
+<area shape="rect" id="node44" href="$classappJar_1_1appjar_1_1gui.html#a8fd1d3e218d2264b0b13e35164851965" title="appJar.appjar.gui.spinBox" alt="" coords="472,1220,646,1245"/>
+<area shape="rect" id="node47" href="$classappJar_1_1appjar_1_1gui.html#a80c86c394e43805fcd2bb4148a36a4ac" title="appJar.appjar.gui.\l_buildTextArea" alt="" coords="496,1318,623,1357"/>
+<area shape="rect" id="node50" href="$classappJar_1_1appjar_1_1gui.html#a1c7305c245aa3d967b602c9f6504f9bc" title="FUNCTIONS to add Tree Widgets. " alt="" coords="485,1437,634,1462"/>
+</map>

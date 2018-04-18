@@ -1,0 +1,51 @@
+<map id="appJar.appjar.gui.addDbOptionBox" name="appJar.appjar.gui.addDbOptionBox">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#adca8825683565fa542eba39c08cd4ed4" title="Simple Tables. " alt="" coords="300,477,426,516"/>
+<area shape="rect" id="node31" href="$classappJar_1_1appjar_1_1gui.html#aaaf5cab9d4891f1dda8c5ba57d1d5b9a" title="appJar.appjar.gui.option" alt="" coords="281,595,444,620"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#ab2b8b31ca09dc5c90e869a694d538370" title="appJar.appjar.gui.\l_importSqlite3" alt="" coords="1468,5,1595,44"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a420a26f7fb5a31ff6acec2fc8cd59d8a" title="appJar.appjar.gui.error" alt="" coords="1454,91,1609,116"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#ab966b4f582ecb74577c7950f9cefc095" title="appJar.appjar.gui.setTable\lHeaders" alt="" coords="492,401,669,440"/>
+<area shape="rect" id="node24" href="$classappJar_1_1appjar_1_1gui.html#ace6401895a86ea174531850449439329" title="appJar.appjar.gui.replace\lAllTableRows" alt="" coords="495,535,666,573"/>
+<area shape="rect" id="node25" href="$classappJar_1_1appjar_1_1gui.html#a35a6c11eabfe7a82aa3421e9d05101e7" title="appJar.appjar.gui.change\lOptionBox" alt="" coords="949,647,1119,685"/>
+<area shape="rect" id="node30" href="$classappJar_1_1appjar_1_1gui.html#a836f9d634f835c9712e552518558b9bb" title="appJar.appjar.gui.setOptionBox" alt="" coords="1180,603,1387,628"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#aa81c392bcbbc709a7bb332cfcdd335b3" title="appJar.appjar.gui.addGrid" alt="" coords="717,335,891,360"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#afa193959e5ec3ca160bb4c598326d6f7" title="appJar.appjar.gui.addTable" alt="" coords="1441,604,1622,629"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#a4065d361dfc7907f7f5a6aa60f6b8f86" title="appJar.appjar.gui.addDbGrid" alt="" coords="939,335,1130,360"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="1681,1383,1883,1408"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="1704,796,1860,835"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="1719,689,1845,728"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#a41ca9614b69a20be0317a50fda2d28cf" title="appJar.appjar.gui.queueFunction" alt="" coords="1675,604,1889,629"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="1719,1297,1845,1336"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#af95262502a7524ac45197157ecd1263a" title="appJar.appjar.gui.\l_loadThreading" alt="" coords="1937,597,2064,636"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#a3dbe7e53af3c0489853ae7f663355629" title="appJar.appjar.gui.\l_processEventQueue" alt="" coords="2112,597,2262,636"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#a9230879b0743ef7300dee1b4249b24dc" title="appJar.appjar.gui.after" alt="" coords="2310,604,2463,629"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#a4ef5a84b213ecc6c239b16695c5fc10b" title="appJar.appjar.gui.addDbTable" alt="" coords="1185,101,1382,127"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#a3eaa91d65948adb6269d8bf37f18c5dc" title="appJar.appjar.gui.replace\lDbTable" alt="" coords="1198,265,1369,304"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#a2c41099dd0a58491862646c5419df9d9" title="appJar.appjar.gui.refresh\lDbTable" alt="" coords="1199,328,1367,367"/>
+<area shape="rect" id="node20" href="$classappJar_1_1appjar_1_1gui.html#a1a25f61d2a1258f843f451a95049ab88" title="appJar.appjar.gui.select\lTableRow" alt="" coords="1203,391,1364,429"/>
+<area shape="rect" id="node21" href="$classappJar_1_1appjar_1_1gui.html#acc99fab3d72d6f7a0f1f18ba98cd4344" title="appJar.appjar.gui.getTable\lEntries" alt="" coords="1195,453,1372,492"/>
+<area shape="rect" id="node22" href="$classappJar_1_1appjar_1_1gui.html#a68dd15e9d802d5f9a9c8820c1ece2ecd" title="appJar.appjar.gui.getTable\lSelectedCells" alt="" coords="1195,516,1372,555"/>
+<area shape="rect" id="node23" href="$classappJar_1_1appjar_1_1gui.html#a0aa48017148fce749cfa96cfb2210c79" title="appJar.appjar.gui.select\lTableColumn" alt="" coords="1203,203,1364,241"/>
+<area shape="rect" id="node26" href="$classappJar_1_1appjar_1_1gui.html#a5063287f9cd7e91c727f11c5f2c48190" title="appJar.appjar.gui.\l_configOptionBoxList" alt="" coords="1708,921,1856,960"/>
+<area shape="rect" id="node27" href="$classappJar_1_1appjar_1_1gui.html#aff035351194caf6a26cbef1f2b3034ce" title="appJar.appjar.gui.warn" alt="" coords="1454,653,1610,679"/>
+<area shape="rect" id="node28" href="$classappJar_1_1appjar_1_1gui.html#ad3a6dff62e29e3ea06f8167cbf2187e4" title="appJar.appjar.gui.\l_buildTickOptionBox" alt="" coords="1710,984,1854,1023"/>
+<area shape="rect" id="node29" href="$classappJar_1_1appjar_1_1gui.html#abb3a44d7265aaa8e6691636a4501cd3f" title="appJar.appjar.gui.\l_disableOptionBoxSeparators" alt="" coords="1683,859,1881,897"/>
+<area shape="rect" id="node32" href="$classappJar_1_1appjar_1_1gui.html#aff0fac429879f9abc72c765b5dae4bff" title="appJar.appjar.gui.optionBox" alt="" coords="941,1068,1127,1093"/>
+<area shape="rect" id="node33" href="$classappJar_1_1appjar_1_1gui.html#a7f34a0f657eba80ce3838c4fd3cd1932" title="appJar.appjar.gui.getOptionBox" alt="" coords="1180,1068,1387,1093"/>
+<area shape="rect" id="node34" href="$classappJar_1_1appjar_1_1gui.html#a999c0438c1ed065d0524ccf95f4c7902" title="FUNCTIONS for labels. " alt="" coords="1220,869,1347,908"/>
+<area shape="rect" id="node38" href="$classappJar_1_1appjar_1_1gui.html#a0330a1975f88f2ecaa6521ccdae9af85" title="appJar.appjar.gui.addLabel\lTickOptionBox" alt="" coords="1193,1180,1374,1219"/>
+<area shape="rect" id="node47" href="$classappJar_1_1appjar_1_1gui.html#a7bf08fac693a13c40d6c9b65d1aa2626" title="appJar.appjar.gui.addTick\lOptionBox" alt="" coords="1197,1253,1370,1292"/>
+<area shape="rect" id="node48" href="$classappJar_1_1appjar_1_1gui.html#aed3ddbaa8b53eb809987771ee7ebac3f" title="appJar.appjar.gui.addLabel\lOptionBox" alt="" coords="1193,1117,1374,1156"/>
+<area shape="rect" id="node49" href="$classappJar_1_1appjar_1_1gui.html#a2838ba6124bd9c5f901235812783e156" title="appJar.appjar.gui.addOptionBox" alt="" coords="1178,1336,1389,1361"/>
+<area shape="rect" id="node50" href="$classappJar_1_1appjar_1_1gui.html#a4b085a2aa4bc18ab12ad3955655dbaf1" title="appJar.appjar.gui.\l_configWidget" alt="" coords="1220,1005,1347,1044"/>
+<area shape="rect" id="node35" href="$classappJar_1_1appjar_1_1gui.html#aee630ab861cb87394f32f98f0014c0a1" title="appJar.appjar.gui.setSticky" alt="" coords="1442,855,1622,880"/>
+<area shape="rect" id="node36" href="$classappJar_1_1appjar_1_1gui.html#ad21054bbdae01063b8900324201bddf3" title="appJar.appjar.gui.setStretch" alt="" coords="1438,904,1625,929"/>
+<area shape="rect" id="node37" href="$classappJar_1_1appjar_1_1gui.html#a49093a255cd426ba8ff0e153ac31f1ae" title="appJar.appjar.gui.setExpand" alt="" coords="1437,805,1627,831"/>
+<area shape="rect" id="node39" href="$classappJar_1_1appjar_1_1gui.html#abdec33e907a573abb8affbce5bc996ec" title="LabelBox Functions. " alt="" coords="1468,1056,1595,1095"/>
+<area shape="rect" id="node40" href="$classappJar_1_1appjar_1_1gui.html#a9b5ffc3c8bc6444d0ffaeca727a97803" title="appJar.appjar.gui.\l_buildOptionBox" alt="" coords="1468,1181,1595,1220"/>
+<area shape="rect" id="node46" href="$classappJar_1_1appjar_1_1gui.html#a20e95480fed5045d47d85f9c8eb0912a" title="appJar.appjar.gui.\l_packLabelBox" alt="" coords="1468,1119,1595,1157"/>
+<area shape="rect" id="node41" href="$classappJar_1_1appjar_1_1gui.html#aa8a46ed2015153a326d7ae90e30ba68c" title="appJar.appjar.gui.\l_grabFocus" alt="" coords="1719,1047,1845,1085"/>
+<area shape="rect" id="node42" href="$classappJar_1_1appjar_1_1gui.html#ac741f8c8a79305a9d5a3023a25eaaa1f" title="functions to deal with tabbing and right clicking " alt="" coords="1714,1109,1850,1148"/>
+<area shape="rect" id="node44" href="$classappJar_1_1appjar_1_1gui.html#ad54ef8ed0b8c728ea24921ac07d4fa33" title="appJar.appjar.gui.\l_focusLastWindow" alt="" coords="1715,1172,1849,1211"/>
+<area shape="rect" id="node45" href="$classappJar_1_1appjar_1_1gui.html#a221ededd7336f49ce5077817c2dfb530" title="appJar.appjar.gui.\l_addRightClickMenu" alt="" coords="1710,1235,1854,1273"/>
+<area shape="rect" id="node43" href="$classappJar_1_1appjar_1_1gui.html#a60a97eca395160418b3993895f3c560b" title="appJar.appjar.gui.\l_rightClick" alt="" coords="1937,1109,2064,1148"/>
+</map>

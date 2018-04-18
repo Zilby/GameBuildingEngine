@@ -1,0 +1,28 @@
+<map id="appJar.appjar.gui._grabFocus" name="appJar.appjar.gui._grabFocus">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#ac856813396aaf65d8106304ddcf49a6b" title="appJar.appjar.gui.addCheckBox" alt="" coords="180,115,390,140"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#a9c20b0c34f660863303e8ef877030221" title="appJar.appjar.gui.scale" alt="" coords="206,168,364,193"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#a9b5ffc3c8bc6444d0ffaeca727a97803" title="appJar.appjar.gui.\l_buildOptionBox" alt="" coords="221,332,348,371"/>
+<area shape="rect" id="node25" href="$classappJar_1_1appjar_1_1gui.html#ac0e3f64978b0f06654209fe5f540e376" title="appJar.appjar.gui.addRadio\lButton" alt="" coords="193,217,377,256"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#aa871650dcf68f17996e0d9662824145c" title="appJar.appjar.gui.\l_checkBoxMaker" alt="" coords="480,45,606,84"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#a1c446b784227f59f2895f88ce3707557" title="appJar.appjar.gui.addNamed\lCheckBox" alt="" coords="447,108,639,147"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a5c4c6f7ffb553d1baf5590ed9a9f387d" title="appJar.appjar.gui.checkBox" alt="" coords="697,57,882,83"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#aea4afd56b85434d6ebdfaa3e39a78987" title="FUNCTION for check boxes. " alt="" coords="945,61,1106,87"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a198170bbea8b9ce5b26c47be40a54bc7" title="appJar.appjar.gui.addWidget" alt="" coords="1187,5,1377,31"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#a3166151fe8ee19a87d4357b668240e85" title="appJar.appjar.gui.delete\lOptionBox" alt="" coords="1201,55,1364,93"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#ad87af97237ffee4f5c9da73332ccebf7" title="appJar.appjar.gui.rename\lOptionBoxItem" alt="" coords="1196,117,1368,156"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#ad0cdfb92865e9869a23e0714e2bb4d26" title="FUNCTIONS for ACCESSABILITY. " alt="" coords="1219,213,1346,252"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a5cabbbc350ff601a7696cbe74337cb4c" title="FUNCTION for scales. " alt="" coords="464,171,622,196"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#a2838ba6124bd9c5f901235812783e156" title="appJar.appjar.gui.addOptionBox" alt="" coords="438,457,649,483"/>
+<area shape="rect" id="node22" href="$classappJar_1_1appjar_1_1gui.html#aed3ddbaa8b53eb809987771ee7ebac3f" title="appJar.appjar.gui.addLabel\lOptionBox" alt="" coords="452,332,634,371"/>
+<area shape="rect" id="node23" href="$classappJar_1_1appjar_1_1gui.html#a7bf08fac693a13c40d6c9b65d1aa2626" title="appJar.appjar.gui.addTick\lOptionBox" alt="" coords="457,395,630,433"/>
+<area shape="rect" id="node24" href="$classappJar_1_1appjar_1_1gui.html#a0330a1975f88f2ecaa6521ccdae9af85" title="appJar.appjar.gui.addLabel\lTickOptionBox" alt="" coords="452,269,634,308"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#aff0fac429879f9abc72c765b5dae4bff" title="appJar.appjar.gui.optionBox" alt="" coords="697,339,883,364"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#ab650b99a1318ff28f3f99075e8ae7d2d" title="appJar.appjar.gui.addDate\lPicker" alt="" coords="701,451,878,489"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#ac1693d9c39830000dd9f2c6af6ece809" title="FUNCTION for optionMenus. " alt="" coords="942,289,1109,315"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#aaaf5cab9d4891f1dda8c5ba57d1d5b9a" title="appJar.appjar.gui.option" alt="" coords="944,339,1107,364"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#abc5cf782a172132ff6c9dd96e1a729c7" title="appJar.appjar.gui.addDbOptionBox" alt="" coords="1168,339,1396,364"/>
+<area shape="rect" id="node20" href="$classappJar_1_1appjar_1_1gui.html#a3f01e4245b11078f15a8fc3b3c3444cf" title="appJar.appjar.gui.datePicker" alt="" coords="931,457,1120,483"/>
+<area shape="rect" id="node21" href="$classappJar_1_1appjar_1_1gui.html#a30bd6c22dc855307469c8720d073318f" title="DatePicker Widget &#45; using Form Container. " alt="" coords="1206,457,1359,483"/>
+<area shape="rect" id="node26" href="$classappJar_1_1appjar_1_1gui.html#aea56cbe44ffbf5650113fdc8b0db3ec0" title="appJar.appjar.gui.radioButton" alt="" coords="446,220,641,245"/>
+<area shape="rect" id="node27" href="$classappJar_1_1appjar_1_1gui.html#a540e67f5fd93e4a3c05ce33e2eadbbff" title="FUNCTION for radio buttons. " alt="" coords="712,220,868,245"/>
+</map>

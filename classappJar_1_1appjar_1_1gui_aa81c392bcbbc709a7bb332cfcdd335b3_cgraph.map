@@ -1,0 +1,21 @@
+<map id="appJar.appjar.gui.addGrid" name="appJar.appjar.gui.addGrid">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#afa193959e5ec3ca160bb4c598326d6f7" title="appJar.appjar.gui.addTable" alt="" coords="712,124,893,149"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#a4065d361dfc7907f7f5a6aa60f6b8f86" title="appJar.appjar.gui.addDbGrid" alt="" coords="227,328,418,353"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="947,5,1150,31"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="971,55,1126,93"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="985,117,1112,156"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a41ca9614b69a20be0317a50fda2d28cf" title="appJar.appjar.gui.queueFunction" alt="" coords="941,180,1156,205"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="985,229,1112,268"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#af95262502a7524ac45197157ecd1263a" title="appJar.appjar.gui.\l_loadThreading" alt="" coords="1204,173,1330,212"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a3dbe7e53af3c0489853ae7f663355629" title="appJar.appjar.gui.\l_processEventQueue" alt="" coords="1378,173,1528,212"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a9230879b0743ef7300dee1b4249b24dc" title="appJar.appjar.gui.after" alt="" coords="1576,180,1729,205"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a4ef5a84b213ecc6c239b16695c5fc10b" title="appJar.appjar.gui.addDbTable" alt="" coords="466,179,664,204"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#a3eaa91d65948adb6269d8bf37f18c5dc" title="appJar.appjar.gui.replace\lDbTable" alt="" coords="480,228,651,267"/>
+<area shape="rect" id="node16" href="$classappJar_1_1appjar_1_1gui.html#a2c41099dd0a58491862646c5419df9d9" title="appJar.appjar.gui.refresh\lDbTable" alt="" coords="481,291,649,329"/>
+<area shape="rect" id="node17" href="$classappJar_1_1appjar_1_1gui.html#a1a25f61d2a1258f843f451a95049ab88" title="appJar.appjar.gui.select\lTableRow" alt="" coords="485,353,646,392"/>
+<area shape="rect" id="node18" href="$classappJar_1_1appjar_1_1gui.html#acc99fab3d72d6f7a0f1f18ba98cd4344" title="appJar.appjar.gui.getTable\lEntries" alt="" coords="477,416,654,455"/>
+<area shape="rect" id="node19" href="$classappJar_1_1appjar_1_1gui.html#a68dd15e9d802d5f9a9c8820c1ece2ecd" title="appJar.appjar.gui.getTable\lSelectedCells" alt="" coords="477,479,654,517"/>
+<area shape="rect" id="node20" href="$classappJar_1_1appjar_1_1gui.html#a0aa48017148fce749cfa96cfb2210c79" title="appJar.appjar.gui.select\lTableColumn" alt="" coords="485,541,646,580"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#ab2b8b31ca09dc5c90e869a694d538370" title="appJar.appjar.gui.\l_importSqlite3" alt="" coords="739,173,866,212"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#a420a26f7fb5a31ff6acec2fc8cd59d8a" title="appJar.appjar.gui.error" alt="" coords="725,236,880,261"/>
+</map>

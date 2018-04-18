@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: Class Members - Functions</title>
+<title>Platformer: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -65,14 +65,8 @@ $(function() {
 &#160;
 
 <h3><a id="index_a"></a>- a -</h3><ul>
-<li>AddCol()
-: <a class="el" href="classLevel.html#a871bd34c9499d898397be608969ade44">Level</a>
-</li>
 <li>AddComponent()
 : <a class="el" href="classGameObject.html#a5497a3e2973e3b96dbbffab7942cd8bd">GameObject</a>
-</li>
-<li>AddRow()
-: <a class="el" href="classLevel.html#a0b1afec4261f9919ae7900396b2933de">Level</a>
 </li>
 <li>Animation()
 : <a class="el" href="structAnimation.html#a6aca45e8525d2801246c45f4261214ac">Animation</a>
@@ -80,10 +74,19 @@ $(function() {
 <li>AnimationRenderComponent()
 : <a class="el" href="classAnimationRenderComponent.html#abce95dacd23b9ffa8b35d07424194d2a">AnimationRenderComponent</a>
 </li>
+<li>ApplyForce()
+: <a class="el" href="classPhysicsComponent.html#a2913474992da3aca7d77d77be788caf8">PhysicsComponent</a>
+</li>
+<li>ApplyForceToCenter()
+: <a class="el" href="classPhysicsComponent.html#a7340f79bc556552926e29f9d883da8e9">PhysicsComponent</a>
+</li>
 </ul>
 
 
 <h3><a id="index_b"></a>- b -</h3><ul>
+<li>b2BodyWrapper()
+: <a class="el" href="structb2BodyWrapper.html#a560391602e2941b6d76ee5e258fb3e24">b2BodyWrapper</a>
+</li>
 <li>Button()
 : <a class="el" href="classButton.html#ae451e037e622cc5895d3ab593669585b">Button</a>
 </li>
@@ -97,11 +100,14 @@ $(function() {
 <li>ChangeText()
 : <a class="el" href="classTextRenderComponent.html#a9ef0c329dabf702776781f75ab901016">TextRenderComponent</a>
 </li>
-<li>Create()
-: <a class="el" href="classGameObject.html#a01fa32bcfb0dd60074681c3ae02950d5">GameObject</a>
+<li>ClearPresses()
+: <a class="el" href="classInputManager.html#a716883860eb6ad5331acdaf3eb3c80b5">InputManager</a>
 </li>
-<li>CreateLevel()
-: <a class="el" href="classLevelLoader.html#a6c9786f9bab6070b0efc074f9b53f40c">LevelLoader</a>
+<li>Create()
+: <a class="el" href="classGameObject.html#a989eaeb7cef5504f7d52783e71bf1cf9">GameObject</a>
+</li>
+<li>CreateStandard()
+: <a class="el" href="classGameObject.html#a166ee1ca8fedfabe3576f885bec3ad7d">GameObject</a>
 </li>
 </ul>
 
@@ -110,11 +116,11 @@ $(function() {
 <li>DefaultLocale()
 : <a class="el" href="classConfigParser.html#a0e528565849bffa5fcd2e27853ba903d">ConfigParser</a>
 </li>
-<li>DeltaTimeInSeconds()
-: <a class="el" href="classTimeManager.html#a2f9fc1e05b3077076f9eff8dfaafabcf">TimeManager</a>
-</li>
 <li>Disable()
 : <a class="el" href="classGameObject.html#aa5832a706274937a5d0257ecf6198f3e">GameObject</a>
+</li>
+<li>DownEvent()
+: <a class="el" href="classInputManager.html#a7f7cd53aa43c7bb83ee4f94c2b1f731c">InputManager</a>
 </li>
 </ul>
 
@@ -126,32 +132,28 @@ $(function() {
 </ul>
 
 
-<h3><a id="index_f"></a>- f -</h3><ul>
-<li>FindCamera()
-: <a class="el" href="classRenderManager.html#a58cb27856ad141e16313f5d646e12c38">RenderManager</a>
-</li>
-</ul>
-
-
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>GameManager()
 : <a class="el" href="classGameManager.html#a5af1609aaeb8c7c74356a108c1d16ba8">GameManager</a>
 </li>
 <li>GameObject()
-: <a class="el" href="classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a">GameObject</a>
+: <a class="el" href="classGameObject.html#aa9e30b58916cbc96ebdb4b7e4ced23d1">GameObject</a>
 </li>
 <li>GameWorld()
 : <a class="el" href="classGameWorld.html#a681994123c12833d43c957d6cfb33765">GameWorld</a>
 </li>
 <li>GetActionHeld()
-: <a class="el" href="classInputManager.html#acc98b06bb569e7aed46769cfd17f0605">InputManager</a>
+: <a class="el" href="classInputManager.html#a2d7e22109a982d1406181f2e00560ea2">InputManager</a>
 </li>
 <li>GetActionPressed()
-: <a class="el" href="classInputManager.html#abf5ee007b4ac6e8246450ec7ee21221a">InputManager</a>
+: <a class="el" href="classInputManager.html#a76e9f486c95ef0de40c2fb004b1e122c">InputManager</a>
 </li>
 <li>GetActiveObjects()
-: <a class="el" href="classGameManager.html#a233955a99f7ac726896b33ef323ee8eb">GameManager</a>
+: <a class="el" href="classGameManager.html#ae67aa77230e9d08f737a5d31a2bfd28f">GameManager</a>
 , <a class="el" href="classGameWorld.html#ab17a7c9d16d6df9f7e7de3b74a50103b">GameWorld</a>
+</li>
+<li>GetCamera()
+: <a class="el" href="classRenderManager.html#a35c47c7132179304838335deef41f7b3">RenderManager</a>
 </li>
 <li>GetChunk()
 : <a class="el" href="classSDLSoundWrapper.html#af21b33389f53dc95cab6370efef48c44">SDLSoundWrapper</a>
@@ -164,15 +166,16 @@ $(function() {
 </li>
 <li>GetGameObject()
 : <a class="el" href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">Component</a>
+, <a class="el" href="classPyScriptWrapper.html#a2eb532ecb05f66cdc598ad52388876c1">PyScriptWrapper</a>
 </li>
 <li>getHeight()
-: <a class="el" href="classRenderManager.html#a039248251e5a61fb17c819260a90c4a8">RenderManager</a>
+: <a class="el" href="classRenderManager.html#a7d60622a244cb5094e6fb3d1ffe88598">RenderManager</a>
 </li>
-<li>GetMousePress()
-: <a class="el" href="classInputManager.html#af772af2199395b15d3d8865f8884c419">InputManager</a>
+<li>GetLinearVelocity()
+: <a class="el" href="classPhysicsComponent.html#adb456c875d1c24d5c5d3ddf3d5753771">PhysicsComponent</a>
 </li>
-<li>GetMousePressed()
-: <a class="el" href="classInputManager.html#afe298f12b0786523bb975a4ed8a07897">InputManager</a>
+<li>GetMousePos()
+: <a class="el" href="classInputManager.html#ae7e907ba0263a4424f2f504303753b85">InputManager</a>
 </li>
 <li>GetRectForFrame()
 : <a class="el" href="structAnimation.html#af57d23ed6f307664f28ffdb602192149">Animation</a>
@@ -183,33 +186,14 @@ $(function() {
 <li>GetTex()
 : <a class="el" href="classSDLTextureWrapper.html#a32969a836d58df35d0dc2e0c8a61c3af">SDLTextureWrapper</a>
 </li>
-<li>GetTileAtPoint()
-: <a class="el" href="classTileMap.html#a0df05561100011c9b0c921238c496f2c">TileMap</a>
-</li>
-<li>GetTileIndexFromPoint()
-: <a class="el" href="classTileMap.html#a3dc487f79c4e1966751523226fb93e32">TileMap</a>
-</li>
-<li>GetTiles()
-: <a class="el" href="classLevel.html#adf2cc6b70031356e9d062d00f5bcc55f">Level</a>
-</li>
-<li>GetTMap()
-: <a class="el" href="classPhysicsComponent.html#abd549e4827b8d0bfce3314f0274cade5">PhysicsComponent</a>
-</li>
 <li>GetTypeID()
 : <a class="el" href="classGameObject.html#a78d8382cf011e1f720354711b4b643ed">GameObject</a>
 </li>
 <li>getWidth()
-: <a class="el" href="classRenderManager.html#aba8f82ab4c6f3d4d9371f2d38b666819">RenderManager</a>
+: <a class="el" href="classRenderManager.html#a7920bf9dcbdc159e20b44253ec26b2e6">RenderManager</a>
 </li>
-<li>GetWorldSpaceFromIndex()
-: <a class="el" href="classTileMap.html#a4759ce89e7f421fc04ad7b4c2485a8a6">TileMap</a>
-</li>
-</ul>
-
-
-<h3><a id="index_h"></a>- h -</h3><ul>
-<li>Height()
-: <a class="el" href="classLevel.html#a57ff876a8a298bc604d69e3323ad415a">Level</a>
+<li>GetWorld()
+: <a class="el" href="classPhysicsManager.html#a3e4cc763b2a6840ae46d33c167976f18">PhysicsManager</a>
 </li>
 </ul>
 
@@ -218,10 +202,25 @@ $(function() {
 <li>ImageRenderComponent()
 : <a class="el" href="classImageRenderComponent.html#a3c1ff7ebb4e62d5c27704a3cc95f1c49">ImageRenderComponent</a>
 </li>
+<li>Init()
+: <a class="el" href="classComponent.html#ad3141017e589ef48d436bc743e15d122">Component</a>
+</li>
 <li>init()
 : <a class="el" href="classGameManager.html#a849df8c09486d7c84f368d52716b56d2">GameManager</a>
+</li>
+<li>Init()
+: <a class="el" href="classPhysicsComponent.html#a7530fefa5ae07811057697eb6b33f581">PhysicsComponent</a>
+</li>
+<li>init()
+: <a class="el" href="classPhysicsManager.html#a1df39fe0f0618d54634d74809b7e9584">PhysicsManager</a>
+, <a class="el" href="classPythonManager.html#a2dec6430d3b9e49b0a3e3effd9a22b03">PythonManager</a>
 , <a class="el" href="classRenderManager.html#a38c06cdc9ecb3e81240b21673e2c973c">RenderManager</a>
-, <a class="el" href="classSoundManager.html#a4a0174034710c7a2375fd721d3ff8d66">SoundManager</a>
+</li>
+<li>Init()
+: <a class="el" href="classScriptComponent.html#a2027d87a56d690a2a198d6e15c57f907">ScriptComponent</a>
+</li>
+<li>init()
+: <a class="el" href="classSoundManager.html#a4a0174034710c7a2375fd721d3ff8d66">SoundManager</a>
 </li>
 <li>InputManager()
 : <a class="el" href="classInputManager.html#abf6fef4ddfb8653e32a8d797ee862f3b">InputManager</a>
@@ -230,6 +229,7 @@ $(function() {
 : <a class="el" href="classGameManager.html#a38098a346a5e7901440b85e1152055db">GameManager</a>
 , <a class="el" href="classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146">InputManager</a>
 , <a class="el" href="classLocaleManager.html#a658afb558d82f9859b7764b33dcef950">LocaleManager</a>
+, <a class="el" href="classPhysicsManager.html#a6eaf8efda6480a64d27ee3c476c312e4">PhysicsManager</a>
 , <a class="el" href="classPythonManager.html#a6280b0a4c090291b3de29b4ccc0d84f6">PythonManager</a>
 , <a class="el" href="classRenderManager.html#ae461c908c30dca62528798b92a985a4a">RenderManager</a>
 , <a class="el" href="classResourceManager.html#a91756683167c290b33b7525881122940">ResourceManager</a>
@@ -242,27 +242,12 @@ $(function() {
 <li>IsColliding()
 : <a class="el" href="classGameObject.html#aa45b9337efcda0fd3b01b32215280fbe">GameObject</a>
 </li>
-<li>IsTileDown()
-: <a class="el" href="classPhysicsComponent.html#a61e7d9ec6e61871a73f3ad2dfda0784a">PhysicsComponent</a>
-</li>
-<li>IsTileLeft()
-: <a class="el" href="classPhysicsComponent.html#aab9f1311887c94a1cd146e6eb697e4d4">PhysicsComponent</a>
-</li>
-<li>IsTileRight()
-: <a class="el" href="classPhysicsComponent.html#abf8f85fe6661876af16451f507d237b2">PhysicsComponent</a>
-</li>
-<li>IsTileUp()
-: <a class="el" href="classPhysicsComponent.html#aeb89e56defbfc3b67d4b74915f2bc293">PhysicsComponent</a>
-</li>
 </ul>
 
 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>LambdaComponent()
 : <a class="el" href="classLambdaComponent.html#a61b2edf1ccc9db90ac30f052d8033d33">LambdaComponent</a>
-</li>
-<li>Level()
-: <a class="el" href="classLevel.html#a0afbb111faa5aa3d9faca89886508589">Level</a>
 </li>
 <li>LoadFont()
 : <a class="el" href="classResourceManager.html#aa1805fd3058f1938b63b8ecc6984ff79">ResourceManager</a>
@@ -292,13 +277,6 @@ $(function() {
 </ul>
 
 
-<h3><a id="index_m"></a>- m -</h3><ul>
-<li>MakeMegaTexture()
-: <a class="el" href="classTileRenderComponent.html#a1ea432cfe4aa5bfdbb3d8525b56ad35c">TileRenderComponent</a>
-</li>
-</ul>
-
-
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>operator*()
 : <a class="el" href="classVector2.html#a3a173aab20e9138f503e7f8fbd66571a">Vector2</a>
@@ -310,6 +288,7 @@ $(function() {
 : <a class="el" href="classGameManager.html#a510623309508d2fa9419086e915a1926">GameManager</a>
 , <a class="el" href="classInputManager.html#a7eeaa124b8224cf0260b292229d5e9df">InputManager</a>
 , <a class="el" href="classLocaleManager.html#a50b226bb240ff5da938838d9a110ef45">LocaleManager</a>
+, <a class="el" href="classPhysicsManager.html#ae3eeb6801725df4f4d6ca3d80606a6ea">PhysicsManager</a>
 , <a class="el" href="classPythonManager.html#a795551e3e7d2dfd473b5636adafa24e5">PythonManager</a>
 , <a class="el" href="classRenderManager.html#a58cb60d45f0420b4195d205686301639">RenderManager</a>
 , <a class="el" href="classResourceManager.html#a2cf0ffdd1034d06164ad910bebc2413e">ResourceManager</a>
@@ -327,10 +306,13 @@ $(function() {
 : <a class="el" href="classConfigParser.html#af593643470271c91c5502ec075deecd3">ConfigParser</a>
 </li>
 <li>PhysicsComponent()
-: <a class="el" href="classPhysicsComponent.html#ab531c65f48029c0cbb47ffcdda63300f">PhysicsComponent</a>
+: <a class="el" href="classPhysicsComponent.html#a0bc6d0eced1e2bd8ff54a7724c016ba3">PhysicsComponent</a>
+</li>
+<li>PhysicsManager()
+: <a class="el" href="classPhysicsManager.html#aab262ac40685486b71bdacb6c4d41250">PhysicsManager</a>
 </li>
 <li>PlaySound()
-: <a class="el" href="classSoundManager.html#aad0dc203e77d0bb1fee309664e180106">SoundManager</a>
+: <a class="el" href="classSoundManager.html#adec18422bed375bfe7cd89b183cede0a">SoundManager</a>
 </li>
 <li>PollInput()
 : <a class="el" href="classInputManager.html#a38e3bde160e70df1002c966060b41034">InputManager</a>
@@ -352,11 +334,12 @@ $(function() {
 : <a class="el" href="classGameManager.html#a2cc8b35491cf0702ecf37036f5974a60">GameManager</a>
 </li>
 <li>Render()
-: <a class="el" href="classRectRenderComponent.html#a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc">RectRenderComponent</a>
-, <a class="el" href="classRenderComponent.html#a9fe587c5cb30d590b23251292104ef63">RenderComponent</a>
+: <a class="el" href="classRectRenderComponent.html#a08af9bf3c1b9bbcb94b27cbbf8a7d603">RectRenderComponent</a>
+, <a class="el" href="classRenderComponent.html#a949cf600535a40e5ddb2fbed167e1126">RenderComponent</a>
+, <a class="el" href="classRenderManager.html#a1e0788708fda748a7ff5e2730ed478f1">RenderManager</a>
 </li>
 <li>RenderComponent()
-: <a class="el" href="classRenderComponent.html#a8525b7024265f9c8a63d1a95e88739df">RenderComponent</a>
+: <a class="el" href="classRenderComponent.html#a1bfbe186278dc7528788aea84f976b6c">RenderComponent</a>
 </li>
 <li>RenderManager()
 : <a class="el" href="classRenderManager.html#aa6ce878a407c53f88d58a5076704cb39">RenderManager</a>
@@ -364,21 +347,15 @@ $(function() {
 <li>ResourceManager()
 : <a class="el" href="classResourceManager.html#aea48ec12ef40b664fb981873bf32793c">ResourceManager</a>
 </li>
-<li>RmCol()
-: <a class="el" href="classLevel.html#a78509eaacde0a4e693f6c2d13239fdc9">Level</a>
-</li>
-<li>RmRow()
-: <a class="el" href="classLevel.html#aa7267093fc69fdb217cda35449ba716a">Level</a>
-</li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>Save()
-: <a class="el" href="classLevel.html#a46aa3292993adb5e9b9952311a0892ce">Level</a>
-</li>
 <li>ScreenRegion()
-: <a class="el" href="classRenderComponent.html#adf317f9ef7a7802a6fd1ba1a4a791ac8">RenderComponent</a>
+: <a class="el" href="classGameObject.html#a8be9a4c5ed5d7297137ecd9171be9aa0">GameObject</a>
+</li>
+<li>ScriptComponent()
+: <a class="el" href="classScriptComponent.html#ad549ee54e45f84ca41a04ac81ec48611">ScriptComponent</a>
 </li>
 <li>SDLFontWrapper()
 : <a class="el" href="classSDLFontWrapper.html#a55e254b5f1b8355d70ac089edd63ec15">SDLFontWrapper</a>
@@ -389,20 +366,41 @@ $(function() {
 <li>SDLTextureWrapper()
 : <a class="el" href="classSDLTextureWrapper.html#af2a50de48bd7cb610335e7504fcc52bb">SDLTextureWrapper</a>
 </li>
-<li>Set()
-: <a class="el" href="classLevel.html#aebb0dd349eecb17d55c1174b48f8dc8d">Level</a>
+<li>SetActive()
+: <a class="el" href="classCameraComponent.html#a80b93e371766e995c2a3baa7e0bf2872">CameraComponent</a>
+, <a class="el" href="classPhysicsComponent.html#a1ab59994f8d21c9418e1bfb9f2b91108">PhysicsComponent</a>
+</li>
+<li>SetActiveCamera()
+: <a class="el" href="classRenderManager.html#a2209c9ad698d1a1e0681bc94f2379f3c">RenderManager</a>
+</li>
+<li>SetCaptureArea()
+: <a class="el" href="classCameraComponent.html#a4236a2d514b254c490ce6948afb7fb86">CameraComponent</a>
+</li>
+<li>SetGravity()
+: <a class="el" href="classPhysicsManager.html#a97817775b45c9304fa6425e47974af6d">PhysicsManager</a>
+</li>
+<li>SetLinearVelocity()
+: <a class="el" href="classPhysicsComponent.html#aa7bb72e52552bb898289ca3fa3268958">PhysicsComponent</a>
+</li>
+<li>SetManagedByPhysics()
+: <a class="el" href="classPhysicsComponent.html#acdd75b27b666a74a3d6c3ad0452bdd65">PhysicsComponent</a>
 </li>
 <li>SetParentGameObject()
 : <a class="el" href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">Component</a>
 </li>
-<li>SetTileToEmpty()
-: <a class="el" href="classTileMap.html#a474083e98311d7fb3442973d18fb9a89">TileMap</a>
+<li>SetScriptComponent()
+: <a class="el" href="classPyScriptWrapper.html#a8c4cc15f8b48e59028f8194426d58f2e">PyScriptWrapper</a>
+</li>
+<li>SetupBodyWithShape()
+: <a class="el" href="classPhysicsComponent.html#a841ec52882b1be4bc55bee116eb4a9e6">PhysicsComponent</a>
 </li>
 <li>ShouldQuit()
 : <a class="el" href="classInputManager.html#acdb3b18a7773c33e1cdb444e03173994">InputManager</a>
 </li>
 <li>shutdown()
 : <a class="el" href="classGameManager.html#a34ea950c9bade6a7b22e7c022590b98e">GameManager</a>
+, <a class="el" href="classPhysicsManager.html#a768590a228cbd4fb653d50dfa7087b51">PhysicsManager</a>
+, <a class="el" href="classPythonManager.html#a6745eccb73341816826610c7da9ddf89">PythonManager</a>
 , <a class="el" href="classRenderManager.html#a781a6424debdf00aad728b6a532f1330">RenderManager</a>
 , <a class="el" href="classResourceManager.html#a4f37986f5f3ee7927477a002a17466f5">ResourceManager</a>
 , <a class="el" href="classSoundManager.html#a353fe0dfdbb3489208e1d25b109aefac">SoundManager</a>
@@ -413,6 +411,9 @@ $(function() {
 <li>StablizeFramerate()
 : <a class="el" href="classTimeManager.html#ad3edbdd7a022b23e5b92ba5f5bf45a6b">TimeManager</a>
 </li>
+<li>Step()
+: <a class="el" href="classPhysicsManager.html#acdc804abce59b430aff972e6035e8b41">PhysicsManager</a>
+</li>
 <li>SwitchState()
 : <a class="el" href="classAnimationRenderComponent.html#a584d0cafa6557d60ecb1aef519ec28e4">AnimationRenderComponent</a>
 </li>
@@ -421,22 +422,7 @@ $(function() {
 
 <h3><a id="index_t"></a>- t -</h3><ul>
 <li>TextRenderComponent()
-: <a class="el" href="classTextRenderComponent.html#a47aace24e2769be07383823633154c9f">TextRenderComponent</a>
-</li>
-<li>TileEditor()
-: <a class="el" href="classTileEditor.html#a8e445c23950396325da9b4725d8bd50b">TileEditor</a>
-</li>
-<li>TileMap()
-: <a class="el" href="classTileMap.html#a2e104b063067866654950ae70ab3cc51">TileMap</a>
-</li>
-<li>TileRenderComponent()
-: <a class="el" href="classTileRenderComponent.html#ac25b9b6d677c9f26d31dc0a16fba4832">TileRenderComponent</a>
-</li>
-<li>TileSizeX()
-: <a class="el" href="classTileMap.html#abd9433060fcfb95846e29dfa76ea804b">TileMap</a>
-</li>
-<li>TileSizeY()
-: <a class="el" href="classTileMap.html#a7f953fbcacea02558922b80f87c2e9b7">TileMap</a>
+: <a class="el" href="classTextRenderComponent.html#ae7b0bdae701de1600dfaec863c62ee2c">TextRenderComponent</a>
 </li>
 <li>TimeManager()
 : <a class="el" href="classTimeManager.html#a10508dcd4da65973c3c341adfe83cb8e">TimeManager</a>
@@ -449,22 +435,20 @@ $(function() {
 
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>Update()
-: <a class="el" href="classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124">GameManager</a>
+: <a class="el" href="classAnimationRenderComponent.html#a87a20a2712e5f4087eacbb080778a7de">AnimationRenderComponent</a>
+, <a class="el" href="classButton.html#a23e8bc9ad05142244ea4e79a406a6c9c">Button</a>
+, <a class="el" href="classCameraComponent.html#a4485cdb5929b9550edafc64c7a3f34cb">CameraComponent</a>
+, <a class="el" href="classComponent.html#abda56474d6ccfbdab47cb5e0cd595c2b">Component</a>
+, <a class="el" href="classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124">GameManager</a>
 , <a class="el" href="classGameObject.html#a1bd14aa169f501f94f1721943d716535">GameObject</a>
 , <a class="el" href="classGameWorld.html#a21627d0f5d59bcbd9d0caf0b51725d1b">GameWorld</a>
+, <a class="el" href="classLambdaComponent.html#a7246f2aafabc4eb86a3deb3829623a30">LambdaComponent</a>
+, <a class="el" href="classPhysicsComponent.html#a64149f1f6dc2efdd8e9e2ca7586b5025">PhysicsComponent</a>
+, <a class="el" href="classRenderComponent.html#a7f5570975c09d43d4c21a92c17c34355">RenderComponent</a>
+, <a class="el" href="classScriptComponent.html#a513bf24b9929daab8b71e5a823c619f5">ScriptComponent</a>
 </li>
-<li>UpdateComponent()
-: <a class="el" href="classAnimationRenderComponent.html#ad389a6de9d1aa3f37db724ff724027bd">AnimationRenderComponent</a>
-, <a class="el" href="classButton.html#a7ac4fb8aa22e729dac1eda82cfe4a499">Button</a>
-, <a class="el" href="classCameraComponent.html#a192f69317b8bea9cac953671c66b3ae0">CameraComponent</a>
-, <a class="el" href="classComponent.html#a4cd48ebece3bd9eb88bcd9ca8170a37b">Component</a>
-, <a class="el" href="classLambdaComponent.html#a5be3885aeebcf0d9d05f9dda60603229">LambdaComponent</a>
-, <a class="el" href="classPhysicsComponent.html#aa57e226efb34e68aa83ba1d008d4ae90">PhysicsComponent</a>
-, <a class="el" href="classRenderComponent.html#aee446b60ed69903c10d43516c489cd19">RenderComponent</a>
-, <a class="el" href="classScriptComponent.html#aac705fa555bcb83c780eb6d6dbdb0bf2">ScriptComponent</a>
-, <a class="el" href="classTileEditor.html#a4c02b2b56f83c660d16b4b19155222dd">TileEditor</a>
-, <a class="el" href="classTileMap.html#a762863e5628440186d034c78c7f88016">TileMap</a>
-, <a class="el" href="classTileRenderComponent.html#ab1b729d166ca34af6da6e21c4404e152">TileRenderComponent</a>
+<li>UpEvent()
+: <a class="el" href="classInputManager.html#a019a3a26a0a49a2b720ee1c9fa4b5f5e">InputManager</a>
 </li>
 </ul>
 
@@ -476,25 +460,21 @@ $(function() {
 </ul>
 
 
-<h3><a id="index_w"></a>- w -</h3><ul>
-<li>Width()
-: <a class="el" href="classLevel.html#add26e1dce6483621b563514851e88700">Level</a>
-</li>
-</ul>
-
-
 <h3><a id="index_0x7e"></a>- ~ -</h3><ul>
+<li>~b2BodyWrapper()
+: <a class="el" href="structb2BodyWrapper.html#ab30544db252e8a5c56ccdea66bbfb7ef">b2BodyWrapper</a>
+</li>
 <li>~GameManager()
 : <a class="el" href="classGameManager.html#aaae63e38e358379c1fe507c5197a8435">GameManager</a>
 </li>
 <li>~InputManager()
 : <a class="el" href="classInputManager.html#af518290877dd183606709d5852db5491">InputManager</a>
 </li>
-<li>~Level()
-: <a class="el" href="classLevel.html#a249eac1e8f19ff44134efa5e986feaca">Level</a>
-</li>
 <li>~LocaleManager()
 : <a class="el" href="classLocaleManager.html#a0309e12e9ee26781a86d8ca45ec35543">LocaleManager</a>
+</li>
+<li>~PhysicsManager()
+: <a class="el" href="classPhysicsManager.html#ac41c46fb62b8104b3d5d5bf6bcf7b2f5">PhysicsManager</a>
 </li>
 <li>~PythonManager()
 : <a class="el" href="classPythonManager.html#ad3e2651f3ffb93445df271276d001bf1">PythonManager</a>
@@ -524,7 +504,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:27 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

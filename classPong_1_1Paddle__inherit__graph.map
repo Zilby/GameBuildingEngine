@@ -1,0 +1,4 @@
+<map id="Pong.Paddle" name="Pong.Paddle">
+<area shape="rect" id="node3" href="$classPong_1_1LPaddle.html" title="{Pong.LPaddle\n||+ __init__()\l+ Update()\l}" alt="" coords="5,315,110,401"/>
+<area shape="rect" id="node4" href="$classPong_1_1RPaddle.html" title="{Pong.RPaddle\n|+ paddleSpeed\l|+ __init__()\l+ Update()\l}" alt="" coords="134,315,246,401"/>
+</map>

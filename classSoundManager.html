@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: SoundManager Class Reference</title>
+<title>Platformer: SoundManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -80,8 +80,6 @@ $(function() {
 Collaboration diagram for SoundManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSoundManager__coll__graph.jpg" border="0" usemap="#SoundManager_coll__map" alt="Collaboration graph"/></div>
-<map name="SoundManager_coll__map" id="SoundManager_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -94,9 +92,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSoundManager.html#a353fe0dfdbb3489208e1d25b109aefac">shutdown</a> ()</td></tr>
 <tr class="memdesc:a353fe0dfdbb3489208e1d25b109aefac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shuts down the <a class="el" href="classSoundManager.html" title="This class manages the sounds of our game as a singleton. ">SoundManager</a>. <br /></td></tr>
 <tr class="separator:a353fe0dfdbb3489208e1d25b109aefac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad0dc203e77d0bb1fee309664e180106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSoundManager.html#aad0dc203e77d0bb1fee309664e180106">PlaySound</a> (Mix_Chunk *sound, int times)</td></tr>
-<tr class="memdesc:aad0dc203e77d0bb1fee309664e180106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays the given sound the given number of times.  <a href="#aad0dc203e77d0bb1fee309664e180106">More...</a><br /></td></tr>
-<tr class="separator:aad0dc203e77d0bb1fee309664e180106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac4b48cfc4d394c547f5efec7d451165"><td class="memItemLeft" align="right" valign="top"><a id="aac4b48cfc4d394c547f5efec7d451165"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSoundManager.html#aac4b48cfc4d394c547f5efec7d451165">SoundManager</a> (const <a class="el" href="classSoundManager.html">SoundManager</a> &amp;)=delete</td></tr>
 <tr class="memdesc:aac4b48cfc4d394c547f5efec7d451165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the compiler from generating methods to copy the object. <br /></td></tr>
@@ -112,6 +107,9 @@ Static Public Member Functions</h2></td></tr>
 static <a class="el" href="classSoundManager.html">SoundManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSoundManager.html#aae4237247bd8f6beae2c042411c903a8">instance</a> ()</td></tr>
 <tr class="memdesc:aae4237247bd8f6beae2c042411c903a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton instance of the <a class="el" href="classSoundManager.html" title="This class manages the sounds of our game as a singleton. ">SoundManager</a>. <br /></td></tr>
 <tr class="separator:aae4237247bd8f6beae2c042411c903a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec18422bed375bfe7cd89b183cede0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSoundManager.html#adec18422bed375bfe7cd89b183cede0a">PlaySound</a> (std::shared_ptr&lt; <a class="el" href="classSDLSoundWrapper.html">SDLSoundWrapper</a> &gt; sound, int times)</td></tr>
+<tr class="memdesc:adec18422bed375bfe7cd89b183cede0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays the given sound the given number of times.  <a href="#adec18422bed375bfe7cd89b183cede0a">More...</a><br /></td></tr>
+<tr class="separator:adec18422bed375bfe7cd89b183cede0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -127,16 +125,19 @@ Private Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages the sounds of our game as a singleton. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aad0dc203e77d0bb1fee309664e180106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad0dc203e77d0bb1fee309664e180106">&#9670;&nbsp;</a></span>PlaySound()</h2>
+<a id="adec18422bed375bfe7cd89b183cede0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec18422bed375bfe7cd89b183cede0a">&#9670;&nbsp;</a></span>PlaySound()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void SoundManager::PlaySound </td>
           <td>(</td>
-          <td class="paramtype">Mix_Chunk *&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classSDLSoundWrapper.html">SDLSoundWrapper</a> &gt;&#160;</td>
           <td class="paramname"><em>sound</em>, </td>
         </tr>
         <tr>
@@ -151,6 +152,11 @@ Private Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Plays the given sound the given number of times. </p>
@@ -171,7 +177,7 @@ Private Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

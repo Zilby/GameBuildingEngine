@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: CameraComponent Class Reference</title>
+<title>Platformer: CameraComponent Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -80,7 +80,7 @@ Inheritance diagram for CameraComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCameraComponent__inherit__graph.jpg" border="0" usemap="#CameraComponent_inherit__map" alt="Inheritance graph"/></div>
 <map name="CameraComponent_inherit__map" id="CameraComponent_inherit__map">
-<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="5,5,181,105"/>
+<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="5,5,181,119"/>
 </map>
 </div>
 <div class="dynheader">
@@ -88,39 +88,57 @@ Collaboration diagram for CameraComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCameraComponent__coll__graph.jpg" border="0" usemap="#CameraComponent_coll__map" alt="Collaboration graph"/></div>
 <map name="CameraComponent_coll__map" id="CameraComponent_coll__map">
-<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="195,609,371,709"/>
-<area shape="rect" id="node4" href="classGameObject.html" title="A GameObject class. " alt="" coords="216,207,350,413"/>
+<area shape="rect" id="node2" href="classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="195,649,371,763"/>
+<area shape="rect" id="node4" href="classGameObject.html" title="A GameObject class. " alt="" coords="215,207,351,453"/>
 <area shape="rect" id="node7" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. " alt="" coords="379,5,486,132"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f14fb3dfa5ca8cfbaae2936413837d8"><td class="memItemLeft" align="right" valign="top"><a id="a6f14fb3dfa5ca8cfbaae2936413837d8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a6f14fb3dfa5ca8cfbaae2936413837d8">CameraComponent</a> ()</td></tr>
-<tr class="memdesc:a6f14fb3dfa5ca8cfbaae2936413837d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a>. <br /></td></tr>
+<tr class="memitem:a6f14fb3dfa5ca8cfbaae2936413837d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a6f14fb3dfa5ca8cfbaae2936413837d8">CameraComponent</a> ()</td></tr>
+<tr class="memdesc:a6f14fb3dfa5ca8cfbaae2936413837d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a> that renders the whole screen.  <a href="#a6f14fb3dfa5ca8cfbaae2936413837d8">More...</a><br /></td></tr>
 <tr class="separator:a6f14fb3dfa5ca8cfbaae2936413837d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf2e480a9ae00e07e821814b2f6a368"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a0bf2e480a9ae00e07e821814b2f6a368">CameraComponent</a> (SDL_Rect <a class="el" href="classCameraComponent.html#af49b520cff92f5fc9789e096cc7245c0">renderArea</a>)</td></tr>
-<tr class="memdesc:a0bf2e480a9ae00e07e821814b2f6a368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a> within the given render area.  <a href="#a0bf2e480a9ae00e07e821814b2f6a368">More...</a><br /></td></tr>
-<tr class="separator:a0bf2e480a9ae00e07e821814b2f6a368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a192f69317b8bea9cac953671c66b3ae0"><td class="memItemLeft" align="right" valign="top"><a id="a192f69317b8bea9cac953671c66b3ae0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a192f69317b8bea9cac953671c66b3ae0">UpdateComponent</a> () override</td></tr>
-<tr class="memdesc:a192f69317b8bea9cac953671c66b3ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
-<tr class="separator:a192f69317b8bea9cac953671c66b3ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0967a7f1bc791b6c1bafbf7d414046f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a0967a7f1bc791b6c1bafbf7d414046f2">CameraComponent</a> (SDL_Rect <a class="el" href="classCameraComponent.html#a792bf05fd2cd22fe6ce3b0fee6ea323c">renderView</a>)</td></tr>
+<tr class="memdesc:a0967a7f1bc791b6c1bafbf7d414046f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a> that renders to the whole screen.  <a href="#a0967a7f1bc791b6c1bafbf7d414046f2">More...</a><br /></td></tr>
+<tr class="separator:a0967a7f1bc791b6c1bafbf7d414046f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ba45d73778c5170ba2359c37bba20e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a94ba45d73778c5170ba2359c37bba20e">CameraComponent</a> (SDL_Rect <a class="el" href="classCameraComponent.html#a792bf05fd2cd22fe6ce3b0fee6ea323c">renderView</a>, SDL_Rect <a class="el" href="classCameraComponent.html#af49b520cff92f5fc9789e096cc7245c0">renderArea</a>)</td></tr>
+<tr class="memdesc:a94ba45d73778c5170ba2359c37bba20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a>.  <a href="#a94ba45d73778c5170ba2359c37bba20e">More...</a><br /></td></tr>
+<tr class="separator:a94ba45d73778c5170ba2359c37bba20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4485cdb5929b9550edafc64c7a3f34cb"><td class="memItemLeft" align="right" valign="top"><a id="a4485cdb5929b9550edafc64c7a3f34cb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a4485cdb5929b9550edafc64c7a3f34cb">Update</a> () override</td></tr>
+<tr class="memdesc:a4485cdb5929b9550edafc64c7a3f34cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates this component. <br /></td></tr>
+<tr class="separator:a4485cdb5929b9550edafc64c7a3f34cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6a70b7f68ab24420f49ed6b29335863"><td class="memItemLeft" align="right" valign="top"><a id="ad6a70b7f68ab24420f49ed6b29335863"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#ad6a70b7f68ab24420f49ed6b29335863">Translate</a> (SDL_Rect &amp;dest)</td></tr>
 <tr class="memdesc:ad6a70b7f68ab24420f49ed6b29335863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates the given SDL_Rect based on this camera. <br /></td></tr>
 <tr class="separator:ad6a70b7f68ab24420f49ed6b29335863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b93e371766e995c2a3baa7e0bf2872"><td class="memItemLeft" align="right" valign="top"><a id="a80b93e371766e995c2a3baa7e0bf2872"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a80b93e371766e995c2a3baa7e0bf2872">SetActive</a> ()</td></tr>
+<tr class="memdesc:a80b93e371766e995c2a3baa7e0bf2872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set this camera as the active camera. <br /></td></tr>
+<tr class="separator:a80b93e371766e995c2a3baa7e0bf2872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4236a2d514b254c490ce6948afb7fb86"><td class="memItemLeft" align="right" valign="top"><a id="a4236a2d514b254c490ce6948afb7fb86"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a4236a2d514b254c490ce6948afb7fb86">SetCaptureArea</a> (SDL_Rect r)</td></tr>
+<tr class="memdesc:a4236a2d514b254c490ce6948afb7fb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the area viewed by the camera to the given rect. <br /></td></tr>
+<tr class="separator:a4236a2d514b254c490ce6948afb7fb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">SetParentGameObject</a> (std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; g)</td></tr>
 <tr class="memdesc:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the given <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> as this component's parent.  <a href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">More...</a><br /></td></tr>
 <tr class="separator:a85b32c36ce293737aff2953ec45826ab inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a id="ad3141017e589ef48d436bc743e15d122"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ad3141017e589ef48d436bc743e15d122">Init</a> ()</td></tr>
+<tr class="memdesc:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes this component. <br /></td></tr>
+<tr class="separator:ad3141017e589ef48d436bc743e15d122 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">GetGameObject</a> ()</td></tr>
 <tr class="memdesc:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a shared ptr reference to this component's <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>.  <a href="classComponent.html#affa7e45459d9ac50b0db8b5c4e3e9af8">More...</a><br /></td></tr>
 <tr class="separator:affa7e45459d9ac50b0db8b5c4e3e9af8 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a792bf05fd2cd22fe6ce3b0fee6ea323c"><td class="memItemLeft" align="right" valign="top"><a id="a792bf05fd2cd22fe6ce3b0fee6ea323c"></a>
+SDL_Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#a792bf05fd2cd22fe6ce3b0fee6ea323c">renderView</a></td></tr>
+<tr class="memdesc:a792bf05fd2cd22fe6ce3b0fee6ea323c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The area of the game world to capture. <br /></td></tr>
+<tr class="separator:a792bf05fd2cd22fe6ce3b0fee6ea323c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af49b520cff92f5fc9789e096cc7245c0"><td class="memItemLeft" align="right" valign="top"><a id="af49b520cff92f5fc9789e096cc7245c0"></a>
 SDL_Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraComponent.html#af49b520cff92f5fc9789e096cc7245c0">renderArea</a></td></tr>
 <tr class="memdesc:af49b520cff92f5fc9789e096cc7245c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The render area for this camera. <br /></td></tr>
@@ -137,8 +155,37 @@ std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class representing a camera within our game. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0bf2e480a9ae00e07e821814b2f6a368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf2e480a9ae00e07e821814b2f6a368">&#9670;&nbsp;</a></span>CameraComponent()</h2>
+<a id="a6f14fb3dfa5ca8cfbaae2936413837d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f14fb3dfa5ca8cfbaae2936413837d8">&#9670;&nbsp;</a></span>CameraComponent() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CameraComponent::CameraComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a> that renders the whole screen. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCameraComponent_a6f14fb3dfa5ca8cfbaae2936413837d8_cgraph.jpg" border="0" usemap="#classCameraComponent_a6f14fb3dfa5ca8cfbaae2936413837d8_cgraph" alt=""/></div>
+<map name="classCameraComponent_a6f14fb3dfa5ca8cfbaae2936413837d8_cgraph" id="classCameraComponent_a6f14fb3dfa5ca8cfbaae2936413837d8_cgraph">
+<area shape="rect" id="node2" href="classRenderManager.html#a7920bf9dcbdc159e20b44253ec26b2e6" title="Gets the screen width. " alt="" coords="317,5,495,31"/>
+<area shape="rect" id="node4" href="classRenderManager.html#a7d60622a244cb5094e6fb3d1ffe88598" title="Gets the screen height. " alt="" coords="315,55,497,80"/>
+<area shape="rect" id="node3" href="classRenderManager.html#ae461c908c30dca62528798b92a985a4a" title="The singleton instance of the RenderManager. " alt="" coords="545,31,720,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0967a7f1bc791b6c1bafbf7d414046f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0967a7f1bc791b6c1bafbf7d414046f2">&#9670;&nbsp;</a></span>CameraComponent() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,16 +194,63 @@ std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&
           <td class="memname">CameraComponent::CameraComponent </td>
           <td>(</td>
           <td class="paramtype">SDL_Rect&#160;</td>
-          <td class="paramname"><em>renderArea</em></td><td>)</td>
+          <td class="paramname"><em>renderView</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a> within the given render area. </p>
+<p>Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a> that renders to the whole screen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">renderArea</td><td>The render area for this camera </td></tr>
+    <tr><td class="paramname">renderView</td><td>The area of the game world to capture, defined by its center </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCameraComponent_a0967a7f1bc791b6c1bafbf7d414046f2_cgraph.jpg" border="0" usemap="#classCameraComponent_a0967a7f1bc791b6c1bafbf7d414046f2_cgraph" alt=""/></div>
+<map name="classCameraComponent_a0967a7f1bc791b6c1bafbf7d414046f2_cgraph" id="classCameraComponent_a0967a7f1bc791b6c1bafbf7d414046f2_cgraph">
+<area shape="rect" id="node2" href="classRenderManager.html#a7920bf9dcbdc159e20b44253ec26b2e6" title="Gets the screen width. " alt="" coords="317,5,495,31"/>
+<area shape="rect" id="node4" href="classRenderManager.html#a7d60622a244cb5094e6fb3d1ffe88598" title="Gets the screen height. " alt="" coords="315,55,497,80"/>
+<area shape="rect" id="node3" href="classRenderManager.html#ae461c908c30dca62528798b92a985a4a" title="The singleton instance of the RenderManager. " alt="" coords="545,31,720,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a94ba45d73778c5170ba2359c37bba20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ba45d73778c5170ba2359c37bba20e">&#9670;&nbsp;</a></span>CameraComponent() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CameraComponent::CameraComponent </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Rect&#160;</td>
+          <td class="paramname"><em>renderView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Rect&#160;</td>
+          <td class="paramname"><em>renderArea</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs a new <a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderView</td><td>The area of the game world to capture, defined by its center </td></tr>
+    <tr><td class="paramname">renderArea</td><td>The render area on the screen for this camera </td></tr>
   </table>
   </dd>
 </dl>
@@ -170,7 +264,7 @@ std::weak_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt;&
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

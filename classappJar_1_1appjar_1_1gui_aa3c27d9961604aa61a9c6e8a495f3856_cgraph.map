@@ -1,0 +1,6 @@
+<map id="appJar.appjar.gui._registerInternalDragSource" name="appJar.appjar.gui._registerInternalDragSource">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a3796ebe156542fd93dff61a37468df1a" title="appJar.appjar.gui.\l_loadInternalDnd" alt="" coords="268,5,394,44"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a9565c5a3c30fa06699a88a8a39675659" title="appJar.appjar.gui.getLabel" alt="" coords="242,68,420,93"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#ae32f40c40bfd3ec605f8dbf5863a4547" title="appJar.appjar.gui.\l_startInternalDrag" alt="" coords="267,117,395,156"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a55bcaac6e904514579199002c048d92b" title="appJar.appjar.gui.\l_getCanvas" alt="" coords="268,180,394,219"/>
+</map>

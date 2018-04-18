@@ -1,3 +1,4 @@
 <map id="ConfigParser::DefaultLocale" name="ConfigParser::DefaultLocale">
 <area shape="rect" id="node2" href="$classLocaleManager.html#a658afb558d82f9859b7764b33dcef950" title="The singleton instance of the LocaleManager. " alt="" coords="241,5,412,31"/>
+<area shape="rect" id="node3" href="$classLocaleManager.html#a7a6900f1a761260b715ff9697fe2f962" title="Looks up the given key in the translation map. " alt="" coords="460,5,624,31"/>
 </map>

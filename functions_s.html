@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: Class Members</title>
+<title>Platformer: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -65,9 +65,6 @@ $(function() {
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>Save()
-: <a class="el" href="classLevel.html#a46aa3292993adb5e9b9952311a0892ce">Level</a>
-</li>
 <li>scale
 : <a class="el" href="classGameObject.html#aa535bb6b3b273bd87c08cf6cc9feaea7">GameObject</a>
 </li>
@@ -75,10 +72,19 @@ $(function() {
 : <a class="el" href="classRenderManager.html#a6e7eca51f92a73ba769399f3d468f3d6">RenderManager</a>
 </li>
 <li>ScreenRegion()
-: <a class="el" href="classRenderComponent.html#adf317f9ef7a7802a6fd1ba1a4a791ac8">RenderComponent</a>
+: <a class="el" href="classGameObject.html#a8be9a4c5ed5d7297137ecd9171be9aa0">GameObject</a>
 </li>
 <li>screenWidth_
 : <a class="el" href="classRenderManager.html#abb2d16b26a3f7524587e60721a45ba71">RenderManager</a>
+</li>
+<li>scriptComp
+: <a class="el" href="classPyScriptWrapper.html#a89652b8a7944ec2e64ecc826737750f4">PyScriptWrapper</a>
+</li>
+<li>ScriptComponent()
+: <a class="el" href="classScriptComponent.html#ad549ee54e45f84ca41a04ac81ec48611">ScriptComponent</a>
+</li>
+<li>scriptName
+: <a class="el" href="classLevelObject.html#a3bc8a0868fd3cad0f67b5fcbc69c8d7c">LevelObject</a>
 </li>
 <li>SDLFontWrapper()
 : <a class="el" href="classSDLFontWrapper.html#a55e254b5f1b8355d70ac089edd63ec15">SDLFontWrapper</a>
@@ -89,14 +95,33 @@ $(function() {
 <li>SDLTextureWrapper()
 : <a class="el" href="classSDLTextureWrapper.html#af2a50de48bd7cb610335e7504fcc52bb">SDLTextureWrapper</a>
 </li>
-<li>Set()
-: <a class="el" href="classLevel.html#aebb0dd349eecb17d55c1174b48f8dc8d">Level</a>
+<li>SetActive()
+: <a class="el" href="classCameraComponent.html#a80b93e371766e995c2a3baa7e0bf2872">CameraComponent</a>
+, <a class="el" href="classPhysicsComponent.html#a1ab59994f8d21c9418e1bfb9f2b91108">PhysicsComponent</a>
+</li>
+<li>SetActiveCamera()
+: <a class="el" href="classRenderManager.html#a2209c9ad698d1a1e0681bc94f2379f3c">RenderManager</a>
+</li>
+<li>SetCaptureArea()
+: <a class="el" href="classCameraComponent.html#a4236a2d514b254c490ce6948afb7fb86">CameraComponent</a>
+</li>
+<li>SetGravity()
+: <a class="el" href="classPhysicsManager.html#a97817775b45c9304fa6425e47974af6d">PhysicsManager</a>
+</li>
+<li>SetLinearVelocity()
+: <a class="el" href="classPhysicsComponent.html#aa7bb72e52552bb898289ca3fa3268958">PhysicsComponent</a>
+</li>
+<li>SetManagedByPhysics()
+: <a class="el" href="classPhysicsComponent.html#acdd75b27b666a74a3d6c3ad0452bdd65">PhysicsComponent</a>
 </li>
 <li>SetParentGameObject()
 : <a class="el" href="classComponent.html#a85b32c36ce293737aff2953ec45826ab">Component</a>
 </li>
-<li>SetTileToEmpty()
-: <a class="el" href="classTileMap.html#a474083e98311d7fb3442973d18fb9a89">TileMap</a>
+<li>SetScriptComponent()
+: <a class="el" href="classPyScriptWrapper.html#a8c4cc15f8b48e59028f8194426d58f2e">PyScriptWrapper</a>
+</li>
+<li>SetupBodyWithShape()
+: <a class="el" href="classPhysicsComponent.html#a841ec52882b1be4bc55bee116eb4a9e6">PhysicsComponent</a>
 </li>
 <li>shouldLoadLevel
 : <a class="el" href="classGameManager.html#a02d4e96cb1b954537c2387d9d1a3d1b4">GameManager</a>
@@ -106,27 +131,41 @@ $(function() {
 </li>
 <li>shutdown()
 : <a class="el" href="classGameManager.html#a34ea950c9bade6a7b22e7c022590b98e">GameManager</a>
+, <a class="el" href="classPhysicsManager.html#a768590a228cbd4fb653d50dfa7087b51">PhysicsManager</a>
+, <a class="el" href="classPythonManager.html#a6745eccb73341816826610c7da9ddf89">PythonManager</a>
 , <a class="el" href="classRenderManager.html#a781a6424debdf00aad728b6a532f1330">RenderManager</a>
 , <a class="el" href="classResourceManager.html#a4f37986f5f3ee7927477a002a17466f5">ResourceManager</a>
 , <a class="el" href="classSoundManager.html#a353fe0dfdbb3489208e1d25b109aefac">SoundManager</a>
 </li>
 <li>SoundManager()
-: <a class="el" href="classSoundManager.html#aac4b48cfc4d394c547f5efec7d451165">SoundManager</a>
+: <a class="el" href="classSoundManager.html#abcc1fbf3488be5788a42c9a4fe56df35">SoundManager</a>
 </li>
-<li>speed
-: <a class="el" href="classPhysicsComponent.html#a805a25f0c22065c365a142db22b49a37">PhysicsComponent</a>
+<li>spriteName
+: <a class="el" href="classLevelObject.html#a911f8c651ae51866c2fa7a2cd7df061a">LevelObject</a>
 </li>
 <li>spriteSheet
 : <a class="el" href="structAnimation.html#a73bcc763ebf4eb3e4d78539032131a75">Animation</a>
 </li>
+<li>srcH
+: <a class="el" href="structAnimation.html#a1e31c6fe7d63868819670477d77b0384">Animation</a>
+</li>
+<li>srcW
+: <a class="el" href="structAnimation.html#a9fdb6b41943e4b98555dda246f8fb382">Animation</a>
+</li>
 <li>srcX
 : <a class="el" href="structAnimation.html#a189154896e4e0c379f22569f28d50162">Animation</a>
+</li>
+<li>srcY
+: <a class="el" href="structAnimation.html#a5c55ca7eefe44328db636b3ecb0d0c47">Animation</a>
 </li>
 <li>StablizeFramerate()
 : <a class="el" href="classTimeManager.html#ad3edbdd7a022b23e5b92ba5f5bf45a6b">TimeManager</a>
 </li>
 <li>stateMap
 : <a class="el" href="classAnimationRenderComponent.html#ae50d59910e35ebace1b6fff9da124fa1">AnimationRenderComponent</a>
+</li>
+<li>Step()
+: <a class="el" href="classPhysicsManager.html#acdc804abce59b430aff972e6035e8b41">PhysicsManager</a>
 </li>
 <li>strings_
 : <a class="el" href="classLocaleManager.html#a5ccba267c78c2fed507a6beee592eb39">LocaleManager</a>
@@ -138,7 +177,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

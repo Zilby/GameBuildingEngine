@@ -1,0 +1,16 @@
+<map id="appJar.appjar.gui.after_cancel" name="appJar.appjar.gui.after_cancel">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a0fe3ec287e313059e4a8a3609ace2549" title="appJar.appjar.gui.stop" alt="" coords="228,200,380,225"/>
+<area shape="rect" id="node15" href="$classappJar_1_1appjar_1_1gui.html#ab603612d1d183c4ac634be255cc5aec3" title="appJar.appjar.gui.afterCancel" alt="" coords="207,249,401,275"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a3805f4b6dffa1abd75e0a23b72efdeee" title="CONSTRUCTOR &#45; creates the GUI. " alt="" coords="482,103,609,141"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#ae84a35321dc3c60471a7c45607c8b745" title="appJar.appjar.gui.go" alt="" coords="475,172,616,197"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a89b50ec86da158aeb500251850f69a6e" title="appJar.appjar.gui.setStop\lFunction" alt="" coords="459,221,631,260"/>
+<area shape="rect" id="node13" href="$classappJar_1_1appjar_1_1gui.html#ab22137a5f3545a6a72851531216f6710" title=" TOGGLE FRAMES #######. " alt="" coords="449,284,641,323"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a31f25d25353b4b84fc53df476184d46f" title="appJar.appjar.gui.MOUSE\l_POS_IN_WIDGET" alt="" coords="692,5,868,44"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a995d461aec547d4a26ca4a1010762fa1" title="Tabbed Frames. " alt="" coords="707,68,853,107"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#a137acf10b02f90360f19f471a19f8bd8" title="appJar.appjar.gui.addLabel\lFileEntry" alt="" coords="689,131,871,169"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#a89dc9890d176842479b73da1c06b5f00" title="FUNCTION to manage containers. " alt="" coords="919,68,1045,107"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#af38d41246c63d30aa30a61430dbb20f0" title=" FUNCTION to hide/show/remove widgets. " alt="" coords="1093,68,1242,107"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a198170bbea8b9ce5b26c47be40a54bc7" title="appJar.appjar.gui.addWidget" alt="" coords="1290,75,1481,100"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#a8c4e30bdb2f351298d38550b3fc19f6b" title="appJar.appjar.gui.\l__exit__" alt="" coords="717,193,843,232"/>
+<area shape="rect" id="node14" href="$classappJar_1_1appjar_1_1gui.html#ad851acaf9d7ec9b54a274ad80ff3d4f3" title="Toggle Frames. " alt="" coords="699,284,861,323"/>
+</map>

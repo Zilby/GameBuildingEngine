@@ -1,0 +1,4 @@
+<map id="winlose.End" name="winlose.End">
+<area shape="rect" id="node3" href="$classwinlose_1_1Lose.html" title="{winlose.Lose\n||+ __init__()\l}" alt="" coords="5,301,104,375"/>
+<area shape="rect" id="node4" href="$classwinlose_1_1Win.html" title="{winlose.Win\n||+ __init__()\l}" alt="" coords="128,301,221,375"/>
+</map>

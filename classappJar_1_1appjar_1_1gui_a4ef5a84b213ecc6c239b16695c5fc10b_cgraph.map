@@ -1,0 +1,13 @@
+<map id="appJar.appjar.gui.addDbTable" name="appJar.appjar.gui.addDbTable">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#ab2b8b31ca09dc5c90e869a694d538370" title="appJar.appjar.gui.\l_importSqlite3" alt="" coords="278,12,405,51"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a420a26f7fb5a31ff6acec2fc8cd59d8a" title="appJar.appjar.gui.error" alt="" coords="264,75,419,100"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#afa193959e5ec3ca160bb4c598326d6f7" title="appJar.appjar.gui.addTable" alt="" coords="251,124,432,149"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a3ca8e37503f396e0a7febc842a46c969" title="appJar.appjar.gui.getContainer" alt="" coords="486,5,689,31"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#aa89d61ec279cabb141a3e8aaff0a0eba" title="appJar.appjar.gui.\l_getContainerProperty" alt="" coords="510,55,665,93"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#a18edcea3b3ac50fa4d1456b98d3fd131" title="appJar.appjar.gui.\l_getContainerBg" alt="" coords="524,117,651,156"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a41ca9614b69a20be0317a50fda2d28cf" title="appJar.appjar.gui.queueFunction" alt="" coords="480,180,695,205"/>
+<area shape="rect" id="node12" href="$classappJar_1_1appjar_1_1gui.html#a3ffccfa33aa10d1885bb17581f671fc6" title="appJar.appjar.gui.\l_positionWidget" alt="" coords="524,229,651,268"/>
+<area shape="rect" id="node9" href="$classappJar_1_1appjar_1_1gui.html#af95262502a7524ac45197157ecd1263a" title="appJar.appjar.gui.\l_loadThreading" alt="" coords="743,173,869,212"/>
+<area shape="rect" id="node10" href="$classappJar_1_1appjar_1_1gui.html#a3dbe7e53af3c0489853ae7f663355629" title="appJar.appjar.gui.\l_processEventQueue" alt="" coords="917,173,1067,212"/>
+<area shape="rect" id="node11" href="$classappJar_1_1appjar_1_1gui.html#a9230879b0743ef7300dee1b4249b24dc" title="appJar.appjar.gui.after" alt="" coords="1115,180,1268,205"/>
+</map>

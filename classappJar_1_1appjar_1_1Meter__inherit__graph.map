@@ -1,0 +1,4 @@
+<map id="appJar.appjar.Meter" name="appJar.appjar.Meter">
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1SplitMeter.html" title="{appJar.appjar.SplitMeter\n|&#45; _leftFill\l&#45; _rightFill\l&#45; _value\l|+ __init__()\l+ configure()\l+ set()\l+ makeBar()\l}" alt="" coords="6,435,171,575"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1DualMeter.html" title="{appJar.appjar.DualMeter\n|&#45; _value\l|+ __init__()\l+ set()\l+ makeBar()\l}" alt="" coords="5,623,172,723"/>
+</map>

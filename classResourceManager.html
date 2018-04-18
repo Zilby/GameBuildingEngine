@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: ResourceManager Class Reference</title>
+<title>Platformer: ResourceManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -99,9 +99,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa1805fd3058f1938b63b8ecc6984ff79"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSDLFontWrapper.html">SDLFontWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceManager.html#aa1805fd3058f1938b63b8ecc6984ff79">LoadFont</a> (const std::string &amp;path, int textSize)</td></tr>
 <tr class="memdesc:aa1805fd3058f1938b63b8ecc6984ff79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a font from the given path in the given textSize Uses the stored font if already loaded.  <a href="#aa1805fd3058f1938b63b8ecc6984ff79">More...</a><br /></td></tr>
 <tr class="separator:aa1805fd3058f1938b63b8ecc6984ff79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bdf3bde3f0e83cc737f3623f4db0325"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSDLSoundWrapper.html">SDLSoundWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceManager.html#a0bdf3bde3f0e83cc737f3623f4db0325">LoadSound</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:a0bdf3bde3f0e83cc737f3623f4db0325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sound from the given path Uses the stored sound if already loaded.  <a href="#a0bdf3bde3f0e83cc737f3623f4db0325">More...</a><br /></td></tr>
-<tr class="separator:a0bdf3bde3f0e83cc737f3623f4db0325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea48ec12ef40b664fb981873bf32793c"><td class="memItemLeft" align="right" valign="top"><a id="aea48ec12ef40b664fb981873bf32793c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceManager.html#aea48ec12ef40b664fb981873bf32793c">ResourceManager</a> (const <a class="el" href="classResourceManager.html">ResourceManager</a> &amp;m)=delete</td></tr>
 <tr class="memdesc:aea48ec12ef40b664fb981873bf32793c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the compiler from generating methods to copy the object. <br /></td></tr>
@@ -117,6 +114,9 @@ Static Public Member Functions</h2></td></tr>
 static <a class="el" href="classResourceManager.html">ResourceManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceManager.html#a91756683167c290b33b7525881122940">instance</a> ()</td></tr>
 <tr class="memdesc:a91756683167c290b33b7525881122940"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton instance of the <a class="el" href="classResourceManager.html" title="This class manages the resources of our game as a singleton. ">ResourceManager</a>. <br /></td></tr>
 <tr class="separator:a91756683167c290b33b7525881122940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bdf3bde3f0e83cc737f3623f4db0325"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classSDLSoundWrapper.html">SDLSoundWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceManager.html#a0bdf3bde3f0e83cc737f3623f4db0325">LoadSound</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:a0bdf3bde3f0e83cc737f3623f4db0325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a sound from the given path Uses the stored sound if already loaded.  <a href="#a0bdf3bde3f0e83cc737f3623f4db0325">More...</a><br /></td></tr>
+<tr class="separator:a0bdf3bde3f0e83cc737f3623f4db0325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -187,7 +187,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classResourceManager_aa1805fd3058f1938b63b8ecc6984ff79_icgraph.jpg" border="0" usemap="#classResourceManager_aa1805fd3058f1938b63b8ecc6984ff79_icgraph" alt=""/></div>
 <map name="classResourceManager_aa1805fd3058f1938b63b8ecc6984ff79_icgraph" id="classResourceManager_aa1805fd3058f1938b63b8ecc6984ff79_icgraph">
-<area shape="rect" id="node2" href="classTextRenderComponent.html#a47aace24e2769be07383823633154c9f" title="Constructs a TextRenderComponent. " alt="" coords="248,5,414,44"/>
+<area shape="rect" id="node2" href="classTextRenderComponent.html#ae7b0bdae701de1600dfaec863c62ee2c" title="Constructs a TextRenderComponent. " alt="" coords="248,5,414,44"/>
 </map>
 </div>
 
@@ -232,9 +232,7 @@ Here is the caller graph for this function:</div>
 <map name="classResourceManager_adea7f66f4eea16cea9eafcb7c5e40a3a_icgraph" id="classResourceManager_adea7f66f4eea16cea9eafcb7c5e40a3a_icgraph">
 <area shape="rect" id="node2" href="classAnimationRenderComponent.html#a584d0cafa6557d60ecb1aef519ec28e4" title="Switches the current animation state. " alt="" coords="258,5,452,44"/>
 <area shape="rect" id="node4" href="classImageRenderComponent.html#a3c1ff7ebb4e62d5c27704a3cc95f1c49" title="Constructs an ImageRenderComponent. " alt="" coords="266,68,444,107"/>
-<area shape="rect" id="node5" href="classTileRenderComponent.html#a1ea432cfe4aa5bfdbb3d8525b56ad35c" title="Makes a mega texture to render out of all of the tiles. " alt="" coords="278,131,433,169"/>
 <area shape="rect" id="node3" href="classAnimationRenderComponent.html#abce95dacd23b9ffa8b35d07424194d2a" title="Constructs a new AnimationRenderComponent. " alt="" coords="500,5,700,44"/>
-<area shape="rect" id="node6" href="classTileRenderComponent.html#ab1b729d166ca34af6da6e21c4404e152" title="Updates this component. " alt="" coords="523,131,678,169"/>
 </map>
 </div>
 
@@ -245,6 +243,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classSDLSoundWrapper.html">SDLSoundWrapper</a> &gt; ResourceManager::LoadSound </td>
@@ -254,6 +255,11 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Loads a sound from the given path Uses the stored sound if already loaded. </p>
@@ -264,6 +270,14 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classResourceManager_a0bdf3bde3f0e83cc737f3623f4db0325_cgraph.jpg" border="0" usemap="#classResourceManager_a0bdf3bde3f0e83cc737f3623f4db0325_cgraph" alt=""/></div>
+<map name="classResourceManager_a0bdf3bde3f0e83cc737f3623f4db0325_cgraph" id="classResourceManager_a0bdf3bde3f0e83cc737f3623f4db0325_cgraph">
+<area shape="rect" id="node2" href="classResourceManager.html#a91756683167c290b33b7525881122940" title="The singleton instance of the ResourceManager. " alt="" coords="260,5,448,31"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -274,7 +288,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

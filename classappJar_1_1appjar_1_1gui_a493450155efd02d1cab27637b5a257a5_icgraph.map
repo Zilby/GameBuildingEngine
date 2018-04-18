@@ -1,0 +1,9 @@
+<map id="appJar.appjar.gui._checkMode" name="appJar.appjar.gui._checkMode">
+<area shape="rect" id="node2" href="$classappJar_1_1appjar_1_1gui.html#a3805f4b6dffa1abd75e0a23b72efdeee" title="CONSTRUCTOR &#45; creates the GUI. " alt="" coords="180,68,307,107"/>
+<area shape="rect" id="node3" href="$classappJar_1_1appjar_1_1gui.html#a31f25d25353b4b84fc53df476184d46f" title="appJar.appjar.gui.MOUSE\l_POS_IN_WIDGET" alt="" coords="358,5,533,44"/>
+<area shape="rect" id="node4" href="$classappJar_1_1appjar_1_1gui.html#a995d461aec547d4a26ca4a1010762fa1" title="Tabbed Frames. " alt="" coords="373,68,518,107"/>
+<area shape="rect" id="node8" href="$classappJar_1_1appjar_1_1gui.html#a137acf10b02f90360f19f471a19f8bd8" title="appJar.appjar.gui.addLabel\lFileEntry" alt="" coords="355,131,536,169"/>
+<area shape="rect" id="node5" href="$classappJar_1_1appjar_1_1gui.html#a89dc9890d176842479b73da1c06b5f00" title="FUNCTION to manage containers. " alt="" coords="584,68,711,107"/>
+<area shape="rect" id="node6" href="$classappJar_1_1appjar_1_1gui.html#af38d41246c63d30aa30a61430dbb20f0" title=" FUNCTION to hide/show/remove widgets. " alt="" coords="759,68,907,107"/>
+<area shape="rect" id="node7" href="$classappJar_1_1appjar_1_1gui.html#a198170bbea8b9ce5b26c47be40a54bc7" title="appJar.appjar.gui.addWidget" alt="" coords="955,75,1146,100"/>
+</map>

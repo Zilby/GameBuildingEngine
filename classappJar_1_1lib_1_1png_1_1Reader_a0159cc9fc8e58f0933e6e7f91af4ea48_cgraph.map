@@ -1,0 +1,13 @@
+<map id="appJar.lib.png.Reader.preamble" name="appJar.lib.png.Reader.preamble">
+<area shape="rect" id="node2" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a2f199e54e76e5af48b90ae1876fd6304" title="appJar.lib.png.Reader.validate\l_signature" alt="" coords="264,88,464,127"/>
+<area shape="rect" id="node5" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a287c2c8bead02ad688f0bd20d6e2ae6f" title="appJar.lib.png.Reader.chunklentype" alt="" coords="1030,40,1263,66"/>
+<area shape="rect" id="node12" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a2bce16514a23e3588c4546e228369712" title="appJar.lib.png.Reader.process\l_chunk" alt="" coords="512,31,714,70"/>
+<area shape="rect" id="node3" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a6849cc473cc567f9865fe0c8b63a5354" title="appJar.lib.png.Reader.read" alt="" coords="522,146,704,171"/>
+<area shape="rect" id="node4" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a1bfcf5e595f70621b597a0f5d5c32371" title="appJar.lib.png.Reader.chunk" alt="" coords="777,40,967,66"/>
+<area shape="rect" id="node6" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a6fd629735075699ef43c8950c9c9fa33" title="appJar.lib.png.Reader.deinterlace" alt="" coords="762,191,982,216"/>
+<area shape="rect" id="node9" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a4614ccf4f2828e0bae8a26d99e11e23f" title="appJar.lib.png.Reader.iterboxed" alt="" coords="767,142,977,167"/>
+<area shape="rect" id="node10" href="$classappJar_1_1lib_1_1png_1_1Reader.html#ae71f25b4ff85a026840cafb5dfc600f6" title="appJar.lib.png.Reader.iterstraight" alt="" coords="763,290,980,315"/>
+<area shape="rect" id="node11" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a8018fed04267ab28eac5ca3924d82741" title="appJar.lib.png.Reader.palette" alt="" coords="774,240,969,266"/>
+<area shape="rect" id="node7" href="$classappJar_1_1lib_1_1png_1_1Reader.html#afb78885eefe3377cfd15bbfd32e0750a" title="appJar.lib.png.Reader.undo\l_filter" alt="" coords="1054,262,1239,300"/>
+<area shape="rect" id="node8" href="$classappJar_1_1lib_1_1png_1_1Reader.html#a5ba2c5aa9d893365297dd934b30794e5" title="appJar.lib.png.Reader.serialtoflat" alt="" coords="1039,191,1254,216"/>
+</map>

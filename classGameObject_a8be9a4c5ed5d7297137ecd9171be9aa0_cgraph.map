@@ -1,0 +1,4 @@
+<map id="GameObject::ScreenRegion" name="GameObject::ScreenRegion">
+<area shape="rect" id="node2" href="$classRenderManager.html#a35c47c7132179304838335deef41f7b3" title="Gets the current active camera. " alt="" coords="241,5,435,31"/>
+<area shape="rect" id="node3" href="$classRenderManager.html#ae461c908c30dca62528798b92a985a4a" title="The singleton instance of the RenderManager. " alt="" coords="483,5,658,31"/>
+</map>

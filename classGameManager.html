@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: GameManager Class Reference</title>
+<title>Platformer: GameManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -101,21 +101,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#ab62bc12ea91015551963761f9005c56f">LoadLevels</a> ()</td></tr>
 <tr class="memdesc:ab62bc12ea91015551963761f9005c56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls to parse the levels and sets shouldLoadLevel true. <br /></td></tr>
 <tr class="separator:ab62bc12ea91015551963761f9005c56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60190aaf2b66ff2627b1284a19e3b403"><td class="memItemLeft" align="right" valign="top"><a id="a60190aaf2b66ff2627b1284a19e3b403"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a60190aaf2b66ff2627b1284a19e3b403">LoadNextLevel</a> ()</td></tr>
-<tr class="memdesc:a60190aaf2b66ff2627b1284a19e3b403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the curLevel and sets shouldLoadLevel true. <br /></td></tr>
-<tr class="separator:a60190aaf2b66ff2627b1284a19e3b403"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cc8b35491cf0702ecf37036f5974a60"><td class="memItemLeft" align="right" valign="top"><a id="a2cc8b35491cf0702ecf37036f5974a60"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a2cc8b35491cf0702ecf37036f5974a60">ReloadLevel</a> ()</td></tr>
-<tr class="memdesc:a2cc8b35491cf0702ecf37036f5974a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the level by setting shouldLoadLevel true. <br /></td></tr>
-<tr class="separator:a2cc8b35491cf0702ecf37036f5974a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3bb4452ac262ec8a68dcc3eea2f0124"><td class="memItemLeft" align="right" valign="top"><a id="af3bb4452ac262ec8a68dcc3eea2f0124"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124">Update</a> ()</td></tr>
 <tr class="memdesc:af3bb4452ac262ec8a68dcc3eea2f0124"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the world and any other gameobjects controlled by the <a class="el" href="classGameManager.html" title="This class manages the loading, rendering, and objects of our game as a singleton. ">GameManager</a>, and calls to load levels if prompted. <br /></td></tr>
 <tr class="separator:af3bb4452ac262ec8a68dcc3eea2f0124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a233955a99f7ac726896b33ef323ee8eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a233955a99f7ac726896b33ef323ee8eb">GetActiveObjects</a> () const</td></tr>
-<tr class="memdesc:a233955a99f7ac726896b33ef323ee8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of all active objects in our <a class="el" href="classGameManager.html" title="This class manages the loading, rendering, and objects of our game as a singleton. ">GameManager</a>.  <a href="#a233955a99f7ac726896b33ef323ee8eb">More...</a><br /></td></tr>
-<tr class="separator:a233955a99f7ac726896b33ef323ee8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5af1609aaeb8c7c74356a108c1d16ba8"><td class="memItemLeft" align="right" valign="top"><a id="a5af1609aaeb8c7c74356a108c1d16ba8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a5af1609aaeb8c7c74356a108c1d16ba8">GameManager</a> (const <a class="el" href="classGameManager.html">GameManager</a> &amp;)=delete</td></tr>
 <tr class="memdesc:a5af1609aaeb8c7c74356a108c1d16ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the compiler from generating methods to copy the object. <br /></td></tr>
@@ -134,6 +123,17 @@ Static Public Member Functions</h2></td></tr>
 static <a class="el" href="classGameManager.html">GameManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a38098a346a5e7901440b85e1152055db">instance</a> ()</td></tr>
 <tr class="memdesc:a38098a346a5e7901440b85e1152055db"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton instance of the <a class="el" href="classGameManager.html" title="This class manages the loading, rendering, and objects of our game as a singleton. ">GameManager</a>. <br /></td></tr>
 <tr class="separator:a38098a346a5e7901440b85e1152055db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60190aaf2b66ff2627b1284a19e3b403"><td class="memItemLeft" align="right" valign="top"><a id="a60190aaf2b66ff2627b1284a19e3b403"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a60190aaf2b66ff2627b1284a19e3b403">LoadNextLevel</a> ()</td></tr>
+<tr class="memdesc:a60190aaf2b66ff2627b1284a19e3b403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the curLevel and sets shouldLoadLevel true. <br /></td></tr>
+<tr class="separator:a60190aaf2b66ff2627b1284a19e3b403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc8b35491cf0702ecf37036f5974a60"><td class="memItemLeft" align="right" valign="top"><a id="a2cc8b35491cf0702ecf37036f5974a60"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#a2cc8b35491cf0702ecf37036f5974a60">ReloadLevel</a> ()</td></tr>
+<tr class="memdesc:a2cc8b35491cf0702ecf37036f5974a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the level by setting shouldLoadLevel true. <br /></td></tr>
+<tr class="separator:a2cc8b35491cf0702ecf37036f5974a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67aa77230e9d08f737a5d31a2bfd28f"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameManager.html#ae67aa77230e9d08f737a5d31a2bfd28f">GetActiveObjects</a> ()</td></tr>
+<tr class="memdesc:ae67aa77230e9d08f737a5d31a2bfd28f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of all active objects in our <a class="el" href="classGameManager.html" title="This class manages the loading, rendering, and objects of our game as a singleton. ">GameManager</a>.  <a href="#ae67aa77230e9d08f737a5d31a2bfd28f">More...</a><br /></td></tr>
+<tr class="separator:ae67aa77230e9d08f737a5d31a2bfd28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -175,29 +175,45 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages the loading, rendering, and objects of our game as a singleton. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a233955a99f7ac726896b33ef323ee8eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a233955a99f7ac726896b33ef323ee8eb">&#9670;&nbsp;</a></span>GetActiveObjects()</h2>
+<a id="ae67aa77230e9d08f737a5d31a2bfd28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67aa77230e9d08f737a5d31a2bfd28f">&#9670;&nbsp;</a></span>GetActiveObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classGameObject.html">GameObject</a> &gt; &gt; GameManager::GetActiveObjects </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Gets the list of all active objects in our <a class="el" href="classGameManager.html" title="This class manages the loading, rendering, and objects of our game as a singleton. ">GameManager</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>The list of all active objects </dd></dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_cgraph.jpg" border="0" usemap="#classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_cgraph" alt=""/></div>
+<map name="classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_cgraph" id="classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_cgraph">
+<area shape="rect" id="node2" href="classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="274,29,441,55"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classGameManager_a233955a99f7ac726896b33ef323ee8eb_icgraph.jpg" border="0" usemap="#classGameManager_a233955a99f7ac726896b33ef323ee8eb_icgraph" alt=""/></div>
-<map name="classGameManager_a233955a99f7ac726896b33ef323ee8eb_icgraph" id="classGameManager_a233955a99f7ac726896b33ef323ee8eb_icgraph">
-<area shape="rect" id="node2" href="classRenderManager.html#a58cb27856ad141e16313f5d646e12c38" title="Finds a camera in the current world. " alt="" coords="274,5,472,31"/>
+<div class="center"><img src="classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_icgraph.jpg" border="0" usemap="#classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_icgraph" alt=""/></div>
+<map name="classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_icgraph" id="classGameManager_ae67aa77230e9d08f737a5d31a2bfd28f_icgraph">
+<area shape="rect" id="node2" href="classRenderManager.html#a1e0788708fda748a7ff5e2730ed478f1" title="Render the game. " alt="" coords="274,5,443,31"/>
 </map>
 </div>
 
@@ -240,10 +256,9 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classGameManager_a746f81c64fd771362b78f20c370145a2_cgraph.jpg" border="0" usemap="#classGameManager_a746f81c64fd771362b78f20c370145a2_cgraph" alt=""/></div>
 <map name="classGameManager_a746f81c64fd771362b78f20c370145a2_cgraph" id="classGameManager_a746f81c64fd771362b78f20c370145a2_cgraph">
 <area shape="rect" id="node2" href="classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e" title="Loads the level at the given path. " alt="" coords="233,43,396,68"/>
-<area shape="rect" id="node3" href="classLevelLoader.html#a6c9786f9bab6070b0efc074f9b53f40c" title="Creates a level using the given path and tile list. " alt="" coords="444,43,618,68"/>
-<area shape="rect" id="node4" href="classGameObject.html#a01fa32bcfb0dd60074681c3ae02950d5" title="GameObject::Create" alt="" coords="666,43,810,68"/>
-<area shape="rect" id="node5" href="classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a" title="Constructs a GameObject. " alt="" coords="858,5,1036,31"/>
-<area shape="rect" id="node6" href="classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="863,79,1031,104"/>
+<area shape="rect" id="node3" href="classGameObject.html#a989eaeb7cef5504f7d52783e71bf1cf9" title="Creates a GameObject. " alt="" coords="444,43,588,68"/>
+<area shape="rect" id="node4" href="classGameObject.html#aa9e30b58916cbc96ebdb4b7e4ced23d1" title="Constructs a GameObject. " alt="" coords="636,5,814,31"/>
+<area shape="rect" id="node5" href="classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="641,79,809,104"/>
 </map>
 </div>
 <div class="dynheader">
@@ -264,7 +279,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
