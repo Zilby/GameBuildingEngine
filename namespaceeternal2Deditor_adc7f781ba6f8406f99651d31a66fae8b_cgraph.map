@@ -1,0 +1,6 @@
+<map id="eternal2Deditor.selectFromCanvas" name="eternal2Deditor.selectFromCanvas">
+<area shape="rect" id="node2" href="$namespaceeternal2Deditor.html#ab22a374d97e690f8c0d18153a3bec66c" title="Redraws all game objects on the canvas. " alt="" coords="235,5,436,31"/>
+<area shape="rect" id="node5" href="$namespaceeternal2Deditor.html#a80516037aa35c2d961eedc33ef817d3b" title="Refreshes all of the fields. " alt="" coords="484,56,677,81"/>
+<area shape="rect" id="node3" href="$namespaceeternal2Deditor.html#a3de2a7ad81425bc39bbd5d2d4eeeb0ef" title="Draws the given image to the canvas. " alt="" coords="490,7,671,32"/>
+<area shape="rect" id="node4" href="$namespaceeternal2Deditor.html#adee85b8d18f7bb69441a2d2341eeddd6" title="Gets the current OS path. " alt="" coords="725,32,886,57"/>
+</map>

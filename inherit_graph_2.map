@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classConfigParser.html" title="This class parses the configuration files within our Assets folder. " alt="" coords="5,5,104,31"/>
+<area shape="rect" id="node1" href="$classComponent.html" title="Class representing a component of a GameObject. " alt="" coords="5,129,96,155"/>
+<area shape="rect" id="node2" href="$classButton.html" title="A basic button component class. " alt="" coords="183,5,243,31"/>
+<area shape="rect" id="node3" href="$classCameraComponent.html" title="A class representing a camera within our game. " alt="" coords="144,55,282,80"/>
+<area shape="rect" id="node4" href="$classLambdaComponent.html" title="A class for adding a function to the given component&#39;s update loop. " alt="" coords="144,104,282,129"/>
+<area shape="rect" id="node5" href="$classPhysicsComponent.html" title="A component that generates physics for a GameObject. " alt="" coords="145,153,281,179"/>
+<area shape="rect" id="node6" href="$classRenderComponent.html" title="A RenderComponent class. " alt="" coords="146,203,280,228"/>
+<area shape="rect" id="node11" href="$classScriptComponent.html" title="A class for attaching python scripts as components. " alt="" coords="151,252,275,277"/>
+<area shape="rect" id="node7" href="$classAnimationRenderComponent.html" title="An AnimationRenderComponent class. " alt="" coords="330,128,523,153"/>
+<area shape="rect" id="node8" href="$classImageRenderComponent.html" title="An ImageRenderComponent class. " alt="" coords="341,177,512,203"/>
+<area shape="rect" id="node9" href="$classRectRenderComponent.html" title="A component class for rendering rects as solid colors. " alt="" coords="346,227,507,252"/>
+<area shape="rect" id="node10" href="$classTextRenderComponent.html" title="A TextRenderComponent class. " alt="" coords="347,276,506,301"/>
 </map>

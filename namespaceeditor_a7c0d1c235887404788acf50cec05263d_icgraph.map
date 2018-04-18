@@ -1,0 +1,12 @@
+<map id="editor.refreshFields" name="editor.refreshFields">
+<area shape="rect" id="node2" href="$namespaceeditor.html#af5c399c0a4232067ef8286cb9b175c57" title="Selects an object based on the cursor position. " alt="" coords="188,19,357,44"/>
+<area shape="rect" id="node4" href="$namespaceeditor.html#adc02d0c219ed0df931d98c51c8a000c4" title="Selects a game object from the list. " alt="" coords="210,80,335,105"/>
+<area shape="rect" id="node5" href="$namespaceeditor.html#a856fb066408d725122575e2e2fa88310" title="Refreshes everything. " alt="" coords="215,153,329,179"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#ac3fa3ffa67f9860b46281ebaec813a99" title="Begins moving the canvas based on the mouse position. " alt="" coords="409,5,570,31"/>
+<area shape="rect" id="node6" href="$namespaceeditor.html#aa80777d11f2578cc5f8f67f02d5c1796" title="Opens the current level file. " alt="" coords="446,55,533,80"/>
+<area shape="rect" id="node7" href="$namespaceeditor.html#a3c3d2473e4cac3e43c65dfce1ed38ce2" title="Creates a new game object. " alt="" coords="405,104,574,129"/>
+<area shape="rect" id="node8" href="$namespaceeditor.html#a1584ea9d7febcea188b0b1c832e54446" title="Duplicates the currently selected game object. " alt="" coords="412,153,567,179"/>
+<area shape="rect" id="node9" href="$namespaceeditor.html#a3a877e78183dfe75405e6958e515e16f" title="Deletes the selected game object. " alt="" coords="417,203,563,228"/>
+<area shape="rect" id="node10" href="$namespaceeditor.html#a3a9951f6389833a652db0af9c3111da8" title="Sets the currently selected game object to be layered one layer up. " alt="" coords="423,252,556,277"/>
+<area shape="rect" id="node11" href="$namespaceeditor.html#a1153bbdcd3aec572196649945357e8a2" title="Sets the currently selected game object to be layered one layer down. " alt="" coords="415,301,565,327"/>
+</map>

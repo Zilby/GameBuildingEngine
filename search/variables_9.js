@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['objects',['objects',['../classGameWorld.html#ad2f5d7c0631b62b165016436d21e4fd0',1,'GameWorld']]],
-  ['oldposition',['oldPosition',['../classPhysicsComponent.html#a6f6f8400403d525f14ce9c4f0aecd55d',1,'PhysicsComponent']]],
-  ['onground',['onGround',['../classPhysicsComponent.html#ab824bf7c5d98314daf7a33e0fc863102',1,'PhysicsComponent']]],
-  ['outofbounds',['outOfBounds',['../classPhysicsComponent.html#a60ea01c265d5ba38756b238bfb219aa9',1,'PhysicsComponent']]]
+  ['name',['name',['../classLevelObject.html#abd1a71213786da9fa837309f02eabdff',1,'LevelObject']]],
+  ['namefield',['nameField',['../namespaceeternal2Deditor.html#ac5d9b2cf7fb1bd3daa94ebfa50b20506',1,'eternal2Deditor']]],
+  ['numframes',['numFrames',['../structAnimation.html#ace0538b8f94a0a99c01540a67e3a32b7',1,'Animation']]]
 ];

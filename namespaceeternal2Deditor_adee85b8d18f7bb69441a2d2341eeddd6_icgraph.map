@@ -1,0 +1,24 @@
+<map id="eternal2Deditor.getPath" name="eternal2Deditor.getPath">
+<area shape="rect" id="node2" href="$namespaceeternal2Deditor.html#a79f5fcee5ec7dd0c1d43ff9d50bb07ac" title="Opens the current level file. " alt="" coords="979,5,1124,31"/>
+<area shape="rect" id="node3" href="$namespaceeternal2Deditor.html#a6e46bb6316c9e43e70af186bf10bcbf6" title="Saves the current level file. " alt="" coords="234,295,377,320"/>
+<area shape="rect" id="node4" href="$namespaceeternal2Deditor.html#a8ecaec38a81f8a5d561b14f70afce15f" title="Plays the current level file. " alt="" coords="236,344,375,369"/>
+<area shape="rect" id="node5" href="$namespaceeternal2Deditor.html#a8e1ffdc94333a4024a02c5f13a858443" title="Gets the level order config file name. " alt="" coords="217,393,394,432"/>
+<area shape="rect" id="node6" href="$namespaceeternal2Deditor.html#a8bc7643b56ebf88fe7481009f610b0f0" title="Opens the currently selected game object&#39;s script file. " alt="" coords="215,456,396,495"/>
+<area shape="rect" id="node7" href="$namespaceeternal2Deditor.html#a3de2a7ad81425bc39bbd5d2d4eeeb0ef" title="Draws the given image to the canvas. " alt="" coords="215,245,396,271"/>
+<area shape="rect" id="node23" href="$namespaceeternal2Deditor.html#a80516037aa35c2d961eedc33ef817d3b" title="Refreshes all of the fields. " alt="" coords="449,195,641,220"/>
+<area shape="rect" id="node8" href="$namespaceeternal2Deditor.html#ab22a374d97e690f8c0d18153a3bec66c" title="Redraws all game objects on the canvas. " alt="" coords="444,300,646,325"/>
+<area shape="rect" id="node9" href="$namespaceeternal2Deditor.html#adc7f781ba6f8406f99651d31a66fae8b" title="Selects an object based on the cursor position. " alt="" coords="705,188,886,227"/>
+<area shape="rect" id="node11" href="$namespaceeternal2Deditor.html#abf31abf1ab1d7f3968adb4316fe80a95" title="Selects a game object from the list. " alt="" coords="704,251,887,276"/>
+<area shape="rect" id="node12" href="$namespaceeternal2Deditor.html#a3e8cca3c585ae131c0dac1469530a5b6" title="Sets the x coordinate via x field input. " alt="" coords="724,399,867,424"/>
+<area shape="rect" id="node13" href="$namespaceeternal2Deditor.html#a8db738459e05ebc8b94c2e7cde030a52" title="Sets the y coordinate via y field input. " alt="" coords="724,448,867,473"/>
+<area shape="rect" id="node14" href="$namespaceeternal2Deditor.html#a2cb1114ff65ffc2151b5baf2000d262e" title="Sets the width via width field input. " alt="" coords="723,497,868,523"/>
+<area shape="rect" id="node15" href="$namespaceeternal2Deditor.html#ac3780b4916a8627fc8c4f2a0e6922d82" title="Sets the height via height field input. " alt="" coords="724,300,867,325"/>
+<area shape="rect" id="node16" href="$namespaceeternal2Deditor.html#a3b0ed574966ff4edd66c83279a0496cd" title="Sets the sprite name via sprite field input. " alt="" coords="694,349,897,375"/>
+<area shape="rect" id="node17" href="$namespaceeternal2Deditor.html#a29b4fa03be664e08f8747c51838d00a7" title="Refreshes everything. " alt="" coords="710,139,881,164"/>
+<area shape="rect" id="node10" href="$namespaceeternal2Deditor.html#a2b485b05dc8e4036ddb0ee7ab57c1e22" title="Begins moving the canvas based on the mouse position. " alt="" coords="956,315,1147,353"/>
+<area shape="rect" id="node18" href="$namespaceeternal2Deditor.html#ac68f43d1114f4d91e3f3418122f65aa0" title="Creates a new game object. " alt="" coords="957,104,1146,143"/>
+<area shape="rect" id="node19" href="$namespaceeternal2Deditor.html#a7bbb36d0cd318323c78241602da20913" title="Duplicates the currently selected game object. " alt="" coords="945,167,1158,192"/>
+<area shape="rect" id="node20" href="$namespaceeternal2Deditor.html#a909bc3665206ea14591e51071dc8c341" title="Deletes the selected game object. " alt="" coords="950,216,1153,241"/>
+<area shape="rect" id="node21" href="$namespaceeternal2Deditor.html#a43faead086796a892959953eff55ecbe" title="Sets the currently selected game object to be layered one layer up. " alt="" coords="956,265,1147,291"/>
+<area shape="rect" id="node22" href="$namespaceeternal2Deditor.html#a699fae9fc1883e869313db5d99d0afc1" title="Sets the currently selected game object to be layered one layer down. " alt="" coords="948,55,1156,80"/>
+</map>

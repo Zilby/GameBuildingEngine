@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['imagerendercomponent',['ImageRenderComponent',['../classImageRenderComponent.html#a3c1ff7ebb4e62d5c27704a3cc95f1c49',1,'ImageRenderComponent']]],
-  ['init',['init',['../classGameManager.html#a849df8c09486d7c84f368d52716b56d2',1,'GameManager::init()'],['../classRenderManager.html#a38c06cdc9ecb3e81240b21673e2c973c',1,'RenderManager::init()'],['../classSoundManager.html#a4a0174034710c7a2375fd721d3ff8d66',1,'SoundManager::init()']]],
-  ['inputmanager',['InputManager',['../classInputManager.html#abf6fef4ddfb8653e32a8d797ee862f3b',1,'InputManager::InputManager(const InputManager &amp;)=delete'],['../classInputManager.html#a8be46886da639b26d67181c29dab6d6c',1,'InputManager::InputManager()']]],
-  ['instance',['instance',['../classGameManager.html#a38098a346a5e7901440b85e1152055db',1,'GameManager::instance()'],['../classInputManager.html#a06944dbb84f714fdb1c6d53ca18b6146',1,'InputManager::instance()'],['../classLocaleManager.html#a658afb558d82f9859b7764b33dcef950',1,'LocaleManager::instance()'],['../classPythonManager.html#a6280b0a4c090291b3de29b4ccc0d84f6',1,'PythonManager::instance()'],['../classRenderManager.html#ae461c908c30dca62528798b92a985a4a',1,'RenderManager::instance()'],['../classResourceManager.html#a91756683167c290b33b7525881122940',1,'ResourceManager::instance()'],['../classSoundManager.html#aae4237247bd8f6beae2c042411c903a8',1,'SoundManager::instance()'],['../classTimeManager.html#a4ef98d0a1e3b9d95f2ebde3160f89a37',1,'TimeManager::instance()']]],
-  ['isactive',['IsActive',['../classGameObject.html#a9ba5344daef13d4146bcf5fe82689f5e',1,'GameObject']]],
-  ['iscolliding',['IsColliding',['../classGameObject.html#aa45b9337efcda0fd3b01b32215280fbe',1,'GameObject']]],
-  ['istiledown',['IsTileDown',['../classPhysicsComponent.html#a61e7d9ec6e61871a73f3ad2dfda0784a',1,'PhysicsComponent']]],
-  ['istileleft',['IsTileLeft',['../classPhysicsComponent.html#aab9f1311887c94a1cd146e6eb697e4d4',1,'PhysicsComponent']]],
-  ['istileright',['IsTileRight',['../classPhysicsComponent.html#abf8f85fe6661876af16451f507d237b2',1,'PhysicsComponent']]],
-  ['istileup',['IsTileUp',['../classPhysicsComponent.html#aeb89e56defbfc3b67d4b74915f2bc293',1,'PhysicsComponent']]]
+  ['open',['open',['../namespaceeternal2Deditor.html#a79f5fcee5ec7dd0c1d43ff9d50bb07ac',1,'eternal2Deditor']]],
+  ['opengameobjectscript',['openGameObjectScript',['../namespaceeternal2Deditor.html#a8bc7643b56ebf88fe7481009f610b0f0',1,'eternal2Deditor']]],
+  ['operator_2a',['operator*',['../classVector2.html#a3a173aab20e9138f503e7f8fbd66571a',1,'Vector2']]],
+  ['operator_2b_3d',['operator+=',['../classVector2.html#a06471d99c14d3d340b76eb59c79873e3',1,'Vector2']]],
+  ['operator_3d',['operator=',['../classGameManager.html#a510623309508d2fa9419086e915a1926',1,'GameManager::operator=()'],['../classInputManager.html#a7eeaa124b8224cf0260b292229d5e9df',1,'InputManager::operator=()'],['../classLocaleManager.html#a50b226bb240ff5da938838d9a110ef45',1,'LocaleManager::operator=()'],['../classPhysicsManager.html#ae3eeb6801725df4f4d6ca3d80606a6ea',1,'PhysicsManager::operator=()'],['../classPythonManager.html#a795551e3e7d2dfd473b5636adafa24e5',1,'PythonManager::operator=()'],['../classRenderManager.html#a58cb60d45f0420b4195d205686301639',1,'RenderManager::operator=()'],['../classResourceManager.html#a2cf0ffdd1034d06164ad910bebc2413e',1,'ResourceManager::operator=()'],['../classSoundManager.html#ae5e6042f633424541acd84b144ac80af',1,'SoundManager::operator=()'],['../classTimeManager.html#a39ec2f9b8d5a8fd23f39b5622f0c0405',1,'TimeManager::operator=()']]],
+  ['osstartfile',['osStartFile',['../namespaceeternal2Deditor.html#af9fc80d39a1cc0a794cd4b2c5184b4d9',1,'eternal2Deditor']]]
 ];

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['rectrendercomponent',['RectRenderComponent',['../classRectRenderComponent.html',1,'']]],
-  ['rendercomponent',['RenderComponent',['../classRenderComponent.html',1,'']]],
-  ['rendermanager',['RenderManager',['../classRenderManager.html',1,'']]],
-  ['resourcemanager',['ResourceManager',['../classResourceManager.html',1,'']]]
+  ['textrendercomponent',['TextRenderComponent',['../classTextRenderComponent.html',1,'']]],
+  ['timemanager',['TimeManager',['../classTimeManager.html',1,'']]]
 ];

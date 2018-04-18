@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: Main Page</title>
+<title>Platformer: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -63,37 +63,186 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Game Building Engine Documentation</div>  </div>
+<div class="title">Platformer Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Website Link: <a href="https://zilby.github.io/PlatformerPage/">https://zilby.github.io/PlatformerPage/</a></p>
-<h1>Platformer</h1>
-<p>To play the platformer, simply launch the executable for your platform.</p>
-<h3>Controls</h3>
-<p>up/left/down/right or w/a/s/d - movement</p>
-<p>i/j/k/l - (special feature!) destroy destructible blocks</p>
-<p>space - jump</p>
-<h3>Special Mechanics</h3>
-<ol type="1">
-<li>We implemented a parallax scrolling system, so that the backgrounds will appear to move at a slower rate than the player, giving the illusion of depth to the scene. The implementation relied upon detecting the movement of the camera and scrolling the background texture at a pace slower than the player was moving.</li>
-<li>We also have destructible terrain! Some of the blocks (the ones that look like bricks) can be destroyed using the controls noted above. This was done by updating our tile map with an "empty" tile when the player elects to destroy a block, and then dynamically recomputing the texture for the tiles. (Another note: a cool feature in and of itself is that our tile map is rendered using a "mega texture". Essentially, we bake all the independent tile images into a big tile map texture, and then at runtime we only need to render the single large texture!) <hr/>
+<div class="textblock"><p>Website Link: <a href="https://zilby.github.io/GameBuildingEngine/">https://zilby.github.io/GameBuildingEngine/</a></p>
+<h1>Eternal2D Engine</h1>
+<p>The Eternal2D engine is a component-based 2D game engine for Mac and Linux written in C++ that includes support for Python scripting. It was written from scratch for CS4850 except for the Physics engine, <a href="http://box2d.org/">Box2D</a>.</p>
+<h2>Running the Engine</h2>
+<p>Everything you need to run the Eternal2D engine is in the Eternal2D directory. If you wish to recompile the engine for yourself, you can do so using the Makefile and source code provided to compile the source code and ThirdParty libraries into the Eternal2D directory.</p>
+<p>Run <code>make</code> to rebuild the engine itself, or <code>make editor</code> to rebuild the C++ level serialization modules used by the Eternal2D Editor.</p>
+<p>If you have completed the above steps or do not wish to recompile, simply launch the executable located at <code>&lt;yourplatform&gt;/eternal2d</code>. The game's levels will be loaded from <code>Assets/Levels</code> in the order specified by the <code>Config/levels.txt</code> file. You can provide a different filename within the Config directory to use as the level list by passing it as a command line argument when launching the engine.</p>
+<h2>Eternal2DEditor</h2>
+<p>The Eternal2DEditor was built in Python3 using <a href="http://python-pillow.org/">Pillow</a> and <a href="http://appjar.info/">appJar</a>. The appJar library is included with Eternal2D.</p>
+<h3>Setup</h3>
+<p>To use the editor, you must first install python (version 3.5 or above).</p>
+<p>Next, you must install pillow for python3. To do this, you can run <code>sudo pip3 install pillow</code> in a terminal.</p>
+<p>If this fails try <code>sudo -H pip3 install pillow</code> or install manually.</p>
+<p>Finally, use python3 to run the python executable at <code>/Eternal2D/Editor/eternal2Deditor.py</code>.</p>
+<h3>Using the editor</h3>
+<p>When you open the editor, you will be presented with a blank canvas and an empty detail panel. You can drag the panels to your preferred size and drap the canvas around until the origin is where you prefer.</p>
+<p>You can open an existing level file with <code>File&gt;Open</code> or the folder icon.</p>
+<p>You can change the name of the open level with <code>File&gt;ChangeLevelName</code>. The default level name is <code>temp.lvl</code>.</p>
+<p>You can save your level with <code>File&gt;Save</code> or the save icon. The editor will use the current name as the file, so make sure to change it first if you don't want to save it at the defailt location.</p>
+<p>You can edit the level list configuration with <code>Level&gt;Edit Level Order</code>.</p>
+<p>You can launch your game using <code>Level&gt;Play</code>.</p>
+<ul>
+<li>Note: Both of the previous features assume you use the default level list, <code>levels.txt</code>. If you wish to use a different, or more than one, level list, you will need to set them up manually.</li>
+</ul>
+<p>You can create new GameObjects by clicking the "Create New" button, or using <code><a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>&gt;Create New <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a></code>.</p>
+<p>You can select an existing object by clicking it in the canvas or double-clicking it in the list of objects.</p>
+<p>You can edit an existing object by selecting it, and editing the fields in the inspector panel.</p><ul>
+<li>Name: the name displayed in the list view</li>
+<li>X &amp; Y: the postition of the center of the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a></li>
+<li>W &amp; H: the width and height of the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a></li>
+<li>Permanent: whether the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> should persist through level loads (this will create multiple copies if the level is reloaded)</li>
+<li>Module Name: The file name of the python script for this object, excluding <code>.py</code>. The script should be placed in <code>Assets/Scripts/</code></li>
+<li>Class Name: The name of the python class for this object. It should extend from <code>core.ScriptBase</code><ul>
+<li>These can be left blank and no script will be loaded, but you should not leave only one filled in.</li>
+</ul>
 </li>
-</ol>
-<h2>Running platformer</h2>
-<p>Executables for Mac and Linux are provided in the <code>Game</code> directory, or you can compile the game yourself (see below).</p>
-<h2>Compilation</h2>
-<p>If you want to compile the game from source yourself, compiling Platformer should be super simple! The appropriate SDL2 libraries are already included in the "ThirdParty" folder for you, and the Makefile accounts for cross platform compilation. Compiling Platformer should be as simple as entering the shell of your choice, navigating to the Platformer root directory, and running the command 'make'. This should compile a Platformer executable into the <code>Game</code> directory for you. </p><hr/>
-<h3>Custom level support</h3>
-<p>Levels are loaded from <code>Assets/Levels</code> according to the configuration files located at <code>Config/levels.txt</code>.</p>
-<p>A level editor is provided in the <code><a class="el" href="classTileEditor.html" title="Our Tile Editor class. ">TileEditor</a></code> directory for Mac and Linux. Like the game itself, the editor can also be compiled from source by running <code>make tile_editor</code>. The editor allows you to edit only the levels specified in <code>Config/levels.txt</code>.</p>
-<p>To edit a level, select the tile you would like to place from the list on the top right, then simply click the location in the level you want it to appear. The size of the level can be increased or decreased using the buttons on the bottom left. If the level is grown at any point, the new tiles will be filled with the currently selected block. The editor saves your levels when you exit in addition to anytime you click save.</p>
-<p>All levels must have exactly one spawn point and at most one goal.</p>
-<h3>Sprite Editor</h3>
-<p>The sprite editor is a python script located in the <code>SpriteEditor</code> directory, and can be run by installing Pillow 5.0.0, a version of which is included for install if you wish to manually. To install simply run the <code>setup.py</code> python script in the <code>SpriteEditor/Pillow-5.0.0</code> folder. Python 2.7 is required. </p>
+<li>Sprite Name: The name of the sprite image to use to render this object, if desired. The sprites should be places in <code>Assets/Sprites/</code></li>
+</ul>
+<p>You can use the "Move Up" and "Move Down" buttons to move the selected object up and down in the list.</p>
+<p>You can duplicate an existing object and all of its attributes by selecting it, and clicking the "Duplicate" button, or by with <code><a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>&gt;Duplicate <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a></code></p>
+<p>If the Module Name is set correctly, you can open the script for the currently selected <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> with <code><a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>&gt;Open <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> Script</code></p>
+<h2>Python Scripting Interface</h2>
+<p>You can import the following modules (all lowercase) into your python scripts. Scripts should be placed in the <code>Assets/Scipts</code> directory.</p>
+<h3>Core</h3>
+<ul>
+<li>Color<ul>
+<li>constructed with RGB or RGBA values between 0 and 255, or no arguments</li>
+<li><code>r</code>, <code>g</code>, <code>b</code>, <code>a</code> fields</li>
+</ul>
+</li>
+<li>Rect:<ul>
+<li>constructed with x position, y position, width, and height, or no arguments</li>
+<li><code>x</code>, <code>y</code>, <code>w</code>, <code>h</code> fields</li>
+</ul>
+</li>
+<li><a class="el" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. ">Vector2</a>:<ul>
+<li>constructed with x and y, or no arguments</li>
+<li><code>x</code>, <code>y</code> fields</li>
+</ul>
+</li>
+<li><a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a><ul>
+<li>Created with the static Create(x, y, width, height, isUI, isPermanent)<ul>
+<li>x &amp; y are the center of the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a></li>
+<li>isUI: if set to true, the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> will be rendered in screen space (x &amp; y are pixels from the tom left corner, +y is down) rather than game space (x &amp; y are arbitrary units, +y is up)</li>
+<li>isPermanent: if set to true, the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> will persist through level load<ul>
+<li>Both above flags can be omitted and default vales of false will be assumend. However, if you want to specify one you must specify the other as well</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>AddComponent(component) function that adds the given Camera-, Button-, Physics- or <a class="el" href="classRenderComponent.html" title="A RenderComponent class. ">RenderComponent</a> to the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> that it is called on</li>
+<li>Get___Component() function that returns the specified component that is attached to the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> it is called on<ul>
+<li>The blank can be either <code>Camera</code>, <code><a class="el" href="classButton.html" title="A basic button component class. ">Button</a></code>, <code>Physics</code>, or <code>Render</code></li>
+</ul>
+</li>
+<li>position <a class="el" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. ">Vector2</a> that holds the x &amp; y position of the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>'s center</li>
+<li>scale <a class="el" href="classVector2.html" title="Basic class representation of a vector 2 with an x and y coordinate. ">Vector2</a> that holds the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>'s width and height in its x &amp; y</li>
+</ul>
+</li>
+<li>ScriptBase<ul>
+<li>Base class that Python script classes should inherit from</li>
+<li>Init() is called when the component is added to a game object</li>
+<li>Update() is called every frame<ul>
+<li>Both are required, even if they simply just return</li>
+</ul>
+</li>
+<li>Can only be added to GameObjects via the Eternal2DEditor (see below)</li>
+</ul>
+</li>
+<li><a class="el" href="structAnimation.html" title="Struct for a single animation. ">Animation</a><ul>
+<li>Constructed with the source rect's x and y coordinates, width, and height, the number of frames for this animation, the horizontal distance between each frame on the sprite sheet, and the frames per second of this animation.</li>
+</ul>
+</li>
+<li>DeltaTime() method that returns the number of milliseconds the last frame took to Update and Render</li>
+</ul>
+<h3>Components</h3>
+<ul>
+<li><a class="el" href="classCameraComponent.html" title="A class representing a camera within our game. ">CameraComponent</a><ul>
+<li>Constructed with a Rect specifying the Game Area to capture (x &amp; y = center), and a Rect specifying the screen region to render to (x &amp; y = topleft). If the latter or both of these are omitted, the screens' resolution will be assumed instead.</li>
+<li>SetActive() function that tells the engine to use this camera for rendering.</li>
+<li>SetCaptureArea(Rect) function that specifies a new game area for the camera to capture</li>
+</ul>
+</li>
+<li>ButtonComponent<ul>
+<li>Constructed with a funtion that will be called when a Left-Click is detected on the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a></li>
+<li>The function must take in the game object that was clicked. This means the functon can be entirely separate from the script component</li>
+</ul>
+</li>
+<li><a class="el" href="classPhysicsComponent.html" title="A component that generates physics for a GameObject. ">PhysicsComponent</a><ul>
+<li>Constructed with a body type (Dynamic, Kinematic, or Static), either a vector&lt;Vector2&gt; of four points to determine the shape or a width and a height to determine the shape, the density (default 1), the friction (default 1), the restitution (bounciness, default 1), and whether or not this <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> is managed by physics.</li>
+<li>SetActive() function that sets the physics body to be active.</li>
+<li>ApplyForce(Vector2, Vector2) function that applies the given force to the given point relative to this object</li>
+<li>ApplyForceToCenter(Vector2) function that applies the given force to the center of this object</li>
+<li>GetLinearVelocity() funciton that gets the linear velocity of this object</li>
+<li>SetLinearVelocity(Vector2) function that sets the linear velocity of this object</li>
+<li>SetManagedByPhysics(bool) function that sets whether this object is managed by physics</li>
+</ul>
+</li>
+<li>RenderComponents<ul>
+<li>A single <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> can only have one of these at a time.</li>
+<li>Any relevant images will be stretched to fit the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a>.</li>
+<li><a class="el" href="classAnimationRenderComponent.html" title="An AnimationRenderComponent class. ">AnimationRenderComponent</a><ul>
+<li>Constructed with a map of integer state IDs (eg: walking, jumping, standing) to individual animations ie: unordered_map&lt;unsigned int, Animation&gt;</li>
+<li>SwitchState(int) function that switches the current animation to that of the given state.</li>
+</ul>
+</li>
+<li><a class="el" href="classImageRenderComponent.html" title="An ImageRenderComponent class. ">ImageRenderComponent</a><ul>
+<li>Constructed with the name of the file within the <code>Assets/Sprites/</code> directory</li>
+</ul>
+</li>
+<li><a class="el" href="classTextRenderComponent.html" title="A TextRenderComponent class. ">TextRenderComponent</a><ul>
+<li>Constructed with a Color that the Text will be drawn in, and an optional initial string</li>
+<li>ChangeText(string) function that updates the string</li>
+</ul>
+</li>
+<li><a class="el" href="classRectRenderComponent.html" title="A component class for rendering rects as solid colors. ">RectRenderComponent</a><ul>
+<li>Constructed with a Color that the <a class="el" href="classGameObject.html" title="A GameObject class. ">GameObject</a> will be drawn in</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Game</h3>
+<ul>
+<li>LoadNextLevel() funciton load the next level after the current frame is finished<ul>
+<li>This can be called mutiple times in a frame to skip over levels</li>
+</ul>
+</li>
+<li>ReloadLevel() function reloads and resets the current level</li>
+<li>GetActiveObjects() function returns a list of all the active GameObjects in the current level</li>
+</ul>
+<h3>Physics</h3>
+<ul>
+<li>BodyType enum (DYNAMIC, STATIC, or KINEMATIC) specifying behavior for a <a class="el" href="classPhysicsComponent.html" title="A component that generates physics for a GameObject. ">PhysicsComponent</a></li>
+<li>SetGravity(x, y) method to set the gravity in the x &amp; y direction (e.g. earth is (0, -9.8))</li>
+</ul>
+<h3>Sound</h3>
+<ul>
+<li>LoadSound(pathath) function returns the sound loaded from the supplied path within <code>Assets/Sounds/</code></li>
+<li>PlaySound(sound, times) function that plays a sound.<ul>
+<li>Set times to -1 to loop playback.</li>
+</ul>
+</li>
+</ul>
+<h3>Translation</h3>
+<ul>
+<li>Lookup(key) Lookup a value for the key set from the loaded locale<ul>
+<li>The <code>Config/lang.txt</code> file specifies the locale file to use from <code>Assets/Locales</code>.</li>
+<li>e.g. "en" in lang.txt specifies to load <code>Assets/Locales/en.txt</code></li>
+<li>Locale files are of the form "keystring:value string", with each pair on its own line </li>
+</ul>
+</li>
+</ul>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

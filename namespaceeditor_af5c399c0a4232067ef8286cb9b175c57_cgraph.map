@@ -1,0 +1,5 @@
+<map id="editor.selectFromCanvas" name="editor.selectFromCanvas">
+<area shape="rect" id="node2" href="$namespaceeditor.html#a6d0cab1de9ff83d1133abcd7bf81de33" title="Redraws all game objects on the canvas. " alt="" coords="222,5,366,31"/>
+<area shape="rect" id="node4" href="$namespaceeditor.html#a7c0d1c235887404788acf50cec05263d" title="Refreshes all of the fields. " alt="" coords="227,55,361,80"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#a249c64b933c3cf98b39f3af3c06eb4cf" title="Draws the given image to the canvas. " alt="" coords="414,5,537,31"/>
+</map>

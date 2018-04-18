@@ -1,0 +1,4 @@
+<map id="editor.setSpriteName" name="editor.setSpriteName">
+<area shape="rect" id="node2" href="$namespaceeditor.html#a6d0cab1de9ff83d1133abcd7bf81de33" title="Redraws all game objects on the canvas. " alt="" coords="199,5,343,31"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#a249c64b933c3cf98b39f3af3c06eb4cf" title="Draws the given image to the canvas. " alt="" coords="391,5,514,31"/>
+</map>

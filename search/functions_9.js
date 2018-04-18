@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['lambdacomponent',['LambdaComponent',['../classLambdaComponent.html#a61b2edf1ccc9db90ac30f052d8033d33',1,'LambdaComponent']]],
-  ['level',['Level',['../classLevel.html#a0afbb111faa5aa3d9faca89886508589',1,'Level']]],
-  ['loadfont',['LoadFont',['../classResourceManager.html#aa1805fd3058f1938b63b8ecc6984ff79',1,'ResourceManager']]],
-  ['loadimage',['LoadImage',['../classResourceManager.html#adea7f66f4eea16cea9eafcb7c5e40a3a',1,'ResourceManager']]],
-  ['loadlevel',['LoadLevel',['../classGameManager.html#a746f81c64fd771362b78f20c370145a2',1,'GameManager::LoadLevel()'],['../classLevelLoader.html#a89e2ae9b96563e1c2ab94b02e416ad6e',1,'LevelLoader::LoadLevel()']]],
-  ['loadlevels',['LoadLevels',['../classGameManager.html#ab62bc12ea91015551963761f9005c56f',1,'GameManager']]],
-  ['loadnextlevel',['LoadNextLevel',['../classGameManager.html#a60190aaf2b66ff2627b1284a19e3b403',1,'GameManager']]],
-  ['loadsound',['LoadSound',['../classResourceManager.html#a0bdf3bde3f0e83cc737f3623f4db0325',1,'ResourceManager']]],
-  ['localemanager',['LocaleManager',['../classLocaleManager.html#a427bbcfb287cbc388f1bfdefcae03917',1,'LocaleManager::LocaleManager(const LocaleManager &amp;)=delete'],['../classLocaleManager.html#af85e476ac9f9f68f8e9d03d490e89ecc',1,'LocaleManager::LocaleManager(const std::string &amp;locale)']]],
-  ['lookup',['Lookup',['../classLocaleManager.html#a7a6900f1a761260b715ff9697fe2f962',1,'LocaleManager']]]
+  ['parselevelpaths',['ParseLevelPaths',['../classConfigParser.html#aaf76d89381a79c35d5c7b4a27cfbb0b9',1,'ConfigParser']]],
+  ['parselocale',['ParseLocale',['../classConfigParser.html#af593643470271c91c5502ec075deecd3',1,'ConfigParser']]],
+  ['physicscomponent',['PhysicsComponent',['../classPhysicsComponent.html#a0bc6d0eced1e2bd8ff54a7724c016ba3',1,'PhysicsComponent::PhysicsComponent(BodyType type, std::vector&lt; Vector2 &gt; points, float32 density, float32 friction, float32 restitution, bool managedByPhysics)'],['../classPhysicsComponent.html#a7ab4b6fa629fbafe18d901f90c82db8e',1,'PhysicsComponent::PhysicsComponent(BodyType type, float32 width, float32 height, float32 density, float32 friction, float32 restitution, bool managedByPhysics)']]],
+  ['physicsmanager',['PhysicsManager',['../classPhysicsManager.html#aab262ac40685486b71bdacb6c4d41250',1,'PhysicsManager::PhysicsManager(const PhysicsManager &amp;)=delete'],['../classPhysicsManager.html#abee8b0945994b58f3847aade4a73cba9',1,'PhysicsManager::PhysicsManager()']]],
+  ['play',['play',['../namespaceeternal2Deditor.html#a8ecaec38a81f8a5d561b14f70afce15f',1,'eternal2Deditor']]],
+  ['playsound',['PlaySound',['../classSoundManager.html#adec18422bed375bfe7cd89b183cede0a',1,'SoundManager']]],
+  ['pollinput',['PollInput',['../classInputManager.html#a38e3bde160e70df1002c966060b41034',1,'InputManager']]],
+  ['pythonmanager',['PythonManager',['../classPythonManager.html#a5b4ac0b545989d7bb2ac30829b8c58ec',1,'PythonManager::PythonManager(const PythonManager &amp;)=delete'],['../classPythonManager.html#a2d949fc03842f688a85ef592f7f50315',1,'PythonManager::PythonManager()']]]
 ];

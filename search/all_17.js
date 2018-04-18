@@ -1,9 +1,10 @@
 var searchData=
 [
+  ['_7eb2bodywrapper',['~b2BodyWrapper',['../structb2BodyWrapper.html#ab30544db252e8a5c56ccdea66bbfb7ef',1,'b2BodyWrapper']]],
   ['_7egamemanager',['~GameManager',['../classGameManager.html#aaae63e38e358379c1fe507c5197a8435',1,'GameManager']]],
   ['_7einputmanager',['~InputManager',['../classInputManager.html#af518290877dd183606709d5852db5491',1,'InputManager']]],
-  ['_7elevel',['~Level',['../classLevel.html#a249eac1e8f19ff44134efa5e986feaca',1,'Level']]],
   ['_7elocalemanager',['~LocaleManager',['../classLocaleManager.html#a0309e12e9ee26781a86d8ca45ec35543',1,'LocaleManager']]],
+  ['_7ephysicsmanager',['~PhysicsManager',['../classPhysicsManager.html#ac41c46fb62b8104b3d5d5bf6bcf7b2f5',1,'PhysicsManager']]],
   ['_7epythonmanager',['~PythonManager',['../classPythonManager.html#ad3e2651f3ffb93445df271276d001bf1',1,'PythonManager']]],
   ['_7erendermanager',['~RenderManager',['../classRenderManager.html#a221c4de19c04ad31cc1e729b9eb60c3b',1,'RenderManager']]],
   ['_7eresourcemanager',['~ResourceManager',['../classResourceManager.html#a671c186e4630599e7e36d000c53eaf80',1,'ResourceManager']]],

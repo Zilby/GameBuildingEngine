@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Game Building Engine: Animation Struct Reference</title>
+<title>Platformer: Animation Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Game Building Engine
+   <div id="projectname">Platformer
    </div>
-   <div id="projectbrief">Game Building Engine</div>
+   <div id="projectbrief">Platformer</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ Collaboration diagram for Animation:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6aca45e8525d2801246c45f4261214ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#a6aca45e8525d2801246c45f4261214ac">Animation</a> (const std::string &amp;<a class="el" href="structAnimation.html#a73bcc763ebf4eb3e4d78539032131a75">spriteSheet</a>, unsigned int <a class="el" href="structAnimation.html#a189154896e4e0c379f22569f28d50162">srcX</a>, unsigned int srcY, unsigned int srcW, unsigned int srcH, unsigned int <a class="el" href="structAnimation.html#ace0538b8f94a0a99c01540a67e3a32b7">numFrames</a>, unsigned int <a class="el" href="structAnimation.html#a96a77ec0e49961eafee59a944be34295">frameDifference</a>, unsigned int <a class="el" href="structAnimation.html#a37fd55358a7201d1ea7c95425d48a269">FPS</a>)</td></tr>
+<tr class="memitem:a6aca45e8525d2801246c45f4261214ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#a6aca45e8525d2801246c45f4261214ac">Animation</a> (const std::string &amp;<a class="el" href="structAnimation.html#a73bcc763ebf4eb3e4d78539032131a75">spriteSheet</a>, unsigned int <a class="el" href="structAnimation.html#a189154896e4e0c379f22569f28d50162">srcX</a>, unsigned int <a class="el" href="structAnimation.html#a5c55ca7eefe44328db636b3ecb0d0c47">srcY</a>, unsigned int <a class="el" href="structAnimation.html#a9fdb6b41943e4b98555dda246f8fb382">srcW</a>, unsigned int <a class="el" href="structAnimation.html#a1e31c6fe7d63868819670477d77b0384">srcH</a>, unsigned int <a class="el" href="structAnimation.html#ace0538b8f94a0a99c01540a67e3a32b7">numFrames</a>, unsigned int <a class="el" href="structAnimation.html#a96a77ec0e49961eafee59a944be34295">frameDifference</a>, unsigned int <a class="el" href="structAnimation.html#a37fd55358a7201d1ea7c95425d48a269">FPS</a>)</td></tr>
 <tr class="memdesc:a6aca45e8525d2801246c45f4261214ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new animation.  <a href="#a6aca45e8525d2801246c45f4261214ac">More...</a><br /></td></tr>
 <tr class="separator:a6aca45e8525d2801246c45f4261214ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af57d23ed6f307664f28ffdb602192149"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; SDL_Rect &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#af57d23ed6f307664f28ffdb602192149">GetRectForFrame</a> (unsigned int frame)</td></tr>
@@ -102,16 +102,19 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a73bcc763ebf4eb3e4d78539032131a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a189154896e4e0c379f22569f28d50162"><td class="memItemLeft" align="right" valign="top"><a id="a189154896e4e0c379f22569f28d50162"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#a189154896e4e0c379f22569f28d50162">srcX</a></td></tr>
-<tr class="memdesc:a189154896e4e0c379f22569f28d50162"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rect for this animation. <br /></td></tr>
+<tr class="memdesc:a189154896e4e0c379f22569f28d50162"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rect's x coordinate for this animation. <br /></td></tr>
 <tr class="separator:a189154896e4e0c379f22569f28d50162"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c55ca7eefe44328db636b3ecb0d0c47"><td class="memItemLeft" align="right" valign="top"><a id="a5c55ca7eefe44328db636b3ecb0d0c47"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>srcY</b></td></tr>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#a5c55ca7eefe44328db636b3ecb0d0c47">srcY</a></td></tr>
+<tr class="memdesc:a5c55ca7eefe44328db636b3ecb0d0c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rect's y coordinate for this animation. <br /></td></tr>
 <tr class="separator:a5c55ca7eefe44328db636b3ecb0d0c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fdb6b41943e4b98555dda246f8fb382"><td class="memItemLeft" align="right" valign="top"><a id="a9fdb6b41943e4b98555dda246f8fb382"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>srcW</b></td></tr>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#a9fdb6b41943e4b98555dda246f8fb382">srcW</a></td></tr>
+<tr class="memdesc:a9fdb6b41943e4b98555dda246f8fb382"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rect's width for this animation. <br /></td></tr>
 <tr class="separator:a9fdb6b41943e4b98555dda246f8fb382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e31c6fe7d63868819670477d77b0384"><td class="memItemLeft" align="right" valign="top"><a id="a1e31c6fe7d63868819670477d77b0384"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>srcH</b></td></tr>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#a1e31c6fe7d63868819670477d77b0384">srcH</a></td></tr>
+<tr class="memdesc:a1e31c6fe7d63868819670477d77b0384"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source rect's height for this animation. <br /></td></tr>
 <tr class="separator:a1e31c6fe7d63868819670477d77b0384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace0538b8f94a0a99c01540a67e3a32b7"><td class="memItemLeft" align="right" valign="top"><a id="ace0538b8f94a0a99c01540a67e3a32b7"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimation.html#ace0538b8f94a0a99c01540a67e3a32b7">numFrames</a></td></tr>
@@ -195,7 +198,10 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">spriteSheet</td><td>The spritesheet for this animation </td></tr>
-    <tr><td class="paramname">srcX</td><td>The source rect for this animation </td></tr>
+    <tr><td class="paramname">srcX</td><td>The source rect's x coordinate for this animation </td></tr>
+    <tr><td class="paramname">srcY</td><td>The source rect's y coordinate for this animation </td></tr>
+    <tr><td class="paramname">srcW</td><td>The source rect's width for this animation </td></tr>
+    <tr><td class="paramname">srcH</td><td>The source rect's height for this animation </td></tr>
     <tr><td class="paramname">numFrames</td><td>The number of frames of this animation </td></tr>
     <tr><td class="paramname">frameDifference</td><td>The x-axis distance between each frame of the animation </td></tr>
     <tr><td class="paramname">FPS</td><td>The frames per second of this animation </td></tr>
@@ -239,7 +245,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 14:25:26 for Game Building Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

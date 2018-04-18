@@ -1,0 +1,9 @@
+<map id="editor.open" name="editor.open">
+<area shape="rect" id="node2" href="$namespaceeditor.html#a08d875285ae21138344b80cff23e8e3d" title="Gets the current OS path. " alt="" coords="165,5,269,31"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#a0da1f718ec917474627eccded5177f75" title="Resets all global variables. " alt="" coords="141,55,293,80"/>
+<area shape="rect" id="node4" href="$namespaceeditor.html#a856fb066408d725122575e2e2fa88310" title="Refreshes everything. " alt="" coords="160,104,274,129"/>
+<area shape="rect" id="node5" href="$namespaceeditor.html#ab0658303420fbf3987cda4c83d7b5b50" title="Refreshes the list of game objects. " alt="" coords="353,55,473,80"/>
+<area shape="rect" id="node6" href="$namespaceeditor.html#a7c0d1c235887404788acf50cec05263d" title="Refreshes all of the fields. " alt="" coords="345,104,480,129"/>
+<area shape="rect" id="node7" href="$namespaceeditor.html#a6d0cab1de9ff83d1133abcd7bf81de33" title="Redraws all game objects on the canvas. " alt="" coords="341,153,485,179"/>
+<area shape="rect" id="node8" href="$namespaceeditor.html#a249c64b933c3cf98b39f3af3c06eb4cf" title="Draws the given image to the canvas. " alt="" coords="533,153,656,179"/>
+</map>

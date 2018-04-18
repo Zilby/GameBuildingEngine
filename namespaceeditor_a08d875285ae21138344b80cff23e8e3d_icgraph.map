@@ -1,0 +1,7 @@
+<map id="editor.getPath" name="editor.getPath">
+<area shape="rect" id="node2" href="$namespaceeditor.html#aa80777d11f2578cc5f8f67f02d5c1796" title="Opens the current level file. " alt="" coords="211,5,299,31"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#a561c76a5af41b6ba1fcdef5d23d571e8" title="Saves the current level file. " alt="" coords="212,55,298,80"/>
+<area shape="rect" id="node4" href="$namespaceeditor.html#a2e40b900f0da4cd68ceeb3086f38ca7f" title="Plays the current level file. " alt="" coords="214,104,296,129"/>
+<area shape="rect" id="node5" href="$namespaceeditor.html#a12b02f5220b61a118ed2e919ac571bed" title="Gets the level order config file name. " alt="" coords="176,153,334,179"/>
+<area shape="rect" id="node6" href="$namespaceeditor.html#a8539d1f3a06f650ced82f4ccd723fc10" title="Opens the currently selected game object&#39;s script file. " alt="" coords="157,203,353,228"/>
+</map>

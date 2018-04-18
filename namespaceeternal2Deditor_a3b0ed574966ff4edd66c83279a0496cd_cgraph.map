@@ -1,0 +1,5 @@
+<map id="eternal2Deditor.setSpriteName" name="eternal2Deditor.setSpriteName">
+<area shape="rect" id="node2" href="$namespaceeternal2Deditor.html#ab22a374d97e690f8c0d18153a3bec66c" title="Redraws all game objects on the canvas. " alt="" coords="257,5,458,31"/>
+<area shape="rect" id="node3" href="$namespaceeternal2Deditor.html#a3de2a7ad81425bc39bbd5d2d4eeeb0ef" title="Draws the given image to the canvas. " alt="" coords="506,5,688,31"/>
+<area shape="rect" id="node4" href="$namespaceeternal2Deditor.html#adee85b8d18f7bb69441a2d2341eeddd6" title="Gets the current OS path. " alt="" coords="736,5,897,31"/>
+</map>

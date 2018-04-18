@@ -1,0 +1,10 @@
+<map id="eternal2Deditor.refreshList" name="eternal2Deditor.refreshList">
+<area shape="rect" id="node2" href="$namespaceeternal2Deditor.html#aa795f0f037e7c91a4340c1ac58d9eef9" title="Sets the name via name field input. " alt="" coords="233,93,401,119"/>
+<area shape="rect" id="node3" href="$namespaceeternal2Deditor.html#a29b4fa03be664e08f8747c51838d00a7" title="Refreshes everything. " alt="" coords="231,143,403,168"/>
+<area shape="rect" id="node4" href="$namespaceeternal2Deditor.html#a79f5fcee5ec7dd0c1d43ff9d50bb07ac" title="Opens the current level file. " alt="" coords="485,5,630,31"/>
+<area shape="rect" id="node5" href="$namespaceeternal2Deditor.html#ac68f43d1114f4d91e3f3418122f65aa0" title="Creates a new game object. " alt="" coords="463,55,652,93"/>
+<area shape="rect" id="node6" href="$namespaceeternal2Deditor.html#a7bbb36d0cd318323c78241602da20913" title="Duplicates the currently selected game object. " alt="" coords="451,117,663,143"/>
+<area shape="rect" id="node7" href="$namespaceeternal2Deditor.html#a909bc3665206ea14591e51071dc8c341" title="Deletes the selected game object. " alt="" coords="455,167,659,192"/>
+<area shape="rect" id="node8" href="$namespaceeternal2Deditor.html#a43faead086796a892959953eff55ecbe" title="Sets the currently selected game object to be layered one layer up. " alt="" coords="462,216,653,241"/>
+<area shape="rect" id="node9" href="$namespaceeternal2Deditor.html#a699fae9fc1883e869313db5d99d0afc1" title="Sets the currently selected game object to be layered one layer down. " alt="" coords="453,265,661,291"/>
+</map>

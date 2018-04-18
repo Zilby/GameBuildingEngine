@@ -1,0 +1,10 @@
+<map id="editor.refreshList" name="editor.refreshList">
+<area shape="rect" id="node2" href="$namespaceeditor.html#a6ddf8265da600546baf50bdb3470cac8" title="Sets the name via name field input. " alt="" coords="175,80,286,105"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#a856fb066408d725122575e2e2fa88310" title="Refreshes everything. " alt="" coords="173,129,287,155"/>
+<area shape="rect" id="node4" href="$namespaceeditor.html#aa80777d11f2578cc5f8f67f02d5c1796" title="Opens the current level file. " alt="" coords="376,5,464,31"/>
+<area shape="rect" id="node5" href="$namespaceeditor.html#a3c3d2473e4cac3e43c65dfce1ed38ce2" title="Creates a new game object. " alt="" coords="335,55,505,80"/>
+<area shape="rect" id="node6" href="$namespaceeditor.html#a1584ea9d7febcea188b0b1c832e54446" title="Duplicates the currently selected game object. " alt="" coords="343,104,497,129"/>
+<area shape="rect" id="node7" href="$namespaceeditor.html#a3a877e78183dfe75405e6958e515e16f" title="Deletes the selected game object. " alt="" coords="347,153,493,179"/>
+<area shape="rect" id="node8" href="$namespaceeditor.html#a3a9951f6389833a652db0af9c3111da8" title="Sets the currently selected game object to be layered one layer up. " alt="" coords="353,203,487,228"/>
+<area shape="rect" id="node9" href="$namespaceeditor.html#a1153bbdcd3aec572196649945357e8a2" title="Sets the currently selected game object to be layered one layer down. " alt="" coords="345,252,495,277"/>
+</map>

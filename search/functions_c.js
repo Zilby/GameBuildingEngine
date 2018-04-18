@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['parselevelpaths',['ParseLevelPaths',['../classConfigParser.html#aaf76d89381a79c35d5c7b4a27cfbb0b9',1,'ConfigParser']]],
-  ['parselocale',['ParseLocale',['../classConfigParser.html#af593643470271c91c5502ec075deecd3',1,'ConfigParser']]],
-  ['physicscomponent',['PhysicsComponent',['../classPhysicsComponent.html#ab531c65f48029c0cbb47ffcdda63300f',1,'PhysicsComponent']]],
-  ['playsound',['PlaySound',['../classSoundManager.html#aad0dc203e77d0bb1fee309664e180106',1,'SoundManager']]],
-  ['pollinput',['PollInput',['../classInputManager.html#a38e3bde160e70df1002c966060b41034',1,'InputManager']]],
-  ['pythonmanager',['PythonManager',['../classPythonManager.html#a5b4ac0b545989d7bb2ac30829b8c58ec',1,'PythonManager::PythonManager(const PythonManager &amp;)=delete'],['../classPythonManager.html#a2d949fc03842f688a85ef592f7f50315',1,'PythonManager::PythonManager()']]]
+  ['textrendercomponent',['TextRenderComponent',['../classTextRenderComponent.html#ae7b0bdae701de1600dfaec863c62ee2c',1,'TextRenderComponent::TextRenderComponent(SDL_Color color)'],['../classTextRenderComponent.html#a2f12cbe018fce13c173e8a400361c242',1,'TextRenderComponent::TextRenderComponent(SDL_Color color, std::string text)']]],
+  ['timemanager',['TimeManager',['../classTimeManager.html#a10508dcd4da65973c3c341adfe83cb8e',1,'TimeManager::TimeManager(const TimeManager &amp;)=delete'],['../classTimeManager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6',1,'TimeManager::TimeManager()']]],
+  ['translate',['Translate',['../classCameraComponent.html#ad6a70b7f68ab24420f49ed6b29335863',1,'CameraComponent']]]
 ];

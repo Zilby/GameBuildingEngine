@@ -1,15 +1,19 @@
 var searchData=
 [
   ['rectrendercomponent',['RectRenderComponent',['../classRectRenderComponent.html',1,'RectRenderComponent'],['../classRectRenderComponent.html#a56c9969142cb55cb04e135c51a86dd47',1,'RectRenderComponent::RectRenderComponent()']]],
+  ['redrawobjects',['redrawObjects',['../namespaceeternal2Deditor.html#ab22a374d97e690f8c0d18153a3bec66c',1,'eternal2Deditor']]],
+  ['refreshall',['refreshAll',['../namespaceeternal2Deditor.html#a29b4fa03be664e08f8747c51838d00a7',1,'eternal2Deditor']]],
+  ['refreshfields',['refreshFields',['../namespaceeternal2Deditor.html#a80516037aa35c2d961eedc33ef817d3b',1,'eternal2Deditor']]],
+  ['refreshlist',['refreshList',['../namespaceeternal2Deditor.html#aa2f192d5c37809deb8a951eaff378500',1,'eternal2Deditor']]],
   ['registerobject',['RegisterObject',['../classGameWorld.html#a2476a717223b53a81e41a70a9f2b2119',1,'GameWorld']]],
   ['reloadlevel',['ReloadLevel',['../classGameManager.html#a2cc8b35491cf0702ecf37036f5974a60',1,'GameManager']]],
-  ['render',['Render',['../classRectRenderComponent.html#a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc',1,'RectRenderComponent::Render()'],['../classRenderComponent.html#a9fe587c5cb30d590b23251292104ef63',1,'RenderComponent::Render()']]],
+  ['render',['Render',['../classRectRenderComponent.html#a08af9bf3c1b9bbcb94b27cbbf8a7d603',1,'RectRenderComponent::Render()'],['../classRenderComponent.html#a949cf600535a40e5ddb2fbed167e1126',1,'RenderComponent::Render()'],['../classRenderManager.html#a1e0788708fda748a7ff5e2730ed478f1',1,'RenderManager::Render()']]],
   ['renderarea',['renderArea',['../classCameraComponent.html#af49b520cff92f5fc9789e096cc7245c0',1,'CameraComponent']]],
-  ['rendercomponent',['RenderComponent',['../classRenderComponent.html',1,'RenderComponent'],['../classRenderComponent.html#a8525b7024265f9c8a63d1a95e88739df',1,'RenderComponent::RenderComponent()']]],
+  ['rendercomponent',['RenderComponent',['../classRenderComponent.html',1,'RenderComponent'],['../classRenderComponent.html#a1bfbe186278dc7528788aea84f976b6c',1,'RenderComponent::RenderComponent()']]],
   ['renderflip',['renderFlip',['../classRenderComponent.html#aba76150cea5276583e5e81c6d0c9556f',1,'RenderComponent']]],
   ['rendermanager',['RenderManager',['../classRenderManager.html',1,'RenderManager'],['../classRenderManager.html#aa6ce878a407c53f88d58a5076704cb39',1,'RenderManager::RenderManager(const RenderManager &amp;)=delete'],['../classRenderManager.html#aa52d38e61976b5b9438a9eabd2031cfa',1,'RenderManager::RenderManager()']]],
   ['rendersrc',['renderSrc',['../classRenderComponent.html#ad4a4675db19b4c1e47164f0b1b35e8bf',1,'RenderComponent']]],
-  ['resourcemanager',['ResourceManager',['../classResourceManager.html',1,'ResourceManager'],['../classResourceManager.html#aea48ec12ef40b664fb981873bf32793c',1,'ResourceManager::ResourceManager(const ResourceManager &amp;m)=delete'],['../classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb',1,'ResourceManager::ResourceManager()']]],
-  ['rmcol',['RmCol',['../classLevel.html#a78509eaacde0a4e693f6c2d13239fdc9',1,'Level']]],
-  ['rmrow',['RmRow',['../classLevel.html#aa7267093fc69fdb217cda35449ba716a',1,'Level']]]
+  ['renderview',['renderView',['../classCameraComponent.html#a792bf05fd2cd22fe6ce3b0fee6ea323c',1,'CameraComponent']]],
+  ['resetglobalvars',['resetGlobalVars',['../namespaceeternal2Deditor.html#aeed71ff7ebf9bb8b961651f609a20b15',1,'eternal2Deditor']]],
+  ['resourcemanager',['ResourceManager',['../classResourceManager.html',1,'ResourceManager'],['../classResourceManager.html#aea48ec12ef40b664fb981873bf32793c',1,'ResourceManager::ResourceManager(const ResourceManager &amp;m)=delete'],['../classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb',1,'ResourceManager::ResourceManager()']]]
 ];

@@ -1,0 +1,5 @@
+<map id="editor.checkNameDups" name="editor.checkNameDups">
+<area shape="rect" id="node2" href="$namespaceeditor.html#a3c3d2473e4cac3e43c65dfce1ed38ce2" title="Creates a new game object. " alt="" coords="213,5,382,31"/>
+<area shape="rect" id="node3" href="$namespaceeditor.html#a1584ea9d7febcea188b0b1c832e54446" title="Duplicates the currently selected game object. " alt="" coords="220,55,375,80"/>
+<area shape="rect" id="node4" href="$namespaceeditor.html#a6ddf8265da600546baf50bdb3470cac8" title="Sets the name via name field input. " alt="" coords="242,104,353,129"/>
+</map>

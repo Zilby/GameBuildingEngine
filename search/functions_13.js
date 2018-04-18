@@ -1,15 +1,6 @@
 var searchData=
 [
-  ['_7egamemanager',['~GameManager',['../classGameManager.html#aaae63e38e358379c1fe507c5197a8435',1,'GameManager']]],
-  ['_7einputmanager',['~InputManager',['../classInputManager.html#af518290877dd183606709d5852db5491',1,'InputManager']]],
-  ['_7elevel',['~Level',['../classLevel.html#a249eac1e8f19ff44134efa5e986feaca',1,'Level']]],
-  ['_7elocalemanager',['~LocaleManager',['../classLocaleManager.html#a0309e12e9ee26781a86d8ca45ec35543',1,'LocaleManager']]],
-  ['_7epythonmanager',['~PythonManager',['../classPythonManager.html#ad3e2651f3ffb93445df271276d001bf1',1,'PythonManager']]],
-  ['_7erendermanager',['~RenderManager',['../classRenderManager.html#a221c4de19c04ad31cc1e729b9eb60c3b',1,'RenderManager']]],
-  ['_7eresourcemanager',['~ResourceManager',['../classResourceManager.html#a671c186e4630599e7e36d000c53eaf80',1,'ResourceManager']]],
-  ['_7esdlfontwrapper',['~SDLFontWrapper',['../classSDLFontWrapper.html#a7e1bb37506c3d322268c0e2af8cbd287',1,'SDLFontWrapper']]],
-  ['_7esdlsoundwrapper',['~SDLSoundWrapper',['../classSDLSoundWrapper.html#a87579b244e925a61e05aad68ee324594',1,'SDLSoundWrapper']]],
-  ['_7esdltexturewrapper',['~SDLTextureWrapper',['../classSDLTextureWrapper.html#aa53e8da855fb6cf4c237fe401aebae38',1,'SDLTextureWrapper']]],
-  ['_7esoundmanager',['~SoundManager',['../classSoundManager.html#ad5dbf8eab22db48ff8f3db51b02f8938',1,'SoundManager']]],
-  ['_7etimemanager',['~TimeManager',['../classTimeManager.html#a579b1b9e3d323dcc030c100992f7ed8a',1,'TimeManager']]]
+  ['validate_5fsignature',['validate_signature',['../classappJar_1_1lib_1_1png_1_1Reader.html#a2f199e54e76e5af48b90ae1876fd6304',1,'appJar::lib::png::Reader']]],
+  ['vector2',['Vector2',['../classVector2.html#a22104d1809be26a419ef1f959e3761bf',1,'Vector2::Vector2()'],['../classVector2.html#a321cf468f0b0caa050fc802f29af48ee',1,'Vector2::Vector2(int x, int y)']]],
+  ['verify',['verify',['../classappJar_1_1appjar_1_1WidgetManager.html#a7624716e99dd36a99a6084da8daff210',1,'appJar::appjar::WidgetManager']]]
 ];

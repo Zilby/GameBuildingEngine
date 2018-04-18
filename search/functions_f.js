@@ -1,11 +1,16 @@
 var searchData=
 [
-  ['textrendercomponent',['TextRenderComponent',['../classTextRenderComponent.html#a47aace24e2769be07383823633154c9f',1,'TextRenderComponent::TextRenderComponent(SDL_Color color, bool isUI=false)'],['../classTextRenderComponent.html#affc466177c5cd9df229adb791b9f7c5b',1,'TextRenderComponent::TextRenderComponent(SDL_Color color, std::string text, bool isUI=false)']]],
-  ['tileeditor',['TileEditor',['../classTileEditor.html#a8e445c23950396325da9b4725d8bd50b',1,'TileEditor']]],
-  ['tilemap',['TileMap',['../classTileMap.html#a2e104b063067866654950ae70ab3cc51',1,'TileMap']]],
-  ['tilerendercomponent',['TileRenderComponent',['../classTileRenderComponent.html#ac25b9b6d677c9f26d31dc0a16fba4832',1,'TileRenderComponent']]],
-  ['tilesizex',['TileSizeX',['../classTileMap.html#abd9433060fcfb95846e29dfa76ea804b',1,'TileMap']]],
-  ['tilesizey',['TileSizeY',['../classTileMap.html#a7f953fbcacea02558922b80f87c2e9b7',1,'TileMap']]],
-  ['timemanager',['TimeManager',['../classTimeManager.html#a10508dcd4da65973c3c341adfe83cb8e',1,'TimeManager::TimeManager(const TimeManager &amp;)=delete'],['../classTimeManager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6',1,'TimeManager::TimeManager()']]],
-  ['translate',['Translate',['../classCameraComponent.html#ad6a70b7f68ab24420f49ed6b29335863',1,'CameraComponent']]]
+  ['_7eb2bodywrapper',['~b2BodyWrapper',['../structb2BodyWrapper.html#ab30544db252e8a5c56ccdea66bbfb7ef',1,'b2BodyWrapper']]],
+  ['_7egamemanager',['~GameManager',['../classGameManager.html#aaae63e38e358379c1fe507c5197a8435',1,'GameManager']]],
+  ['_7einputmanager',['~InputManager',['../classInputManager.html#af518290877dd183606709d5852db5491',1,'InputManager']]],
+  ['_7elocalemanager',['~LocaleManager',['../classLocaleManager.html#a0309e12e9ee26781a86d8ca45ec35543',1,'LocaleManager']]],
+  ['_7ephysicsmanager',['~PhysicsManager',['../classPhysicsManager.html#ac41c46fb62b8104b3d5d5bf6bcf7b2f5',1,'PhysicsManager']]],
+  ['_7epythonmanager',['~PythonManager',['../classPythonManager.html#ad3e2651f3ffb93445df271276d001bf1',1,'PythonManager']]],
+  ['_7erendermanager',['~RenderManager',['../classRenderManager.html#a221c4de19c04ad31cc1e729b9eb60c3b',1,'RenderManager']]],
+  ['_7eresourcemanager',['~ResourceManager',['../classResourceManager.html#a671c186e4630599e7e36d000c53eaf80',1,'ResourceManager']]],
+  ['_7esdlfontwrapper',['~SDLFontWrapper',['../classSDLFontWrapper.html#a7e1bb37506c3d322268c0e2af8cbd287',1,'SDLFontWrapper']]],
+  ['_7esdlsoundwrapper',['~SDLSoundWrapper',['../classSDLSoundWrapper.html#a87579b244e925a61e05aad68ee324594',1,'SDLSoundWrapper']]],
+  ['_7esdltexturewrapper',['~SDLTextureWrapper',['../classSDLTextureWrapper.html#aa53e8da855fb6cf4c237fe401aebae38',1,'SDLTextureWrapper']]],
+  ['_7esoundmanager',['~SoundManager',['../classSoundManager.html#ad5dbf8eab22db48ff8f3db51b02f8938',1,'SoundManager']]],
+  ['_7etimemanager',['~TimeManager',['../classTimeManager.html#a579b1b9e3d323dcc030c100992f7ed8a',1,'TimeManager']]]
 ];

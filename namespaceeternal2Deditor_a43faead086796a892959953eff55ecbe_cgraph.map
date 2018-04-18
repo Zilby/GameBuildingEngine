@@ -1,0 +1,8 @@
+<map id="eternal2Deditor.layerUpFunc" name="eternal2Deditor.layerUpFunc">
+<area shape="rect" id="node2" href="$namespaceeternal2Deditor.html#a29b4fa03be664e08f8747c51838d00a7" title="Refreshes everything. " alt="" coords="244,56,416,81"/>
+<area shape="rect" id="node3" href="$namespaceeternal2Deditor.html#aa2f192d5c37809deb8a951eaff378500" title="Refreshes the list of game objects. " alt="" coords="476,5,654,31"/>
+<area shape="rect" id="node4" href="$namespaceeternal2Deditor.html#a80516037aa35c2d961eedc33ef817d3b" title="Refreshes all of the fields. " alt="" coords="714,57,906,83"/>
+<area shape="rect" id="node6" href="$namespaceeternal2Deditor.html#ab22a374d97e690f8c0d18153a3bec66c" title="Redraws all game objects on the canvas. " alt="" coords="464,107,666,132"/>
+<area shape="rect" id="node5" href="$namespaceeternal2Deditor.html#adee85b8d18f7bb69441a2d2341eeddd6" title="Gets the current OS path. " alt="" coords="954,83,1116,108"/>
+<area shape="rect" id="node7" href="$namespaceeternal2Deditor.html#a3de2a7ad81425bc39bbd5d2d4eeeb0ef" title="Draws the given image to the canvas. " alt="" coords="719,107,901,132"/>
+</map>

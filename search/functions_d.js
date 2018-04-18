@@ -1,12 +1,5 @@
 var searchData=
 [
-  ['rectrendercomponent',['RectRenderComponent',['../classRectRenderComponent.html#a56c9969142cb55cb04e135c51a86dd47',1,'RectRenderComponent']]],
-  ['registerobject',['RegisterObject',['../classGameWorld.html#a2476a717223b53a81e41a70a9f2b2119',1,'GameWorld']]],
-  ['reloadlevel',['ReloadLevel',['../classGameManager.html#a2cc8b35491cf0702ecf37036f5974a60',1,'GameManager']]],
-  ['render',['Render',['../classRectRenderComponent.html#a0ea7a9b5a34a2720bb8a5eb9bb3fbbdc',1,'RectRenderComponent::Render()'],['../classRenderComponent.html#a9fe587c5cb30d590b23251292104ef63',1,'RenderComponent::Render()']]],
-  ['rendercomponent',['RenderComponent',['../classRenderComponent.html#a8525b7024265f9c8a63d1a95e88739df',1,'RenderComponent']]],
-  ['rendermanager',['RenderManager',['../classRenderManager.html#aa6ce878a407c53f88d58a5076704cb39',1,'RenderManager::RenderManager(const RenderManager &amp;)=delete'],['../classRenderManager.html#aa52d38e61976b5b9438a9eabd2031cfa',1,'RenderManager::RenderManager()']]],
-  ['resourcemanager',['ResourceManager',['../classResourceManager.html#aea48ec12ef40b664fb981873bf32793c',1,'ResourceManager::ResourceManager(const ResourceManager &amp;m)=delete'],['../classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb',1,'ResourceManager::ResourceManager()']]],
-  ['rmcol',['RmCol',['../classLevel.html#a78509eaacde0a4e693f6c2d13239fdc9',1,'Level']]],
-  ['rmrow',['RmRow',['../classLevel.html#aa7267093fc69fdb217cda35449ba716a',1,'Level']]]
+  ['update',['Update',['../classAnimationRenderComponent.html#a87a20a2712e5f4087eacbb080778a7de',1,'AnimationRenderComponent::Update()'],['../classButton.html#a23e8bc9ad05142244ea4e79a406a6c9c',1,'Button::Update()'],['../classCameraComponent.html#a4485cdb5929b9550edafc64c7a3f34cb',1,'CameraComponent::Update()'],['../classComponent.html#abda56474d6ccfbdab47cb5e0cd595c2b',1,'Component::Update()'],['../classLambdaComponent.html#a7246f2aafabc4eb86a3deb3829623a30',1,'LambdaComponent::Update()'],['../classPhysicsComponent.html#a64149f1f6dc2efdd8e9e2ca7586b5025',1,'PhysicsComponent::Update()'],['../classRenderComponent.html#a7f5570975c09d43d4c21a92c17c34355',1,'RenderComponent::Update()'],['../classScriptComponent.html#a513bf24b9929daab8b71e5a823c619f5',1,'ScriptComponent::Update()'],['../classGameManager.html#af3bb4452ac262ec8a68dcc3eea2f0124',1,'GameManager::Update()'],['../classGameObject.html#a1bd14aa169f501f94f1721943d716535',1,'GameObject::Update()'],['../classGameWorld.html#a21627d0f5d59bcbd9d0caf0b51725d1b',1,'GameWorld::Update()']]],
+  ['upevent',['UpEvent',['../classInputManager.html#a019a3a26a0a49a2b720ee1c9fa4b5f5e',1,'InputManager']]]
 ];

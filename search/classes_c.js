@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vector2',['Vector2',['../classVector2.html',1,'']]]
+  ['win',['Win',['../classwinlose_1_1Win.html',1,'winlose']]]
 ];
