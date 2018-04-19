@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Platformer: Main Page</title>
+<title>Eternal2D: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Platformer
+   <div id="projectname">Eternal2D
    </div>
-   <div id="projectbrief">Platformer</div>
+   <div id="projectbrief">Eternal2D</div>
   </td>
  </tr>
  </tbody>
@@ -63,11 +63,23 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Platformer Documentation</div>  </div>
+<div class="title">Eternal2D Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Website Link: <a href="https://zilby.github.io/GameBuildingEngine/">https://zilby.github.io/GameBuildingEngine/</a></p>
 <h1>Eternal2D Engine</h1>
+    <center>
+        <video width="1024" height="576" controls>
+          <source src="Website_Media/Pong.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+          <div>
+            <p>
+              <img src="Website_Media/Screenshots/shot2.png" width = "350" height = "250">
+              <img src="Website_Media/Screenshots/shot1.png" width = "420" height = "250">
+              <img src="Website_Media/Screenshots/shot3.png" width = "350" height = "250">
+            </p>
+          </div>
+        </center>
 <p>The Eternal2D engine is a component-based 2D game engine for Mac and Linux written in C++ that includes support for Python scripting. It was written from scratch for CS4850 except for the Physics engine, <a href="http://box2d.org/">Box2D</a>.</p>
 <h2>Running the Engine</h2>
 <p>Everything you need to run the Eternal2D engine is in the Eternal2D directory. If you wish to recompile the engine for yourself, you can do so using the Makefile and source code provided to compile the source code and ThirdParty libraries into the Eternal2D directory.</p>
@@ -239,10 +251,58 @@ $(function() {
 </ul>
 </li>
 </ul>
+<h2>Postmortem</h2>
+<p>For this assignment we made a game building engine, using C++14 and SDL code
+for our backend engine and python3/pybind11 to construct our front end editor GUI.</p>
+
+<p>pybind11 proved to be an incredibly useful tool for creating bindings for our
+C++ code. Python is a powerful language with a lot of features built in, and many
+available libraries, and with pybind11, our engine allows scripters to utilize the
+full power of python and its libraries while tapping into the C++ integrations our engine
+has to offer. Figuring out this integrated environment was difficult, however. We wanted
+to be able to have python code inherit from classes in our C++ code, and to use that
+inheritance to call python code from C++, and lastly to have our python scripts call
+back into our engine code through an exposed C++ API. </p>
+
+<p>Figuring out this circular
+ordering had a few hiccups. One of the main ones is that calling virtual functions on
+python classes inheriting from pybind11 exposed C++ classes, from C++, does not appear
+to work with pybind11. The lowest level it calls is the C++ level, so we theorized this
+is probably a problem with the vtable. To get around this, we utilized a trick where
+we wrapped the created python object in a wrapper, which our C++ code could then call
+directly via the integrated pybind11 C++ python calls. And there were other challenges
+awaiting us once we got this integration working.</p>
+
+<p>Initially setting up the python frontend proved difficult. Since we originally wanted
+to run our front end from our backend via pybind embedded modules, we tried running
+appJar/tKinter while still running our game view in-engine. This produced an
+NSInvalidException; since appjar was trying to access the OS window of the currently
+running process (SDL), which refused to let it take over. We resolved this by instead
+running our python script for the editor and our make build for the actual engine and
+games.</p>
+
+<p>One improvement we made from our previous platformer engine was to introduce the
+use of Box2D as our physics system. This did however come with a few headaches.
+One issue we ran into had to do with the scale of physics in our game. Since our
+engine's coordinate system is rather large, trying to create physics within it
+caused us to easily reach maximum velocities within the confines of Box2D.
+Looking at our physics movements was similar to looking at something falling
+from 5 miles away. Even if it's falling really fast, it still looks like it's
+moving really slowly since it's so zoomed out. To counteract this, we introduced
+a physics scaling system that makes our physics interactions feel much more like
+they should.</p>
+
+<p>If we had more time, there are also a few places where we could add more polish to 
+our engine. First, our button component only responds to left clicks and not right
+clicks, but that could easily be abstracted. Additionally, it is currently impossible
+to add a Python script to a GameObject from within Python,  but we could probably get
+it to work with a combination of more time, effort, and wrapper classes. Lastly, We think
+it would be a nice feature for GameObjects to be able to resize to fit certain images 
+(especially text), but that simply fell out of scope or this short project.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 18 2018 18:57:52 for Platformer by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 18 2018 18:57:52 for Eternal2D by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -1,4 +1,0 @@
-<map id="strategy.Strategy" name="strategy.Strategy">
-<area shape="rect" id="node2" href="$classStrategyInstance.html" title="{StrategyInstance\n||+ StrategyInstance()\l+ ~StrategyInstance()\l+ eval()\l+ onOrder()\l+ sendOrder()\l}" alt="" coords="5,140,155,267"/>
-<area shape="rect" id="node3" href="$classStrategyServer.html" title="{StrategyServer\n|&#45; _next_order_id\l|+ sendOrder()\l}" alt="" coords="21,5,139,79"/>
-</map>

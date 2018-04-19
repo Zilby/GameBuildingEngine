@@ -1,5 +1,0 @@
-<map id="LevelLoader::CreateLevel" name="LevelLoader::CreateLevel">
-<area shape="rect" id="node2" href="$classGameObject.html#a01fa32bcfb0dd60074681c3ae02950d5" title="GameObject::Create" alt="" coords="227,43,371,68"/>
-<area shape="rect" id="node3" href="$classGameObject.html#a261cf9b8bf31e0afaa00a21ce14d1b5a" title="Constructs a GameObject. " alt="" coords="419,5,597,31"/>
-<area shape="rect" id="node4" href="$classGameManager.html#a38098a346a5e7901440b85e1152055db" title="The singleton instance of the GameManager. " alt="" coords="425,79,592,104"/>
-</map>
